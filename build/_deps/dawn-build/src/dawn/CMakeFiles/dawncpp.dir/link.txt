@@ -1,0 +1,2 @@
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ar qc libdawncpp.a CMakeFiles/dawncpp.dir/__/Placeholder.cpp.o CMakeFiles/dawncpp.dir/__/__/gen/src/dawn/webgpu_cpp.cpp.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib libdawncpp.a

@@ -1,0 +1,2 @@
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ar qc libtint_utils_io.a CMakeFiles/tint_utils_io.dir/utils/io/command_posix.cc.o CMakeFiles/tint_utils_io.dir/utils/io/tmpfile_posix.cc.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib libtint_utils_io.a

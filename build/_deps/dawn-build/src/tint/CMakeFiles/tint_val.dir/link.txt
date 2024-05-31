@@ -1,0 +1,2 @@
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ar qc libtint_val.a CMakeFiles/tint_val.dir/val/hlsl.cc.o CMakeFiles/tint_val.dir/val/msl.cc.o CMakeFiles/tint_val.dir/val/msl_metal.mm.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib libtint_val.a
