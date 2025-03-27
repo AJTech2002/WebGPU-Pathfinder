@@ -57,10 +57,10 @@ RM = /opt/homebrew/Cellar/cmake/3.29.2/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder
+CMAKE_SOURCE_DIR = /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build
+CMAKE_BINARY_DIR = /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build/CMakeFiles /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build/_deps/dawn-build/src/dawn/native//CMakeFiles/progress.marks
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/dawn-build/src/dawn/native/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build/CMakeFiles 0
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build/CMakeFiles /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build/_deps/dawn-build/src/dawn/native//CMakeFiles/progress.marks
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/dawn-build/src/dawn/native/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/dawn-build/src/dawn/native/clean
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/dawn-build/src/dawn/native/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,22 +103,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/dawn-build/src/dawn/native/preinstall
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/dawn-build/src/dawn/native/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/dawn-build/src/dawn/native/preinstall
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/dawn-build/src/dawn/native/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/rule:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/rule
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/rule
 .PHONY : _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/rule
 
 # Convenience name for target.
@@ -127,12 +127,12 @@ dawn_native: _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/rule
 
 # fast build rule for target.
 dawn_native/fast:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build
 .PHONY : dawn_native/fast
 
 # Convenience name for target.
 _deps/dawn-build/src/dawn/native/CMakeFiles/webgpu_dawn.dir/rule:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/dawn-build/src/dawn/native/CMakeFiles/webgpu_dawn.dir/rule
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/dawn-build/src/dawn/native/CMakeFiles/webgpu_dawn.dir/rule
 .PHONY : _deps/dawn-build/src/dawn/native/CMakeFiles/webgpu_dawn.dir/rule
 
 # Convenience name for target.
@@ -141,7 +141,7 @@ webgpu_dawn: _deps/dawn-build/src/dawn/native/CMakeFiles/webgpu_dawn.dir/rule
 
 # fast build rule for target.
 webgpu_dawn/fast:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/webgpu_dawn.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/webgpu_dawn.dir/build
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/webgpu_dawn.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/webgpu_dawn.dir/build
 .PHONY : webgpu_dawn/fast
 
 Adapter.o: Adapter.cpp.o
@@ -149,7 +149,7 @@ Adapter.o: Adapter.cpp.o
 
 # target to build an object file
 Adapter.cpp.o:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/Adapter.cpp.o
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/Adapter.cpp.o
 .PHONY : Adapter.cpp.o
 
 Adapter.i: Adapter.cpp.i
@@ -157,7 +157,7 @@ Adapter.i: Adapter.cpp.i
 
 # target to preprocess a source file
 Adapter.cpp.i:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/Adapter.cpp.i
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/Adapter.cpp.i
 .PHONY : Adapter.cpp.i
 
 Adapter.s: Adapter.cpp.s
@@ -165,7 +165,7 @@ Adapter.s: Adapter.cpp.s
 
 # target to generate assembly for a file
 Adapter.cpp.s:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/Adapter.cpp.s
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/Adapter.cpp.s
 .PHONY : Adapter.cpp.s
 
 ApplyClearColorValueWithDrawHelper.o: ApplyClearColorValueWithDrawHelper.cpp.o
@@ -173,7 +173,7 @@ ApplyClearColorValueWithDrawHelper.o: ApplyClearColorValueWithDrawHelper.cpp.o
 
 # target to build an object file
 ApplyClearColorValueWithDrawHelper.cpp.o:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/ApplyClearColorValueWithDrawHelper.cpp.o
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/ApplyClearColorValueWithDrawHelper.cpp.o
 .PHONY : ApplyClearColorValueWithDrawHelper.cpp.o
 
 ApplyClearColorValueWithDrawHelper.i: ApplyClearColorValueWithDrawHelper.cpp.i
@@ -181,7 +181,7 @@ ApplyClearColorValueWithDrawHelper.i: ApplyClearColorValueWithDrawHelper.cpp.i
 
 # target to preprocess a source file
 ApplyClearColorValueWithDrawHelper.cpp.i:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/ApplyClearColorValueWithDrawHelper.cpp.i
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/ApplyClearColorValueWithDrawHelper.cpp.i
 .PHONY : ApplyClearColorValueWithDrawHelper.cpp.i
 
 ApplyClearColorValueWithDrawHelper.s: ApplyClearColorValueWithDrawHelper.cpp.s
@@ -189,7 +189,7 @@ ApplyClearColorValueWithDrawHelper.s: ApplyClearColorValueWithDrawHelper.cpp.s
 
 # target to generate assembly for a file
 ApplyClearColorValueWithDrawHelper.cpp.s:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/ApplyClearColorValueWithDrawHelper.cpp.s
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/ApplyClearColorValueWithDrawHelper.cpp.s
 .PHONY : ApplyClearColorValueWithDrawHelper.cpp.s
 
 AsyncTask.o: AsyncTask.cpp.o
@@ -197,7 +197,7 @@ AsyncTask.o: AsyncTask.cpp.o
 
 # target to build an object file
 AsyncTask.cpp.o:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/AsyncTask.cpp.o
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/AsyncTask.cpp.o
 .PHONY : AsyncTask.cpp.o
 
 AsyncTask.i: AsyncTask.cpp.i
@@ -205,7 +205,7 @@ AsyncTask.i: AsyncTask.cpp.i
 
 # target to preprocess a source file
 AsyncTask.cpp.i:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/AsyncTask.cpp.i
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/AsyncTask.cpp.i
 .PHONY : AsyncTask.cpp.i
 
 AsyncTask.s: AsyncTask.cpp.s
@@ -213,7 +213,7 @@ AsyncTask.s: AsyncTask.cpp.s
 
 # target to generate assembly for a file
 AsyncTask.cpp.s:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/AsyncTask.cpp.s
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/AsyncTask.cpp.s
 .PHONY : AsyncTask.cpp.s
 
 AttachmentState.o: AttachmentState.cpp.o
@@ -221,7 +221,7 @@ AttachmentState.o: AttachmentState.cpp.o
 
 # target to build an object file
 AttachmentState.cpp.o:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/AttachmentState.cpp.o
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/AttachmentState.cpp.o
 .PHONY : AttachmentState.cpp.o
 
 AttachmentState.i: AttachmentState.cpp.i
@@ -229,7 +229,7 @@ AttachmentState.i: AttachmentState.cpp.i
 
 # target to preprocess a source file
 AttachmentState.cpp.i:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/AttachmentState.cpp.i
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/AttachmentState.cpp.i
 .PHONY : AttachmentState.cpp.i
 
 AttachmentState.s: AttachmentState.cpp.s
@@ -237,7 +237,7 @@ AttachmentState.s: AttachmentState.cpp.s
 
 # target to generate assembly for a file
 AttachmentState.cpp.s:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/AttachmentState.cpp.s
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/AttachmentState.cpp.s
 .PHONY : AttachmentState.cpp.s
 
 BackendConnection.o: BackendConnection.cpp.o
@@ -245,7 +245,7 @@ BackendConnection.o: BackendConnection.cpp.o
 
 # target to build an object file
 BackendConnection.cpp.o:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/BackendConnection.cpp.o
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/BackendConnection.cpp.o
 .PHONY : BackendConnection.cpp.o
 
 BackendConnection.i: BackendConnection.cpp.i
@@ -253,7 +253,7 @@ BackendConnection.i: BackendConnection.cpp.i
 
 # target to preprocess a source file
 BackendConnection.cpp.i:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/BackendConnection.cpp.i
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/BackendConnection.cpp.i
 .PHONY : BackendConnection.cpp.i
 
 BackendConnection.s: BackendConnection.cpp.s
@@ -261,7 +261,7 @@ BackendConnection.s: BackendConnection.cpp.s
 
 # target to generate assembly for a file
 BackendConnection.cpp.s:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/BackendConnection.cpp.s
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/BackendConnection.cpp.s
 .PHONY : BackendConnection.cpp.s
 
 BindGroup.o: BindGroup.cpp.o
@@ -269,7 +269,7 @@ BindGroup.o: BindGroup.cpp.o
 
 # target to build an object file
 BindGroup.cpp.o:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/BindGroup.cpp.o
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/BindGroup.cpp.o
 .PHONY : BindGroup.cpp.o
 
 BindGroup.i: BindGroup.cpp.i
@@ -277,7 +277,7 @@ BindGroup.i: BindGroup.cpp.i
 
 # target to preprocess a source file
 BindGroup.cpp.i:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/BindGroup.cpp.i
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/BindGroup.cpp.i
 .PHONY : BindGroup.cpp.i
 
 BindGroup.s: BindGroup.cpp.s
@@ -285,7 +285,7 @@ BindGroup.s: BindGroup.cpp.s
 
 # target to generate assembly for a file
 BindGroup.cpp.s:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/BindGroup.cpp.s
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/BindGroup.cpp.s
 .PHONY : BindGroup.cpp.s
 
 BindGroupLayout.o: BindGroupLayout.cpp.o
@@ -293,7 +293,7 @@ BindGroupLayout.o: BindGroupLayout.cpp.o
 
 # target to build an object file
 BindGroupLayout.cpp.o:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/BindGroupLayout.cpp.o
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/BindGroupLayout.cpp.o
 .PHONY : BindGroupLayout.cpp.o
 
 BindGroupLayout.i: BindGroupLayout.cpp.i
@@ -301,7 +301,7 @@ BindGroupLayout.i: BindGroupLayout.cpp.i
 
 # target to preprocess a source file
 BindGroupLayout.cpp.i:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/BindGroupLayout.cpp.i
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/BindGroupLayout.cpp.i
 .PHONY : BindGroupLayout.cpp.i
 
 BindGroupLayout.s: BindGroupLayout.cpp.s
@@ -309,7 +309,7 @@ BindGroupLayout.s: BindGroupLayout.cpp.s
 
 # target to generate assembly for a file
 BindGroupLayout.cpp.s:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/BindGroupLayout.cpp.s
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/BindGroupLayout.cpp.s
 .PHONY : BindGroupLayout.cpp.s
 
 BindingInfo.o: BindingInfo.cpp.o
@@ -317,7 +317,7 @@ BindingInfo.o: BindingInfo.cpp.o
 
 # target to build an object file
 BindingInfo.cpp.o:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/BindingInfo.cpp.o
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/BindingInfo.cpp.o
 .PHONY : BindingInfo.cpp.o
 
 BindingInfo.i: BindingInfo.cpp.i
@@ -325,7 +325,7 @@ BindingInfo.i: BindingInfo.cpp.i
 
 # target to preprocess a source file
 BindingInfo.cpp.i:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/BindingInfo.cpp.i
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/BindingInfo.cpp.i
 .PHONY : BindingInfo.cpp.i
 
 BindingInfo.s: BindingInfo.cpp.s
@@ -333,7 +333,7 @@ BindingInfo.s: BindingInfo.cpp.s
 
 # target to generate assembly for a file
 BindingInfo.cpp.s:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/BindingInfo.cpp.s
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/BindingInfo.cpp.s
 .PHONY : BindingInfo.cpp.s
 
 BlitBufferToDepthStencil.o: BlitBufferToDepthStencil.cpp.o
@@ -341,7 +341,7 @@ BlitBufferToDepthStencil.o: BlitBufferToDepthStencil.cpp.o
 
 # target to build an object file
 BlitBufferToDepthStencil.cpp.o:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/BlitBufferToDepthStencil.cpp.o
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/BlitBufferToDepthStencil.cpp.o
 .PHONY : BlitBufferToDepthStencil.cpp.o
 
 BlitBufferToDepthStencil.i: BlitBufferToDepthStencil.cpp.i
@@ -349,7 +349,7 @@ BlitBufferToDepthStencil.i: BlitBufferToDepthStencil.cpp.i
 
 # target to preprocess a source file
 BlitBufferToDepthStencil.cpp.i:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/BlitBufferToDepthStencil.cpp.i
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/BlitBufferToDepthStencil.cpp.i
 .PHONY : BlitBufferToDepthStencil.cpp.i
 
 BlitBufferToDepthStencil.s: BlitBufferToDepthStencil.cpp.s
@@ -357,7 +357,7 @@ BlitBufferToDepthStencil.s: BlitBufferToDepthStencil.cpp.s
 
 # target to generate assembly for a file
 BlitBufferToDepthStencil.cpp.s:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/BlitBufferToDepthStencil.cpp.s
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/BlitBufferToDepthStencil.cpp.s
 .PHONY : BlitBufferToDepthStencil.cpp.s
 
 BlitColorToColorWithDraw.o: BlitColorToColorWithDraw.cpp.o
@@ -365,7 +365,7 @@ BlitColorToColorWithDraw.o: BlitColorToColorWithDraw.cpp.o
 
 # target to build an object file
 BlitColorToColorWithDraw.cpp.o:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/BlitColorToColorWithDraw.cpp.o
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/BlitColorToColorWithDraw.cpp.o
 .PHONY : BlitColorToColorWithDraw.cpp.o
 
 BlitColorToColorWithDraw.i: BlitColorToColorWithDraw.cpp.i
@@ -373,7 +373,7 @@ BlitColorToColorWithDraw.i: BlitColorToColorWithDraw.cpp.i
 
 # target to preprocess a source file
 BlitColorToColorWithDraw.cpp.i:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/BlitColorToColorWithDraw.cpp.i
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/BlitColorToColorWithDraw.cpp.i
 .PHONY : BlitColorToColorWithDraw.cpp.i
 
 BlitColorToColorWithDraw.s: BlitColorToColorWithDraw.cpp.s
@@ -381,7 +381,7 @@ BlitColorToColorWithDraw.s: BlitColorToColorWithDraw.cpp.s
 
 # target to generate assembly for a file
 BlitColorToColorWithDraw.cpp.s:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/BlitColorToColorWithDraw.cpp.s
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/BlitColorToColorWithDraw.cpp.s
 .PHONY : BlitColorToColorWithDraw.cpp.s
 
 BlitDepthToDepth.o: BlitDepthToDepth.cpp.o
@@ -389,7 +389,7 @@ BlitDepthToDepth.o: BlitDepthToDepth.cpp.o
 
 # target to build an object file
 BlitDepthToDepth.cpp.o:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/BlitDepthToDepth.cpp.o
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/BlitDepthToDepth.cpp.o
 .PHONY : BlitDepthToDepth.cpp.o
 
 BlitDepthToDepth.i: BlitDepthToDepth.cpp.i
@@ -397,7 +397,7 @@ BlitDepthToDepth.i: BlitDepthToDepth.cpp.i
 
 # target to preprocess a source file
 BlitDepthToDepth.cpp.i:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/BlitDepthToDepth.cpp.i
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/BlitDepthToDepth.cpp.i
 .PHONY : BlitDepthToDepth.cpp.i
 
 BlitDepthToDepth.s: BlitDepthToDepth.cpp.s
@@ -405,7 +405,7 @@ BlitDepthToDepth.s: BlitDepthToDepth.cpp.s
 
 # target to generate assembly for a file
 BlitDepthToDepth.cpp.s:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/BlitDepthToDepth.cpp.s
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/BlitDepthToDepth.cpp.s
 .PHONY : BlitDepthToDepth.cpp.s
 
 BlitTextureToBuffer.o: BlitTextureToBuffer.cpp.o
@@ -413,7 +413,7 @@ BlitTextureToBuffer.o: BlitTextureToBuffer.cpp.o
 
 # target to build an object file
 BlitTextureToBuffer.cpp.o:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/BlitTextureToBuffer.cpp.o
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/BlitTextureToBuffer.cpp.o
 .PHONY : BlitTextureToBuffer.cpp.o
 
 BlitTextureToBuffer.i: BlitTextureToBuffer.cpp.i
@@ -421,7 +421,7 @@ BlitTextureToBuffer.i: BlitTextureToBuffer.cpp.i
 
 # target to preprocess a source file
 BlitTextureToBuffer.cpp.i:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/BlitTextureToBuffer.cpp.i
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/BlitTextureToBuffer.cpp.i
 .PHONY : BlitTextureToBuffer.cpp.i
 
 BlitTextureToBuffer.s: BlitTextureToBuffer.cpp.s
@@ -429,7 +429,7 @@ BlitTextureToBuffer.s: BlitTextureToBuffer.cpp.s
 
 # target to generate assembly for a file
 BlitTextureToBuffer.cpp.s:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/BlitTextureToBuffer.cpp.s
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/BlitTextureToBuffer.cpp.s
 .PHONY : BlitTextureToBuffer.cpp.s
 
 Blob.o: Blob.cpp.o
@@ -437,7 +437,7 @@ Blob.o: Blob.cpp.o
 
 # target to build an object file
 Blob.cpp.o:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/Blob.cpp.o
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/Blob.cpp.o
 .PHONY : Blob.cpp.o
 
 Blob.i: Blob.cpp.i
@@ -445,7 +445,7 @@ Blob.i: Blob.cpp.i
 
 # target to preprocess a source file
 Blob.cpp.i:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/Blob.cpp.i
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/Blob.cpp.i
 .PHONY : Blob.cpp.i
 
 Blob.s: Blob.cpp.s
@@ -453,7 +453,7 @@ Blob.s: Blob.cpp.s
 
 # target to generate assembly for a file
 Blob.cpp.s:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/Blob.cpp.s
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/Blob.cpp.s
 .PHONY : Blob.cpp.s
 
 BlobCache.o: BlobCache.cpp.o
@@ -461,7 +461,7 @@ BlobCache.o: BlobCache.cpp.o
 
 # target to build an object file
 BlobCache.cpp.o:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/BlobCache.cpp.o
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/BlobCache.cpp.o
 .PHONY : BlobCache.cpp.o
 
 BlobCache.i: BlobCache.cpp.i
@@ -469,7 +469,7 @@ BlobCache.i: BlobCache.cpp.i
 
 # target to preprocess a source file
 BlobCache.cpp.i:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/BlobCache.cpp.i
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/BlobCache.cpp.i
 .PHONY : BlobCache.cpp.i
 
 BlobCache.s: BlobCache.cpp.s
@@ -477,7 +477,7 @@ BlobCache.s: BlobCache.cpp.s
 
 # target to generate assembly for a file
 BlobCache.cpp.s:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/BlobCache.cpp.s
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/BlobCache.cpp.s
 .PHONY : BlobCache.cpp.s
 
 BuddyAllocator.o: BuddyAllocator.cpp.o
@@ -485,7 +485,7 @@ BuddyAllocator.o: BuddyAllocator.cpp.o
 
 # target to build an object file
 BuddyAllocator.cpp.o:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/BuddyAllocator.cpp.o
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/BuddyAllocator.cpp.o
 .PHONY : BuddyAllocator.cpp.o
 
 BuddyAllocator.i: BuddyAllocator.cpp.i
@@ -493,7 +493,7 @@ BuddyAllocator.i: BuddyAllocator.cpp.i
 
 # target to preprocess a source file
 BuddyAllocator.cpp.i:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/BuddyAllocator.cpp.i
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/BuddyAllocator.cpp.i
 .PHONY : BuddyAllocator.cpp.i
 
 BuddyAllocator.s: BuddyAllocator.cpp.s
@@ -501,7 +501,7 @@ BuddyAllocator.s: BuddyAllocator.cpp.s
 
 # target to generate assembly for a file
 BuddyAllocator.cpp.s:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/BuddyAllocator.cpp.s
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/BuddyAllocator.cpp.s
 .PHONY : BuddyAllocator.cpp.s
 
 BuddyMemoryAllocator.o: BuddyMemoryAllocator.cpp.o
@@ -509,7 +509,7 @@ BuddyMemoryAllocator.o: BuddyMemoryAllocator.cpp.o
 
 # target to build an object file
 BuddyMemoryAllocator.cpp.o:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/BuddyMemoryAllocator.cpp.o
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/BuddyMemoryAllocator.cpp.o
 .PHONY : BuddyMemoryAllocator.cpp.o
 
 BuddyMemoryAllocator.i: BuddyMemoryAllocator.cpp.i
@@ -517,7 +517,7 @@ BuddyMemoryAllocator.i: BuddyMemoryAllocator.cpp.i
 
 # target to preprocess a source file
 BuddyMemoryAllocator.cpp.i:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/BuddyMemoryAllocator.cpp.i
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/BuddyMemoryAllocator.cpp.i
 .PHONY : BuddyMemoryAllocator.cpp.i
 
 BuddyMemoryAllocator.s: BuddyMemoryAllocator.cpp.s
@@ -525,7 +525,7 @@ BuddyMemoryAllocator.s: BuddyMemoryAllocator.cpp.s
 
 # target to generate assembly for a file
 BuddyMemoryAllocator.cpp.s:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/BuddyMemoryAllocator.cpp.s
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/BuddyMemoryAllocator.cpp.s
 .PHONY : BuddyMemoryAllocator.cpp.s
 
 Buffer.o: Buffer.cpp.o
@@ -533,7 +533,7 @@ Buffer.o: Buffer.cpp.o
 
 # target to build an object file
 Buffer.cpp.o:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/Buffer.cpp.o
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/Buffer.cpp.o
 .PHONY : Buffer.cpp.o
 
 Buffer.i: Buffer.cpp.i
@@ -541,7 +541,7 @@ Buffer.i: Buffer.cpp.i
 
 # target to preprocess a source file
 Buffer.cpp.i:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/Buffer.cpp.i
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/Buffer.cpp.i
 .PHONY : Buffer.cpp.i
 
 Buffer.s: Buffer.cpp.s
@@ -549,7 +549,7 @@ Buffer.s: Buffer.cpp.s
 
 # target to generate assembly for a file
 Buffer.cpp.s:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/Buffer.cpp.s
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/Buffer.cpp.s
 .PHONY : Buffer.cpp.s
 
 CacheKey.o: CacheKey.cpp.o
@@ -557,7 +557,7 @@ CacheKey.o: CacheKey.cpp.o
 
 # target to build an object file
 CacheKey.cpp.o:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/CacheKey.cpp.o
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/CacheKey.cpp.o
 .PHONY : CacheKey.cpp.o
 
 CacheKey.i: CacheKey.cpp.i
@@ -565,7 +565,7 @@ CacheKey.i: CacheKey.cpp.i
 
 # target to preprocess a source file
 CacheKey.cpp.i:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/CacheKey.cpp.i
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/CacheKey.cpp.i
 .PHONY : CacheKey.cpp.i
 
 CacheKey.s: CacheKey.cpp.s
@@ -573,7 +573,7 @@ CacheKey.s: CacheKey.cpp.s
 
 # target to generate assembly for a file
 CacheKey.cpp.s:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/CacheKey.cpp.s
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/CacheKey.cpp.s
 .PHONY : CacheKey.cpp.s
 
 CacheRequest.o: CacheRequest.cpp.o
@@ -581,7 +581,7 @@ CacheRequest.o: CacheRequest.cpp.o
 
 # target to build an object file
 CacheRequest.cpp.o:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/CacheRequest.cpp.o
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/CacheRequest.cpp.o
 .PHONY : CacheRequest.cpp.o
 
 CacheRequest.i: CacheRequest.cpp.i
@@ -589,7 +589,7 @@ CacheRequest.i: CacheRequest.cpp.i
 
 # target to preprocess a source file
 CacheRequest.cpp.i:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/CacheRequest.cpp.i
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/CacheRequest.cpp.i
 .PHONY : CacheRequest.cpp.i
 
 CacheRequest.s: CacheRequest.cpp.s
@@ -597,7 +597,7 @@ CacheRequest.s: CacheRequest.cpp.s
 
 # target to generate assembly for a file
 CacheRequest.cpp.s:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/CacheRequest.cpp.s
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/CacheRequest.cpp.s
 .PHONY : CacheRequest.cpp.s
 
 CachedObject.o: CachedObject.cpp.o
@@ -605,7 +605,7 @@ CachedObject.o: CachedObject.cpp.o
 
 # target to build an object file
 CachedObject.cpp.o:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/CachedObject.cpp.o
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/CachedObject.cpp.o
 .PHONY : CachedObject.cpp.o
 
 CachedObject.i: CachedObject.cpp.i
@@ -613,7 +613,7 @@ CachedObject.i: CachedObject.cpp.i
 
 # target to preprocess a source file
 CachedObject.cpp.i:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/CachedObject.cpp.i
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/CachedObject.cpp.i
 .PHONY : CachedObject.cpp.i
 
 CachedObject.s: CachedObject.cpp.s
@@ -621,7 +621,7 @@ CachedObject.s: CachedObject.cpp.s
 
 # target to generate assembly for a file
 CachedObject.cpp.s:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/CachedObject.cpp.s
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/CachedObject.cpp.s
 .PHONY : CachedObject.cpp.s
 
 CallbackTaskManager.o: CallbackTaskManager.cpp.o
@@ -629,7 +629,7 @@ CallbackTaskManager.o: CallbackTaskManager.cpp.o
 
 # target to build an object file
 CallbackTaskManager.cpp.o:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/CallbackTaskManager.cpp.o
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/CallbackTaskManager.cpp.o
 .PHONY : CallbackTaskManager.cpp.o
 
 CallbackTaskManager.i: CallbackTaskManager.cpp.i
@@ -637,7 +637,7 @@ CallbackTaskManager.i: CallbackTaskManager.cpp.i
 
 # target to preprocess a source file
 CallbackTaskManager.cpp.i:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/CallbackTaskManager.cpp.i
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/CallbackTaskManager.cpp.i
 .PHONY : CallbackTaskManager.cpp.i
 
 CallbackTaskManager.s: CallbackTaskManager.cpp.s
@@ -645,7 +645,7 @@ CallbackTaskManager.s: CallbackTaskManager.cpp.s
 
 # target to generate assembly for a file
 CallbackTaskManager.cpp.s:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/CallbackTaskManager.cpp.s
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/CallbackTaskManager.cpp.s
 .PHONY : CallbackTaskManager.cpp.s
 
 CommandAllocator.o: CommandAllocator.cpp.o
@@ -653,7 +653,7 @@ CommandAllocator.o: CommandAllocator.cpp.o
 
 # target to build an object file
 CommandAllocator.cpp.o:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/CommandAllocator.cpp.o
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/CommandAllocator.cpp.o
 .PHONY : CommandAllocator.cpp.o
 
 CommandAllocator.i: CommandAllocator.cpp.i
@@ -661,7 +661,7 @@ CommandAllocator.i: CommandAllocator.cpp.i
 
 # target to preprocess a source file
 CommandAllocator.cpp.i:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/CommandAllocator.cpp.i
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/CommandAllocator.cpp.i
 .PHONY : CommandAllocator.cpp.i
 
 CommandAllocator.s: CommandAllocator.cpp.s
@@ -669,7 +669,7 @@ CommandAllocator.s: CommandAllocator.cpp.s
 
 # target to generate assembly for a file
 CommandAllocator.cpp.s:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/CommandAllocator.cpp.s
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/CommandAllocator.cpp.s
 .PHONY : CommandAllocator.cpp.s
 
 CommandBuffer.o: CommandBuffer.cpp.o
@@ -677,7 +677,7 @@ CommandBuffer.o: CommandBuffer.cpp.o
 
 # target to build an object file
 CommandBuffer.cpp.o:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/CommandBuffer.cpp.o
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/CommandBuffer.cpp.o
 .PHONY : CommandBuffer.cpp.o
 
 CommandBuffer.i: CommandBuffer.cpp.i
@@ -685,7 +685,7 @@ CommandBuffer.i: CommandBuffer.cpp.i
 
 # target to preprocess a source file
 CommandBuffer.cpp.i:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/CommandBuffer.cpp.i
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/CommandBuffer.cpp.i
 .PHONY : CommandBuffer.cpp.i
 
 CommandBuffer.s: CommandBuffer.cpp.s
@@ -693,7 +693,7 @@ CommandBuffer.s: CommandBuffer.cpp.s
 
 # target to generate assembly for a file
 CommandBuffer.cpp.s:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/CommandBuffer.cpp.s
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/CommandBuffer.cpp.s
 .PHONY : CommandBuffer.cpp.s
 
 CommandBufferStateTracker.o: CommandBufferStateTracker.cpp.o
@@ -701,7 +701,7 @@ CommandBufferStateTracker.o: CommandBufferStateTracker.cpp.o
 
 # target to build an object file
 CommandBufferStateTracker.cpp.o:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/CommandBufferStateTracker.cpp.o
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/CommandBufferStateTracker.cpp.o
 .PHONY : CommandBufferStateTracker.cpp.o
 
 CommandBufferStateTracker.i: CommandBufferStateTracker.cpp.i
@@ -709,7 +709,7 @@ CommandBufferStateTracker.i: CommandBufferStateTracker.cpp.i
 
 # target to preprocess a source file
 CommandBufferStateTracker.cpp.i:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/CommandBufferStateTracker.cpp.i
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/CommandBufferStateTracker.cpp.i
 .PHONY : CommandBufferStateTracker.cpp.i
 
 CommandBufferStateTracker.s: CommandBufferStateTracker.cpp.s
@@ -717,7 +717,7 @@ CommandBufferStateTracker.s: CommandBufferStateTracker.cpp.s
 
 # target to generate assembly for a file
 CommandBufferStateTracker.cpp.s:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/CommandBufferStateTracker.cpp.s
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/CommandBufferStateTracker.cpp.s
 .PHONY : CommandBufferStateTracker.cpp.s
 
 CommandEncoder.o: CommandEncoder.cpp.o
@@ -725,7 +725,7 @@ CommandEncoder.o: CommandEncoder.cpp.o
 
 # target to build an object file
 CommandEncoder.cpp.o:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/CommandEncoder.cpp.o
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/CommandEncoder.cpp.o
 .PHONY : CommandEncoder.cpp.o
 
 CommandEncoder.i: CommandEncoder.cpp.i
@@ -733,7 +733,7 @@ CommandEncoder.i: CommandEncoder.cpp.i
 
 # target to preprocess a source file
 CommandEncoder.cpp.i:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/CommandEncoder.cpp.i
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/CommandEncoder.cpp.i
 .PHONY : CommandEncoder.cpp.i
 
 CommandEncoder.s: CommandEncoder.cpp.s
@@ -741,7 +741,7 @@ CommandEncoder.s: CommandEncoder.cpp.s
 
 # target to generate assembly for a file
 CommandEncoder.cpp.s:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/CommandEncoder.cpp.s
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/CommandEncoder.cpp.s
 .PHONY : CommandEncoder.cpp.s
 
 CommandValidation.o: CommandValidation.cpp.o
@@ -749,7 +749,7 @@ CommandValidation.o: CommandValidation.cpp.o
 
 # target to build an object file
 CommandValidation.cpp.o:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/CommandValidation.cpp.o
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/CommandValidation.cpp.o
 .PHONY : CommandValidation.cpp.o
 
 CommandValidation.i: CommandValidation.cpp.i
@@ -757,7 +757,7 @@ CommandValidation.i: CommandValidation.cpp.i
 
 # target to preprocess a source file
 CommandValidation.cpp.i:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/CommandValidation.cpp.i
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/CommandValidation.cpp.i
 .PHONY : CommandValidation.cpp.i
 
 CommandValidation.s: CommandValidation.cpp.s
@@ -765,7 +765,7 @@ CommandValidation.s: CommandValidation.cpp.s
 
 # target to generate assembly for a file
 CommandValidation.cpp.s:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/CommandValidation.cpp.s
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/CommandValidation.cpp.s
 .PHONY : CommandValidation.cpp.s
 
 Commands.o: Commands.cpp.o
@@ -773,7 +773,7 @@ Commands.o: Commands.cpp.o
 
 # target to build an object file
 Commands.cpp.o:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/Commands.cpp.o
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/Commands.cpp.o
 .PHONY : Commands.cpp.o
 
 Commands.i: Commands.cpp.i
@@ -781,7 +781,7 @@ Commands.i: Commands.cpp.i
 
 # target to preprocess a source file
 Commands.cpp.i:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/Commands.cpp.i
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/Commands.cpp.i
 .PHONY : Commands.cpp.i
 
 Commands.s: Commands.cpp.s
@@ -789,7 +789,7 @@ Commands.s: Commands.cpp.s
 
 # target to generate assembly for a file
 Commands.cpp.s:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/Commands.cpp.s
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/Commands.cpp.s
 .PHONY : Commands.cpp.s
 
 CompilationMessages.o: CompilationMessages.cpp.o
@@ -797,7 +797,7 @@ CompilationMessages.o: CompilationMessages.cpp.o
 
 # target to build an object file
 CompilationMessages.cpp.o:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/CompilationMessages.cpp.o
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/CompilationMessages.cpp.o
 .PHONY : CompilationMessages.cpp.o
 
 CompilationMessages.i: CompilationMessages.cpp.i
@@ -805,7 +805,7 @@ CompilationMessages.i: CompilationMessages.cpp.i
 
 # target to preprocess a source file
 CompilationMessages.cpp.i:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/CompilationMessages.cpp.i
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/CompilationMessages.cpp.i
 .PHONY : CompilationMessages.cpp.i
 
 CompilationMessages.s: CompilationMessages.cpp.s
@@ -813,7 +813,7 @@ CompilationMessages.s: CompilationMessages.cpp.s
 
 # target to generate assembly for a file
 CompilationMessages.cpp.s:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/CompilationMessages.cpp.s
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/CompilationMessages.cpp.s
 .PHONY : CompilationMessages.cpp.s
 
 ComputePassEncoder.o: ComputePassEncoder.cpp.o
@@ -821,7 +821,7 @@ ComputePassEncoder.o: ComputePassEncoder.cpp.o
 
 # target to build an object file
 ComputePassEncoder.cpp.o:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/ComputePassEncoder.cpp.o
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/ComputePassEncoder.cpp.o
 .PHONY : ComputePassEncoder.cpp.o
 
 ComputePassEncoder.i: ComputePassEncoder.cpp.i
@@ -829,7 +829,7 @@ ComputePassEncoder.i: ComputePassEncoder.cpp.i
 
 # target to preprocess a source file
 ComputePassEncoder.cpp.i:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/ComputePassEncoder.cpp.i
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/ComputePassEncoder.cpp.i
 .PHONY : ComputePassEncoder.cpp.i
 
 ComputePassEncoder.s: ComputePassEncoder.cpp.s
@@ -837,7 +837,7 @@ ComputePassEncoder.s: ComputePassEncoder.cpp.s
 
 # target to generate assembly for a file
 ComputePassEncoder.cpp.s:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/ComputePassEncoder.cpp.s
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/ComputePassEncoder.cpp.s
 .PHONY : ComputePassEncoder.cpp.s
 
 ComputePipeline.o: ComputePipeline.cpp.o
@@ -845,7 +845,7 @@ ComputePipeline.o: ComputePipeline.cpp.o
 
 # target to build an object file
 ComputePipeline.cpp.o:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/ComputePipeline.cpp.o
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/ComputePipeline.cpp.o
 .PHONY : ComputePipeline.cpp.o
 
 ComputePipeline.i: ComputePipeline.cpp.i
@@ -853,7 +853,7 @@ ComputePipeline.i: ComputePipeline.cpp.i
 
 # target to preprocess a source file
 ComputePipeline.cpp.i:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/ComputePipeline.cpp.i
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/ComputePipeline.cpp.i
 .PHONY : ComputePipeline.cpp.i
 
 ComputePipeline.s: ComputePipeline.cpp.s
@@ -861,7 +861,7 @@ ComputePipeline.s: ComputePipeline.cpp.s
 
 # target to generate assembly for a file
 ComputePipeline.cpp.s:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/ComputePipeline.cpp.s
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/ComputePipeline.cpp.s
 .PHONY : ComputePipeline.cpp.s
 
 CopyTextureForBrowserHelper.o: CopyTextureForBrowserHelper.cpp.o
@@ -869,7 +869,7 @@ CopyTextureForBrowserHelper.o: CopyTextureForBrowserHelper.cpp.o
 
 # target to build an object file
 CopyTextureForBrowserHelper.cpp.o:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/CopyTextureForBrowserHelper.cpp.o
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/CopyTextureForBrowserHelper.cpp.o
 .PHONY : CopyTextureForBrowserHelper.cpp.o
 
 CopyTextureForBrowserHelper.i: CopyTextureForBrowserHelper.cpp.i
@@ -877,7 +877,7 @@ CopyTextureForBrowserHelper.i: CopyTextureForBrowserHelper.cpp.i
 
 # target to preprocess a source file
 CopyTextureForBrowserHelper.cpp.i:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/CopyTextureForBrowserHelper.cpp.i
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/CopyTextureForBrowserHelper.cpp.i
 .PHONY : CopyTextureForBrowserHelper.cpp.i
 
 CopyTextureForBrowserHelper.s: CopyTextureForBrowserHelper.cpp.s
@@ -885,7 +885,7 @@ CopyTextureForBrowserHelper.s: CopyTextureForBrowserHelper.cpp.s
 
 # target to generate assembly for a file
 CopyTextureForBrowserHelper.cpp.s:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/CopyTextureForBrowserHelper.cpp.s
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/CopyTextureForBrowserHelper.cpp.s
 .PHONY : CopyTextureForBrowserHelper.cpp.s
 
 CreatePipelineAsyncTask.o: CreatePipelineAsyncTask.cpp.o
@@ -893,7 +893,7 @@ CreatePipelineAsyncTask.o: CreatePipelineAsyncTask.cpp.o
 
 # target to build an object file
 CreatePipelineAsyncTask.cpp.o:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/CreatePipelineAsyncTask.cpp.o
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/CreatePipelineAsyncTask.cpp.o
 .PHONY : CreatePipelineAsyncTask.cpp.o
 
 CreatePipelineAsyncTask.i: CreatePipelineAsyncTask.cpp.i
@@ -901,7 +901,7 @@ CreatePipelineAsyncTask.i: CreatePipelineAsyncTask.cpp.i
 
 # target to preprocess a source file
 CreatePipelineAsyncTask.cpp.i:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/CreatePipelineAsyncTask.cpp.i
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/CreatePipelineAsyncTask.cpp.i
 .PHONY : CreatePipelineAsyncTask.cpp.i
 
 CreatePipelineAsyncTask.s: CreatePipelineAsyncTask.cpp.s
@@ -909,7 +909,7 @@ CreatePipelineAsyncTask.s: CreatePipelineAsyncTask.cpp.s
 
 # target to generate assembly for a file
 CreatePipelineAsyncTask.cpp.s:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/CreatePipelineAsyncTask.cpp.s
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/CreatePipelineAsyncTask.cpp.s
 .PHONY : CreatePipelineAsyncTask.cpp.s
 
 DawnNative.o: DawnNative.cpp.o
@@ -917,7 +917,7 @@ DawnNative.o: DawnNative.cpp.o
 
 # target to build an object file
 DawnNative.cpp.o:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/DawnNative.cpp.o
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/DawnNative.cpp.o
 .PHONY : DawnNative.cpp.o
 
 DawnNative.i: DawnNative.cpp.i
@@ -925,7 +925,7 @@ DawnNative.i: DawnNative.cpp.i
 
 # target to preprocess a source file
 DawnNative.cpp.i:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/DawnNative.cpp.i
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/DawnNative.cpp.i
 .PHONY : DawnNative.cpp.i
 
 DawnNative.s: DawnNative.cpp.s
@@ -933,7 +933,7 @@ DawnNative.s: DawnNative.cpp.s
 
 # target to generate assembly for a file
 DawnNative.cpp.s:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/DawnNative.cpp.s
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/DawnNative.cpp.s
 .PHONY : DawnNative.cpp.s
 
 Device.o: Device.cpp.o
@@ -941,7 +941,7 @@ Device.o: Device.cpp.o
 
 # target to build an object file
 Device.cpp.o:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/Device.cpp.o
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/Device.cpp.o
 .PHONY : Device.cpp.o
 
 Device.i: Device.cpp.i
@@ -949,7 +949,7 @@ Device.i: Device.cpp.i
 
 # target to preprocess a source file
 Device.cpp.i:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/Device.cpp.i
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/Device.cpp.i
 .PHONY : Device.cpp.i
 
 Device.s: Device.cpp.s
@@ -957,7 +957,7 @@ Device.s: Device.cpp.s
 
 # target to generate assembly for a file
 Device.cpp.s:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/Device.cpp.s
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/Device.cpp.s
 .PHONY : Device.cpp.s
 
 DynamicUploader.o: DynamicUploader.cpp.o
@@ -965,7 +965,7 @@ DynamicUploader.o: DynamicUploader.cpp.o
 
 # target to build an object file
 DynamicUploader.cpp.o:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/DynamicUploader.cpp.o
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/DynamicUploader.cpp.o
 .PHONY : DynamicUploader.cpp.o
 
 DynamicUploader.i: DynamicUploader.cpp.i
@@ -973,7 +973,7 @@ DynamicUploader.i: DynamicUploader.cpp.i
 
 # target to preprocess a source file
 DynamicUploader.cpp.i:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/DynamicUploader.cpp.i
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/DynamicUploader.cpp.i
 .PHONY : DynamicUploader.cpp.i
 
 DynamicUploader.s: DynamicUploader.cpp.s
@@ -981,7 +981,7 @@ DynamicUploader.s: DynamicUploader.cpp.s
 
 # target to generate assembly for a file
 DynamicUploader.cpp.s:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/DynamicUploader.cpp.s
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/DynamicUploader.cpp.s
 .PHONY : DynamicUploader.cpp.s
 
 EncodingContext.o: EncodingContext.cpp.o
@@ -989,7 +989,7 @@ EncodingContext.o: EncodingContext.cpp.o
 
 # target to build an object file
 EncodingContext.cpp.o:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/EncodingContext.cpp.o
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/EncodingContext.cpp.o
 .PHONY : EncodingContext.cpp.o
 
 EncodingContext.i: EncodingContext.cpp.i
@@ -997,7 +997,7 @@ EncodingContext.i: EncodingContext.cpp.i
 
 # target to preprocess a source file
 EncodingContext.cpp.i:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/EncodingContext.cpp.i
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/EncodingContext.cpp.i
 .PHONY : EncodingContext.cpp.i
 
 EncodingContext.s: EncodingContext.cpp.s
@@ -1005,7 +1005,7 @@ EncodingContext.s: EncodingContext.cpp.s
 
 # target to generate assembly for a file
 EncodingContext.cpp.s:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/EncodingContext.cpp.s
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/EncodingContext.cpp.s
 .PHONY : EncodingContext.cpp.s
 
 Error.o: Error.cpp.o
@@ -1013,7 +1013,7 @@ Error.o: Error.cpp.o
 
 # target to build an object file
 Error.cpp.o:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/Error.cpp.o
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/Error.cpp.o
 .PHONY : Error.cpp.o
 
 Error.i: Error.cpp.i
@@ -1021,7 +1021,7 @@ Error.i: Error.cpp.i
 
 # target to preprocess a source file
 Error.cpp.i:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/Error.cpp.i
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/Error.cpp.i
 .PHONY : Error.cpp.i
 
 Error.s: Error.cpp.s
@@ -1029,7 +1029,7 @@ Error.s: Error.cpp.s
 
 # target to generate assembly for a file
 Error.cpp.s:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/Error.cpp.s
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/Error.cpp.s
 .PHONY : Error.cpp.s
 
 ErrorData.o: ErrorData.cpp.o
@@ -1037,7 +1037,7 @@ ErrorData.o: ErrorData.cpp.o
 
 # target to build an object file
 ErrorData.cpp.o:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/ErrorData.cpp.o
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/ErrorData.cpp.o
 .PHONY : ErrorData.cpp.o
 
 ErrorData.i: ErrorData.cpp.i
@@ -1045,7 +1045,7 @@ ErrorData.i: ErrorData.cpp.i
 
 # target to preprocess a source file
 ErrorData.cpp.i:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/ErrorData.cpp.i
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/ErrorData.cpp.i
 .PHONY : ErrorData.cpp.i
 
 ErrorData.s: ErrorData.cpp.s
@@ -1053,7 +1053,7 @@ ErrorData.s: ErrorData.cpp.s
 
 # target to generate assembly for a file
 ErrorData.cpp.s:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/ErrorData.cpp.s
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/ErrorData.cpp.s
 .PHONY : ErrorData.cpp.s
 
 ErrorInjector.o: ErrorInjector.cpp.o
@@ -1061,7 +1061,7 @@ ErrorInjector.o: ErrorInjector.cpp.o
 
 # target to build an object file
 ErrorInjector.cpp.o:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/ErrorInjector.cpp.o
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/ErrorInjector.cpp.o
 .PHONY : ErrorInjector.cpp.o
 
 ErrorInjector.i: ErrorInjector.cpp.i
@@ -1069,7 +1069,7 @@ ErrorInjector.i: ErrorInjector.cpp.i
 
 # target to preprocess a source file
 ErrorInjector.cpp.i:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/ErrorInjector.cpp.i
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/ErrorInjector.cpp.i
 .PHONY : ErrorInjector.cpp.i
 
 ErrorInjector.s: ErrorInjector.cpp.s
@@ -1077,7 +1077,7 @@ ErrorInjector.s: ErrorInjector.cpp.s
 
 # target to generate assembly for a file
 ErrorInjector.cpp.s:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/ErrorInjector.cpp.s
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/ErrorInjector.cpp.s
 .PHONY : ErrorInjector.cpp.s
 
 ErrorScope.o: ErrorScope.cpp.o
@@ -1085,7 +1085,7 @@ ErrorScope.o: ErrorScope.cpp.o
 
 # target to build an object file
 ErrorScope.cpp.o:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/ErrorScope.cpp.o
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/ErrorScope.cpp.o
 .PHONY : ErrorScope.cpp.o
 
 ErrorScope.i: ErrorScope.cpp.i
@@ -1093,7 +1093,7 @@ ErrorScope.i: ErrorScope.cpp.i
 
 # target to preprocess a source file
 ErrorScope.cpp.i:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/ErrorScope.cpp.i
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/ErrorScope.cpp.i
 .PHONY : ErrorScope.cpp.i
 
 ErrorScope.s: ErrorScope.cpp.s
@@ -1101,7 +1101,7 @@ ErrorScope.s: ErrorScope.cpp.s
 
 # target to generate assembly for a file
 ErrorScope.cpp.s:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/ErrorScope.cpp.s
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/ErrorScope.cpp.s
 .PHONY : ErrorScope.cpp.s
 
 ExternalTexture.o: ExternalTexture.cpp.o
@@ -1109,7 +1109,7 @@ ExternalTexture.o: ExternalTexture.cpp.o
 
 # target to build an object file
 ExternalTexture.cpp.o:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/ExternalTexture.cpp.o
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/ExternalTexture.cpp.o
 .PHONY : ExternalTexture.cpp.o
 
 ExternalTexture.i: ExternalTexture.cpp.i
@@ -1117,7 +1117,7 @@ ExternalTexture.i: ExternalTexture.cpp.i
 
 # target to preprocess a source file
 ExternalTexture.cpp.i:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/ExternalTexture.cpp.i
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/ExternalTexture.cpp.i
 .PHONY : ExternalTexture.cpp.i
 
 ExternalTexture.s: ExternalTexture.cpp.s
@@ -1125,7 +1125,7 @@ ExternalTexture.s: ExternalTexture.cpp.s
 
 # target to generate assembly for a file
 ExternalTexture.cpp.s:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/ExternalTexture.cpp.s
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/ExternalTexture.cpp.s
 .PHONY : ExternalTexture.cpp.s
 
 Features.o: Features.cpp.o
@@ -1133,7 +1133,7 @@ Features.o: Features.cpp.o
 
 # target to build an object file
 Features.cpp.o:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/Features.cpp.o
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/Features.cpp.o
 .PHONY : Features.cpp.o
 
 Features.i: Features.cpp.i
@@ -1141,7 +1141,7 @@ Features.i: Features.cpp.i
 
 # target to preprocess a source file
 Features.cpp.i:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/Features.cpp.i
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/Features.cpp.i
 .PHONY : Features.cpp.i
 
 Features.s: Features.cpp.s
@@ -1149,7 +1149,7 @@ Features.s: Features.cpp.s
 
 # target to generate assembly for a file
 Features.cpp.s:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/Features.cpp.s
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/Features.cpp.s
 .PHONY : Features.cpp.s
 
 Format.o: Format.cpp.o
@@ -1157,7 +1157,7 @@ Format.o: Format.cpp.o
 
 # target to build an object file
 Format.cpp.o:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/Format.cpp.o
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/Format.cpp.o
 .PHONY : Format.cpp.o
 
 Format.i: Format.cpp.i
@@ -1165,7 +1165,7 @@ Format.i: Format.cpp.i
 
 # target to preprocess a source file
 Format.cpp.i:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/Format.cpp.i
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/Format.cpp.i
 .PHONY : Format.cpp.i
 
 Format.s: Format.cpp.s
@@ -1173,7 +1173,7 @@ Format.s: Format.cpp.s
 
 # target to generate assembly for a file
 Format.cpp.s:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/Format.cpp.s
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/Format.cpp.s
 .PHONY : Format.cpp.s
 
 IndirectDrawMetadata.o: IndirectDrawMetadata.cpp.o
@@ -1181,7 +1181,7 @@ IndirectDrawMetadata.o: IndirectDrawMetadata.cpp.o
 
 # target to build an object file
 IndirectDrawMetadata.cpp.o:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/IndirectDrawMetadata.cpp.o
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/IndirectDrawMetadata.cpp.o
 .PHONY : IndirectDrawMetadata.cpp.o
 
 IndirectDrawMetadata.i: IndirectDrawMetadata.cpp.i
@@ -1189,7 +1189,7 @@ IndirectDrawMetadata.i: IndirectDrawMetadata.cpp.i
 
 # target to preprocess a source file
 IndirectDrawMetadata.cpp.i:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/IndirectDrawMetadata.cpp.i
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/IndirectDrawMetadata.cpp.i
 .PHONY : IndirectDrawMetadata.cpp.i
 
 IndirectDrawMetadata.s: IndirectDrawMetadata.cpp.s
@@ -1197,7 +1197,7 @@ IndirectDrawMetadata.s: IndirectDrawMetadata.cpp.s
 
 # target to generate assembly for a file
 IndirectDrawMetadata.cpp.s:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/IndirectDrawMetadata.cpp.s
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/IndirectDrawMetadata.cpp.s
 .PHONY : IndirectDrawMetadata.cpp.s
 
 IndirectDrawValidationEncoder.o: IndirectDrawValidationEncoder.cpp.o
@@ -1205,7 +1205,7 @@ IndirectDrawValidationEncoder.o: IndirectDrawValidationEncoder.cpp.o
 
 # target to build an object file
 IndirectDrawValidationEncoder.cpp.o:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/IndirectDrawValidationEncoder.cpp.o
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/IndirectDrawValidationEncoder.cpp.o
 .PHONY : IndirectDrawValidationEncoder.cpp.o
 
 IndirectDrawValidationEncoder.i: IndirectDrawValidationEncoder.cpp.i
@@ -1213,7 +1213,7 @@ IndirectDrawValidationEncoder.i: IndirectDrawValidationEncoder.cpp.i
 
 # target to preprocess a source file
 IndirectDrawValidationEncoder.cpp.i:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/IndirectDrawValidationEncoder.cpp.i
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/IndirectDrawValidationEncoder.cpp.i
 .PHONY : IndirectDrawValidationEncoder.cpp.i
 
 IndirectDrawValidationEncoder.s: IndirectDrawValidationEncoder.cpp.s
@@ -1221,7 +1221,7 @@ IndirectDrawValidationEncoder.s: IndirectDrawValidationEncoder.cpp.s
 
 # target to generate assembly for a file
 IndirectDrawValidationEncoder.cpp.s:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/IndirectDrawValidationEncoder.cpp.s
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/IndirectDrawValidationEncoder.cpp.s
 .PHONY : IndirectDrawValidationEncoder.cpp.s
 
 Instance.o: Instance.cpp.o
@@ -1229,7 +1229,7 @@ Instance.o: Instance.cpp.o
 
 # target to build an object file
 Instance.cpp.o:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/Instance.cpp.o
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/Instance.cpp.o
 .PHONY : Instance.cpp.o
 
 Instance.i: Instance.cpp.i
@@ -1237,7 +1237,7 @@ Instance.i: Instance.cpp.i
 
 # target to preprocess a source file
 Instance.cpp.i:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/Instance.cpp.i
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/Instance.cpp.i
 .PHONY : Instance.cpp.i
 
 Instance.s: Instance.cpp.s
@@ -1245,7 +1245,7 @@ Instance.s: Instance.cpp.s
 
 # target to generate assembly for a file
 Instance.cpp.s:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/Instance.cpp.s
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/Instance.cpp.s
 .PHONY : Instance.cpp.s
 
 InternalPipelineStore.o: InternalPipelineStore.cpp.o
@@ -1253,7 +1253,7 @@ InternalPipelineStore.o: InternalPipelineStore.cpp.o
 
 # target to build an object file
 InternalPipelineStore.cpp.o:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/InternalPipelineStore.cpp.o
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/InternalPipelineStore.cpp.o
 .PHONY : InternalPipelineStore.cpp.o
 
 InternalPipelineStore.i: InternalPipelineStore.cpp.i
@@ -1261,7 +1261,7 @@ InternalPipelineStore.i: InternalPipelineStore.cpp.i
 
 # target to preprocess a source file
 InternalPipelineStore.cpp.i:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/InternalPipelineStore.cpp.i
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/InternalPipelineStore.cpp.i
 .PHONY : InternalPipelineStore.cpp.i
 
 InternalPipelineStore.s: InternalPipelineStore.cpp.s
@@ -1269,7 +1269,7 @@ InternalPipelineStore.s: InternalPipelineStore.cpp.s
 
 # target to generate assembly for a file
 InternalPipelineStore.cpp.s:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/InternalPipelineStore.cpp.s
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/InternalPipelineStore.cpp.s
 .PHONY : InternalPipelineStore.cpp.s
 
 Limits.o: Limits.cpp.o
@@ -1277,7 +1277,7 @@ Limits.o: Limits.cpp.o
 
 # target to build an object file
 Limits.cpp.o:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/Limits.cpp.o
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/Limits.cpp.o
 .PHONY : Limits.cpp.o
 
 Limits.i: Limits.cpp.i
@@ -1285,7 +1285,7 @@ Limits.i: Limits.cpp.i
 
 # target to preprocess a source file
 Limits.cpp.i:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/Limits.cpp.i
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/Limits.cpp.i
 .PHONY : Limits.cpp.i
 
 Limits.s: Limits.cpp.s
@@ -1293,7 +1293,7 @@ Limits.s: Limits.cpp.s
 
 # target to generate assembly for a file
 Limits.cpp.s:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/Limits.cpp.s
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/Limits.cpp.s
 .PHONY : Limits.cpp.s
 
 ObjectBase.o: ObjectBase.cpp.o
@@ -1301,7 +1301,7 @@ ObjectBase.o: ObjectBase.cpp.o
 
 # target to build an object file
 ObjectBase.cpp.o:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/ObjectBase.cpp.o
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/ObjectBase.cpp.o
 .PHONY : ObjectBase.cpp.o
 
 ObjectBase.i: ObjectBase.cpp.i
@@ -1309,7 +1309,7 @@ ObjectBase.i: ObjectBase.cpp.i
 
 # target to preprocess a source file
 ObjectBase.cpp.i:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/ObjectBase.cpp.i
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/ObjectBase.cpp.i
 .PHONY : ObjectBase.cpp.i
 
 ObjectBase.s: ObjectBase.cpp.s
@@ -1317,7 +1317,7 @@ ObjectBase.s: ObjectBase.cpp.s
 
 # target to generate assembly for a file
 ObjectBase.cpp.s:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/ObjectBase.cpp.s
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/ObjectBase.cpp.s
 .PHONY : ObjectBase.cpp.s
 
 ObjectContentHasher.o: ObjectContentHasher.cpp.o
@@ -1325,7 +1325,7 @@ ObjectContentHasher.o: ObjectContentHasher.cpp.o
 
 # target to build an object file
 ObjectContentHasher.cpp.o:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/ObjectContentHasher.cpp.o
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/ObjectContentHasher.cpp.o
 .PHONY : ObjectContentHasher.cpp.o
 
 ObjectContentHasher.i: ObjectContentHasher.cpp.i
@@ -1333,7 +1333,7 @@ ObjectContentHasher.i: ObjectContentHasher.cpp.i
 
 # target to preprocess a source file
 ObjectContentHasher.cpp.i:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/ObjectContentHasher.cpp.i
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/ObjectContentHasher.cpp.i
 .PHONY : ObjectContentHasher.cpp.i
 
 ObjectContentHasher.s: ObjectContentHasher.cpp.s
@@ -1341,7 +1341,7 @@ ObjectContentHasher.s: ObjectContentHasher.cpp.s
 
 # target to generate assembly for a file
 ObjectContentHasher.cpp.s:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/ObjectContentHasher.cpp.s
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/ObjectContentHasher.cpp.s
 .PHONY : ObjectContentHasher.cpp.s
 
 PassResourceUsage.o: PassResourceUsage.cpp.o
@@ -1349,7 +1349,7 @@ PassResourceUsage.o: PassResourceUsage.cpp.o
 
 # target to build an object file
 PassResourceUsage.cpp.o:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/PassResourceUsage.cpp.o
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/PassResourceUsage.cpp.o
 .PHONY : PassResourceUsage.cpp.o
 
 PassResourceUsage.i: PassResourceUsage.cpp.i
@@ -1357,7 +1357,7 @@ PassResourceUsage.i: PassResourceUsage.cpp.i
 
 # target to preprocess a source file
 PassResourceUsage.cpp.i:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/PassResourceUsage.cpp.i
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/PassResourceUsage.cpp.i
 .PHONY : PassResourceUsage.cpp.i
 
 PassResourceUsage.s: PassResourceUsage.cpp.s
@@ -1365,7 +1365,7 @@ PassResourceUsage.s: PassResourceUsage.cpp.s
 
 # target to generate assembly for a file
 PassResourceUsage.cpp.s:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/PassResourceUsage.cpp.s
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/PassResourceUsage.cpp.s
 .PHONY : PassResourceUsage.cpp.s
 
 PassResourceUsageTracker.o: PassResourceUsageTracker.cpp.o
@@ -1373,7 +1373,7 @@ PassResourceUsageTracker.o: PassResourceUsageTracker.cpp.o
 
 # target to build an object file
 PassResourceUsageTracker.cpp.o:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/PassResourceUsageTracker.cpp.o
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/PassResourceUsageTracker.cpp.o
 .PHONY : PassResourceUsageTracker.cpp.o
 
 PassResourceUsageTracker.i: PassResourceUsageTracker.cpp.i
@@ -1381,7 +1381,7 @@ PassResourceUsageTracker.i: PassResourceUsageTracker.cpp.i
 
 # target to preprocess a source file
 PassResourceUsageTracker.cpp.i:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/PassResourceUsageTracker.cpp.i
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/PassResourceUsageTracker.cpp.i
 .PHONY : PassResourceUsageTracker.cpp.i
 
 PassResourceUsageTracker.s: PassResourceUsageTracker.cpp.s
@@ -1389,7 +1389,7 @@ PassResourceUsageTracker.s: PassResourceUsageTracker.cpp.s
 
 # target to generate assembly for a file
 PassResourceUsageTracker.cpp.s:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/PassResourceUsageTracker.cpp.s
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/PassResourceUsageTracker.cpp.s
 .PHONY : PassResourceUsageTracker.cpp.s
 
 PerStage.o: PerStage.cpp.o
@@ -1397,7 +1397,7 @@ PerStage.o: PerStage.cpp.o
 
 # target to build an object file
 PerStage.cpp.o:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/PerStage.cpp.o
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/PerStage.cpp.o
 .PHONY : PerStage.cpp.o
 
 PerStage.i: PerStage.cpp.i
@@ -1405,7 +1405,7 @@ PerStage.i: PerStage.cpp.i
 
 # target to preprocess a source file
 PerStage.cpp.i:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/PerStage.cpp.i
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/PerStage.cpp.i
 .PHONY : PerStage.cpp.i
 
 PerStage.s: PerStage.cpp.s
@@ -1413,7 +1413,7 @@ PerStage.s: PerStage.cpp.s
 
 # target to generate assembly for a file
 PerStage.cpp.s:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/PerStage.cpp.s
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/PerStage.cpp.s
 .PHONY : PerStage.cpp.s
 
 PhysicalDevice.o: PhysicalDevice.cpp.o
@@ -1421,7 +1421,7 @@ PhysicalDevice.o: PhysicalDevice.cpp.o
 
 # target to build an object file
 PhysicalDevice.cpp.o:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/PhysicalDevice.cpp.o
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/PhysicalDevice.cpp.o
 .PHONY : PhysicalDevice.cpp.o
 
 PhysicalDevice.i: PhysicalDevice.cpp.i
@@ -1429,7 +1429,7 @@ PhysicalDevice.i: PhysicalDevice.cpp.i
 
 # target to preprocess a source file
 PhysicalDevice.cpp.i:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/PhysicalDevice.cpp.i
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/PhysicalDevice.cpp.i
 .PHONY : PhysicalDevice.cpp.i
 
 PhysicalDevice.s: PhysicalDevice.cpp.s
@@ -1437,7 +1437,7 @@ PhysicalDevice.s: PhysicalDevice.cpp.s
 
 # target to generate assembly for a file
 PhysicalDevice.cpp.s:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/PhysicalDevice.cpp.s
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/PhysicalDevice.cpp.s
 .PHONY : PhysicalDevice.cpp.s
 
 Pipeline.o: Pipeline.cpp.o
@@ -1445,7 +1445,7 @@ Pipeline.o: Pipeline.cpp.o
 
 # target to build an object file
 Pipeline.cpp.o:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/Pipeline.cpp.o
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/Pipeline.cpp.o
 .PHONY : Pipeline.cpp.o
 
 Pipeline.i: Pipeline.cpp.i
@@ -1453,7 +1453,7 @@ Pipeline.i: Pipeline.cpp.i
 
 # target to preprocess a source file
 Pipeline.cpp.i:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/Pipeline.cpp.i
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/Pipeline.cpp.i
 .PHONY : Pipeline.cpp.i
 
 Pipeline.s: Pipeline.cpp.s
@@ -1461,7 +1461,7 @@ Pipeline.s: Pipeline.cpp.s
 
 # target to generate assembly for a file
 Pipeline.cpp.s:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/Pipeline.cpp.s
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/Pipeline.cpp.s
 .PHONY : Pipeline.cpp.s
 
 PipelineCache.o: PipelineCache.cpp.o
@@ -1469,7 +1469,7 @@ PipelineCache.o: PipelineCache.cpp.o
 
 # target to build an object file
 PipelineCache.cpp.o:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/PipelineCache.cpp.o
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/PipelineCache.cpp.o
 .PHONY : PipelineCache.cpp.o
 
 PipelineCache.i: PipelineCache.cpp.i
@@ -1477,7 +1477,7 @@ PipelineCache.i: PipelineCache.cpp.i
 
 # target to preprocess a source file
 PipelineCache.cpp.i:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/PipelineCache.cpp.i
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/PipelineCache.cpp.i
 .PHONY : PipelineCache.cpp.i
 
 PipelineCache.s: PipelineCache.cpp.s
@@ -1485,7 +1485,7 @@ PipelineCache.s: PipelineCache.cpp.s
 
 # target to generate assembly for a file
 PipelineCache.cpp.s:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/PipelineCache.cpp.s
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/PipelineCache.cpp.s
 .PHONY : PipelineCache.cpp.s
 
 PipelineLayout.o: PipelineLayout.cpp.o
@@ -1493,7 +1493,7 @@ PipelineLayout.o: PipelineLayout.cpp.o
 
 # target to build an object file
 PipelineLayout.cpp.o:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/PipelineLayout.cpp.o
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/PipelineLayout.cpp.o
 .PHONY : PipelineLayout.cpp.o
 
 PipelineLayout.i: PipelineLayout.cpp.i
@@ -1501,7 +1501,7 @@ PipelineLayout.i: PipelineLayout.cpp.i
 
 # target to preprocess a source file
 PipelineLayout.cpp.i:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/PipelineLayout.cpp.i
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/PipelineLayout.cpp.i
 .PHONY : PipelineLayout.cpp.i
 
 PipelineLayout.s: PipelineLayout.cpp.s
@@ -1509,7 +1509,7 @@ PipelineLayout.s: PipelineLayout.cpp.s
 
 # target to generate assembly for a file
 PipelineLayout.cpp.s:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/PipelineLayout.cpp.s
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/PipelineLayout.cpp.s
 .PHONY : PipelineLayout.cpp.s
 
 PooledResourceMemoryAllocator.o: PooledResourceMemoryAllocator.cpp.o
@@ -1517,7 +1517,7 @@ PooledResourceMemoryAllocator.o: PooledResourceMemoryAllocator.cpp.o
 
 # target to build an object file
 PooledResourceMemoryAllocator.cpp.o:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/PooledResourceMemoryAllocator.cpp.o
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/PooledResourceMemoryAllocator.cpp.o
 .PHONY : PooledResourceMemoryAllocator.cpp.o
 
 PooledResourceMemoryAllocator.i: PooledResourceMemoryAllocator.cpp.i
@@ -1525,7 +1525,7 @@ PooledResourceMemoryAllocator.i: PooledResourceMemoryAllocator.cpp.i
 
 # target to preprocess a source file
 PooledResourceMemoryAllocator.cpp.i:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/PooledResourceMemoryAllocator.cpp.i
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/PooledResourceMemoryAllocator.cpp.i
 .PHONY : PooledResourceMemoryAllocator.cpp.i
 
 PooledResourceMemoryAllocator.s: PooledResourceMemoryAllocator.cpp.s
@@ -1533,7 +1533,7 @@ PooledResourceMemoryAllocator.s: PooledResourceMemoryAllocator.cpp.s
 
 # target to generate assembly for a file
 PooledResourceMemoryAllocator.cpp.s:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/PooledResourceMemoryAllocator.cpp.s
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/PooledResourceMemoryAllocator.cpp.s
 .PHONY : PooledResourceMemoryAllocator.cpp.s
 
 ProgrammableEncoder.o: ProgrammableEncoder.cpp.o
@@ -1541,7 +1541,7 @@ ProgrammableEncoder.o: ProgrammableEncoder.cpp.o
 
 # target to build an object file
 ProgrammableEncoder.cpp.o:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/ProgrammableEncoder.cpp.o
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/ProgrammableEncoder.cpp.o
 .PHONY : ProgrammableEncoder.cpp.o
 
 ProgrammableEncoder.i: ProgrammableEncoder.cpp.i
@@ -1549,7 +1549,7 @@ ProgrammableEncoder.i: ProgrammableEncoder.cpp.i
 
 # target to preprocess a source file
 ProgrammableEncoder.cpp.i:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/ProgrammableEncoder.cpp.i
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/ProgrammableEncoder.cpp.i
 .PHONY : ProgrammableEncoder.cpp.i
 
 ProgrammableEncoder.s: ProgrammableEncoder.cpp.s
@@ -1557,7 +1557,7 @@ ProgrammableEncoder.s: ProgrammableEncoder.cpp.s
 
 # target to generate assembly for a file
 ProgrammableEncoder.cpp.s:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/ProgrammableEncoder.cpp.s
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/ProgrammableEncoder.cpp.s
 .PHONY : ProgrammableEncoder.cpp.s
 
 QueryHelper.o: QueryHelper.cpp.o
@@ -1565,7 +1565,7 @@ QueryHelper.o: QueryHelper.cpp.o
 
 # target to build an object file
 QueryHelper.cpp.o:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/QueryHelper.cpp.o
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/QueryHelper.cpp.o
 .PHONY : QueryHelper.cpp.o
 
 QueryHelper.i: QueryHelper.cpp.i
@@ -1573,7 +1573,7 @@ QueryHelper.i: QueryHelper.cpp.i
 
 # target to preprocess a source file
 QueryHelper.cpp.i:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/QueryHelper.cpp.i
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/QueryHelper.cpp.i
 .PHONY : QueryHelper.cpp.i
 
 QueryHelper.s: QueryHelper.cpp.s
@@ -1581,7 +1581,7 @@ QueryHelper.s: QueryHelper.cpp.s
 
 # target to generate assembly for a file
 QueryHelper.cpp.s:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/QueryHelper.cpp.s
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/QueryHelper.cpp.s
 .PHONY : QueryHelper.cpp.s
 
 QuerySet.o: QuerySet.cpp.o
@@ -1589,7 +1589,7 @@ QuerySet.o: QuerySet.cpp.o
 
 # target to build an object file
 QuerySet.cpp.o:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/QuerySet.cpp.o
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/QuerySet.cpp.o
 .PHONY : QuerySet.cpp.o
 
 QuerySet.i: QuerySet.cpp.i
@@ -1597,7 +1597,7 @@ QuerySet.i: QuerySet.cpp.i
 
 # target to preprocess a source file
 QuerySet.cpp.i:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/QuerySet.cpp.i
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/QuerySet.cpp.i
 .PHONY : QuerySet.cpp.i
 
 QuerySet.s: QuerySet.cpp.s
@@ -1605,7 +1605,7 @@ QuerySet.s: QuerySet.cpp.s
 
 # target to generate assembly for a file
 QuerySet.cpp.s:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/QuerySet.cpp.s
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/QuerySet.cpp.s
 .PHONY : QuerySet.cpp.s
 
 Queue.o: Queue.cpp.o
@@ -1613,7 +1613,7 @@ Queue.o: Queue.cpp.o
 
 # target to build an object file
 Queue.cpp.o:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/Queue.cpp.o
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/Queue.cpp.o
 .PHONY : Queue.cpp.o
 
 Queue.i: Queue.cpp.i
@@ -1621,7 +1621,7 @@ Queue.i: Queue.cpp.i
 
 # target to preprocess a source file
 Queue.cpp.i:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/Queue.cpp.i
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/Queue.cpp.i
 .PHONY : Queue.cpp.i
 
 Queue.s: Queue.cpp.s
@@ -1629,7 +1629,7 @@ Queue.s: Queue.cpp.s
 
 # target to generate assembly for a file
 Queue.cpp.s:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/Queue.cpp.s
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/Queue.cpp.s
 .PHONY : Queue.cpp.s
 
 RefCountedWithExternalCount.o: RefCountedWithExternalCount.cpp.o
@@ -1637,7 +1637,7 @@ RefCountedWithExternalCount.o: RefCountedWithExternalCount.cpp.o
 
 # target to build an object file
 RefCountedWithExternalCount.cpp.o:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/RefCountedWithExternalCount.cpp.o
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/RefCountedWithExternalCount.cpp.o
 .PHONY : RefCountedWithExternalCount.cpp.o
 
 RefCountedWithExternalCount.i: RefCountedWithExternalCount.cpp.i
@@ -1645,7 +1645,7 @@ RefCountedWithExternalCount.i: RefCountedWithExternalCount.cpp.i
 
 # target to preprocess a source file
 RefCountedWithExternalCount.cpp.i:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/RefCountedWithExternalCount.cpp.i
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/RefCountedWithExternalCount.cpp.i
 .PHONY : RefCountedWithExternalCount.cpp.i
 
 RefCountedWithExternalCount.s: RefCountedWithExternalCount.cpp.s
@@ -1653,7 +1653,7 @@ RefCountedWithExternalCount.s: RefCountedWithExternalCount.cpp.s
 
 # target to generate assembly for a file
 RefCountedWithExternalCount.cpp.s:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/RefCountedWithExternalCount.cpp.s
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/RefCountedWithExternalCount.cpp.s
 .PHONY : RefCountedWithExternalCount.cpp.s
 
 RenderBundle.o: RenderBundle.cpp.o
@@ -1661,7 +1661,7 @@ RenderBundle.o: RenderBundle.cpp.o
 
 # target to build an object file
 RenderBundle.cpp.o:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/RenderBundle.cpp.o
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/RenderBundle.cpp.o
 .PHONY : RenderBundle.cpp.o
 
 RenderBundle.i: RenderBundle.cpp.i
@@ -1669,7 +1669,7 @@ RenderBundle.i: RenderBundle.cpp.i
 
 # target to preprocess a source file
 RenderBundle.cpp.i:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/RenderBundle.cpp.i
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/RenderBundle.cpp.i
 .PHONY : RenderBundle.cpp.i
 
 RenderBundle.s: RenderBundle.cpp.s
@@ -1677,7 +1677,7 @@ RenderBundle.s: RenderBundle.cpp.s
 
 # target to generate assembly for a file
 RenderBundle.cpp.s:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/RenderBundle.cpp.s
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/RenderBundle.cpp.s
 .PHONY : RenderBundle.cpp.s
 
 RenderBundleEncoder.o: RenderBundleEncoder.cpp.o
@@ -1685,7 +1685,7 @@ RenderBundleEncoder.o: RenderBundleEncoder.cpp.o
 
 # target to build an object file
 RenderBundleEncoder.cpp.o:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/RenderBundleEncoder.cpp.o
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/RenderBundleEncoder.cpp.o
 .PHONY : RenderBundleEncoder.cpp.o
 
 RenderBundleEncoder.i: RenderBundleEncoder.cpp.i
@@ -1693,7 +1693,7 @@ RenderBundleEncoder.i: RenderBundleEncoder.cpp.i
 
 # target to preprocess a source file
 RenderBundleEncoder.cpp.i:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/RenderBundleEncoder.cpp.i
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/RenderBundleEncoder.cpp.i
 .PHONY : RenderBundleEncoder.cpp.i
 
 RenderBundleEncoder.s: RenderBundleEncoder.cpp.s
@@ -1701,7 +1701,7 @@ RenderBundleEncoder.s: RenderBundleEncoder.cpp.s
 
 # target to generate assembly for a file
 RenderBundleEncoder.cpp.s:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/RenderBundleEncoder.cpp.s
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/RenderBundleEncoder.cpp.s
 .PHONY : RenderBundleEncoder.cpp.s
 
 RenderEncoderBase.o: RenderEncoderBase.cpp.o
@@ -1709,7 +1709,7 @@ RenderEncoderBase.o: RenderEncoderBase.cpp.o
 
 # target to build an object file
 RenderEncoderBase.cpp.o:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/RenderEncoderBase.cpp.o
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/RenderEncoderBase.cpp.o
 .PHONY : RenderEncoderBase.cpp.o
 
 RenderEncoderBase.i: RenderEncoderBase.cpp.i
@@ -1717,7 +1717,7 @@ RenderEncoderBase.i: RenderEncoderBase.cpp.i
 
 # target to preprocess a source file
 RenderEncoderBase.cpp.i:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/RenderEncoderBase.cpp.i
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/RenderEncoderBase.cpp.i
 .PHONY : RenderEncoderBase.cpp.i
 
 RenderEncoderBase.s: RenderEncoderBase.cpp.s
@@ -1725,7 +1725,7 @@ RenderEncoderBase.s: RenderEncoderBase.cpp.s
 
 # target to generate assembly for a file
 RenderEncoderBase.cpp.s:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/RenderEncoderBase.cpp.s
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/RenderEncoderBase.cpp.s
 .PHONY : RenderEncoderBase.cpp.s
 
 RenderPassEncoder.o: RenderPassEncoder.cpp.o
@@ -1733,7 +1733,7 @@ RenderPassEncoder.o: RenderPassEncoder.cpp.o
 
 # target to build an object file
 RenderPassEncoder.cpp.o:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/RenderPassEncoder.cpp.o
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/RenderPassEncoder.cpp.o
 .PHONY : RenderPassEncoder.cpp.o
 
 RenderPassEncoder.i: RenderPassEncoder.cpp.i
@@ -1741,7 +1741,7 @@ RenderPassEncoder.i: RenderPassEncoder.cpp.i
 
 # target to preprocess a source file
 RenderPassEncoder.cpp.i:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/RenderPassEncoder.cpp.i
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/RenderPassEncoder.cpp.i
 .PHONY : RenderPassEncoder.cpp.i
 
 RenderPassEncoder.s: RenderPassEncoder.cpp.s
@@ -1749,7 +1749,7 @@ RenderPassEncoder.s: RenderPassEncoder.cpp.s
 
 # target to generate assembly for a file
 RenderPassEncoder.cpp.s:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/RenderPassEncoder.cpp.s
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/RenderPassEncoder.cpp.s
 .PHONY : RenderPassEncoder.cpp.s
 
 RenderPipeline.o: RenderPipeline.cpp.o
@@ -1757,7 +1757,7 @@ RenderPipeline.o: RenderPipeline.cpp.o
 
 # target to build an object file
 RenderPipeline.cpp.o:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/RenderPipeline.cpp.o
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/RenderPipeline.cpp.o
 .PHONY : RenderPipeline.cpp.o
 
 RenderPipeline.i: RenderPipeline.cpp.i
@@ -1765,7 +1765,7 @@ RenderPipeline.i: RenderPipeline.cpp.i
 
 # target to preprocess a source file
 RenderPipeline.cpp.i:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/RenderPipeline.cpp.i
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/RenderPipeline.cpp.i
 .PHONY : RenderPipeline.cpp.i
 
 RenderPipeline.s: RenderPipeline.cpp.s
@@ -1773,7 +1773,7 @@ RenderPipeline.s: RenderPipeline.cpp.s
 
 # target to generate assembly for a file
 RenderPipeline.cpp.s:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/RenderPipeline.cpp.s
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/RenderPipeline.cpp.s
 .PHONY : RenderPipeline.cpp.s
 
 ResourceMemoryAllocation.o: ResourceMemoryAllocation.cpp.o
@@ -1781,7 +1781,7 @@ ResourceMemoryAllocation.o: ResourceMemoryAllocation.cpp.o
 
 # target to build an object file
 ResourceMemoryAllocation.cpp.o:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/ResourceMemoryAllocation.cpp.o
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/ResourceMemoryAllocation.cpp.o
 .PHONY : ResourceMemoryAllocation.cpp.o
 
 ResourceMemoryAllocation.i: ResourceMemoryAllocation.cpp.i
@@ -1789,7 +1789,7 @@ ResourceMemoryAllocation.i: ResourceMemoryAllocation.cpp.i
 
 # target to preprocess a source file
 ResourceMemoryAllocation.cpp.i:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/ResourceMemoryAllocation.cpp.i
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/ResourceMemoryAllocation.cpp.i
 .PHONY : ResourceMemoryAllocation.cpp.i
 
 ResourceMemoryAllocation.s: ResourceMemoryAllocation.cpp.s
@@ -1797,7 +1797,7 @@ ResourceMemoryAllocation.s: ResourceMemoryAllocation.cpp.s
 
 # target to generate assembly for a file
 ResourceMemoryAllocation.cpp.s:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/ResourceMemoryAllocation.cpp.s
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/ResourceMemoryAllocation.cpp.s
 .PHONY : ResourceMemoryAllocation.cpp.s
 
 RingBufferAllocator.o: RingBufferAllocator.cpp.o
@@ -1805,7 +1805,7 @@ RingBufferAllocator.o: RingBufferAllocator.cpp.o
 
 # target to build an object file
 RingBufferAllocator.cpp.o:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/RingBufferAllocator.cpp.o
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/RingBufferAllocator.cpp.o
 .PHONY : RingBufferAllocator.cpp.o
 
 RingBufferAllocator.i: RingBufferAllocator.cpp.i
@@ -1813,7 +1813,7 @@ RingBufferAllocator.i: RingBufferAllocator.cpp.i
 
 # target to preprocess a source file
 RingBufferAllocator.cpp.i:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/RingBufferAllocator.cpp.i
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/RingBufferAllocator.cpp.i
 .PHONY : RingBufferAllocator.cpp.i
 
 RingBufferAllocator.s: RingBufferAllocator.cpp.s
@@ -1821,7 +1821,7 @@ RingBufferAllocator.s: RingBufferAllocator.cpp.s
 
 # target to generate assembly for a file
 RingBufferAllocator.cpp.s:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/RingBufferAllocator.cpp.s
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/RingBufferAllocator.cpp.s
 .PHONY : RingBufferAllocator.cpp.s
 
 Sampler.o: Sampler.cpp.o
@@ -1829,7 +1829,7 @@ Sampler.o: Sampler.cpp.o
 
 # target to build an object file
 Sampler.cpp.o:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/Sampler.cpp.o
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/Sampler.cpp.o
 .PHONY : Sampler.cpp.o
 
 Sampler.i: Sampler.cpp.i
@@ -1837,7 +1837,7 @@ Sampler.i: Sampler.cpp.i
 
 # target to preprocess a source file
 Sampler.cpp.i:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/Sampler.cpp.i
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/Sampler.cpp.i
 .PHONY : Sampler.cpp.i
 
 Sampler.s: Sampler.cpp.s
@@ -1845,7 +1845,7 @@ Sampler.s: Sampler.cpp.s
 
 # target to generate assembly for a file
 Sampler.cpp.s:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/Sampler.cpp.s
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/Sampler.cpp.s
 .PHONY : Sampler.cpp.s
 
 ScratchBuffer.o: ScratchBuffer.cpp.o
@@ -1853,7 +1853,7 @@ ScratchBuffer.o: ScratchBuffer.cpp.o
 
 # target to build an object file
 ScratchBuffer.cpp.o:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/ScratchBuffer.cpp.o
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/ScratchBuffer.cpp.o
 .PHONY : ScratchBuffer.cpp.o
 
 ScratchBuffer.i: ScratchBuffer.cpp.i
@@ -1861,7 +1861,7 @@ ScratchBuffer.i: ScratchBuffer.cpp.i
 
 # target to preprocess a source file
 ScratchBuffer.cpp.i:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/ScratchBuffer.cpp.i
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/ScratchBuffer.cpp.i
 .PHONY : ScratchBuffer.cpp.i
 
 ScratchBuffer.s: ScratchBuffer.cpp.s
@@ -1869,7 +1869,7 @@ ScratchBuffer.s: ScratchBuffer.cpp.s
 
 # target to generate assembly for a file
 ScratchBuffer.cpp.s:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/ScratchBuffer.cpp.s
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/ScratchBuffer.cpp.s
 .PHONY : ScratchBuffer.cpp.s
 
 ShaderModule.o: ShaderModule.cpp.o
@@ -1877,7 +1877,7 @@ ShaderModule.o: ShaderModule.cpp.o
 
 # target to build an object file
 ShaderModule.cpp.o:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/ShaderModule.cpp.o
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/ShaderModule.cpp.o
 .PHONY : ShaderModule.cpp.o
 
 ShaderModule.i: ShaderModule.cpp.i
@@ -1885,7 +1885,7 @@ ShaderModule.i: ShaderModule.cpp.i
 
 # target to preprocess a source file
 ShaderModule.cpp.i:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/ShaderModule.cpp.i
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/ShaderModule.cpp.i
 .PHONY : ShaderModule.cpp.i
 
 ShaderModule.s: ShaderModule.cpp.s
@@ -1893,7 +1893,7 @@ ShaderModule.s: ShaderModule.cpp.s
 
 # target to generate assembly for a file
 ShaderModule.cpp.s:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/ShaderModule.cpp.s
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/ShaderModule.cpp.s
 .PHONY : ShaderModule.cpp.s
 
 StreamImplTint.o: StreamImplTint.cpp.o
@@ -1901,7 +1901,7 @@ StreamImplTint.o: StreamImplTint.cpp.o
 
 # target to build an object file
 StreamImplTint.cpp.o:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/StreamImplTint.cpp.o
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/StreamImplTint.cpp.o
 .PHONY : StreamImplTint.cpp.o
 
 StreamImplTint.i: StreamImplTint.cpp.i
@@ -1909,7 +1909,7 @@ StreamImplTint.i: StreamImplTint.cpp.i
 
 # target to preprocess a source file
 StreamImplTint.cpp.i:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/StreamImplTint.cpp.i
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/StreamImplTint.cpp.i
 .PHONY : StreamImplTint.cpp.i
 
 StreamImplTint.s: StreamImplTint.cpp.s
@@ -1917,7 +1917,7 @@ StreamImplTint.s: StreamImplTint.cpp.s
 
 # target to generate assembly for a file
 StreamImplTint.cpp.s:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/StreamImplTint.cpp.s
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/StreamImplTint.cpp.s
 .PHONY : StreamImplTint.cpp.s
 
 Subresource.o: Subresource.cpp.o
@@ -1925,7 +1925,7 @@ Subresource.o: Subresource.cpp.o
 
 # target to build an object file
 Subresource.cpp.o:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/Subresource.cpp.o
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/Subresource.cpp.o
 .PHONY : Subresource.cpp.o
 
 Subresource.i: Subresource.cpp.i
@@ -1933,7 +1933,7 @@ Subresource.i: Subresource.cpp.i
 
 # target to preprocess a source file
 Subresource.cpp.i:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/Subresource.cpp.i
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/Subresource.cpp.i
 .PHONY : Subresource.cpp.i
 
 Subresource.s: Subresource.cpp.s
@@ -1941,7 +1941,7 @@ Subresource.s: Subresource.cpp.s
 
 # target to generate assembly for a file
 Subresource.cpp.s:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/Subresource.cpp.s
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/Subresource.cpp.s
 .PHONY : Subresource.cpp.s
 
 Surface.o: Surface.cpp.o
@@ -1949,7 +1949,7 @@ Surface.o: Surface.cpp.o
 
 # target to build an object file
 Surface.cpp.o:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/Surface.cpp.o
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/Surface.cpp.o
 .PHONY : Surface.cpp.o
 
 Surface.i: Surface.cpp.i
@@ -1957,7 +1957,7 @@ Surface.i: Surface.cpp.i
 
 # target to preprocess a source file
 Surface.cpp.i:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/Surface.cpp.i
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/Surface.cpp.i
 .PHONY : Surface.cpp.i
 
 Surface.s: Surface.cpp.s
@@ -1965,7 +1965,7 @@ Surface.s: Surface.cpp.s
 
 # target to generate assembly for a file
 Surface.cpp.s:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/Surface.cpp.s
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/Surface.cpp.s
 .PHONY : Surface.cpp.s
 
 Surface_metal.o: Surface_metal.mm.o
@@ -1973,7 +1973,7 @@ Surface_metal.o: Surface_metal.mm.o
 
 # target to build an object file
 Surface_metal.mm.o:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/Surface_metal.mm.o
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/Surface_metal.mm.o
 .PHONY : Surface_metal.mm.o
 
 Surface_metal.i: Surface_metal.mm.i
@@ -1981,7 +1981,7 @@ Surface_metal.i: Surface_metal.mm.i
 
 # target to preprocess a source file
 Surface_metal.mm.i:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/Surface_metal.mm.i
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/Surface_metal.mm.i
 .PHONY : Surface_metal.mm.i
 
 Surface_metal.s: Surface_metal.mm.s
@@ -1989,7 +1989,7 @@ Surface_metal.s: Surface_metal.mm.s
 
 # target to generate assembly for a file
 Surface_metal.mm.s:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/Surface_metal.mm.s
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/Surface_metal.mm.s
 .PHONY : Surface_metal.mm.s
 
 SwapChain.o: SwapChain.cpp.o
@@ -1997,7 +1997,7 @@ SwapChain.o: SwapChain.cpp.o
 
 # target to build an object file
 SwapChain.cpp.o:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/SwapChain.cpp.o
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/SwapChain.cpp.o
 .PHONY : SwapChain.cpp.o
 
 SwapChain.i: SwapChain.cpp.i
@@ -2005,7 +2005,7 @@ SwapChain.i: SwapChain.cpp.i
 
 # target to preprocess a source file
 SwapChain.cpp.i:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/SwapChain.cpp.i
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/SwapChain.cpp.i
 .PHONY : SwapChain.cpp.i
 
 SwapChain.s: SwapChain.cpp.s
@@ -2013,7 +2013,7 @@ SwapChain.s: SwapChain.cpp.s
 
 # target to generate assembly for a file
 SwapChain.cpp.s:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/SwapChain.cpp.s
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/SwapChain.cpp.s
 .PHONY : SwapChain.cpp.s
 
 Texture.o: Texture.cpp.o
@@ -2021,7 +2021,7 @@ Texture.o: Texture.cpp.o
 
 # target to build an object file
 Texture.cpp.o:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/Texture.cpp.o
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/Texture.cpp.o
 .PHONY : Texture.cpp.o
 
 Texture.i: Texture.cpp.i
@@ -2029,7 +2029,7 @@ Texture.i: Texture.cpp.i
 
 # target to preprocess a source file
 Texture.cpp.i:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/Texture.cpp.i
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/Texture.cpp.i
 .PHONY : Texture.cpp.i
 
 Texture.s: Texture.cpp.s
@@ -2037,7 +2037,7 @@ Texture.s: Texture.cpp.s
 
 # target to generate assembly for a file
 Texture.cpp.s:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/Texture.cpp.s
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/Texture.cpp.s
 .PHONY : Texture.cpp.s
 
 TintUtils.o: TintUtils.cpp.o
@@ -2045,7 +2045,7 @@ TintUtils.o: TintUtils.cpp.o
 
 # target to build an object file
 TintUtils.cpp.o:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/TintUtils.cpp.o
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/TintUtils.cpp.o
 .PHONY : TintUtils.cpp.o
 
 TintUtils.i: TintUtils.cpp.i
@@ -2053,7 +2053,7 @@ TintUtils.i: TintUtils.cpp.i
 
 # target to preprocess a source file
 TintUtils.cpp.i:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/TintUtils.cpp.i
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/TintUtils.cpp.i
 .PHONY : TintUtils.cpp.i
 
 TintUtils.s: TintUtils.cpp.s
@@ -2061,7 +2061,7 @@ TintUtils.s: TintUtils.cpp.s
 
 # target to generate assembly for a file
 TintUtils.cpp.s:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/TintUtils.cpp.s
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/TintUtils.cpp.s
 .PHONY : TintUtils.cpp.s
 
 Toggles.o: Toggles.cpp.o
@@ -2069,7 +2069,7 @@ Toggles.o: Toggles.cpp.o
 
 # target to build an object file
 Toggles.cpp.o:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/Toggles.cpp.o
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/Toggles.cpp.o
 .PHONY : Toggles.cpp.o
 
 Toggles.i: Toggles.cpp.i
@@ -2077,7 +2077,7 @@ Toggles.i: Toggles.cpp.i
 
 # target to preprocess a source file
 Toggles.cpp.i:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/Toggles.cpp.i
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/Toggles.cpp.i
 .PHONY : Toggles.cpp.i
 
 Toggles.s: Toggles.cpp.s
@@ -2085,7 +2085,7 @@ Toggles.s: Toggles.cpp.s
 
 # target to generate assembly for a file
 Toggles.cpp.s:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/Toggles.cpp.s
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/Toggles.cpp.s
 .PHONY : Toggles.cpp.s
 
 VertexFormat.o: VertexFormat.cpp.o
@@ -2093,7 +2093,7 @@ VertexFormat.o: VertexFormat.cpp.o
 
 # target to build an object file
 VertexFormat.cpp.o:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/VertexFormat.cpp.o
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/VertexFormat.cpp.o
 .PHONY : VertexFormat.cpp.o
 
 VertexFormat.i: VertexFormat.cpp.i
@@ -2101,7 +2101,7 @@ VertexFormat.i: VertexFormat.cpp.i
 
 # target to preprocess a source file
 VertexFormat.cpp.i:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/VertexFormat.cpp.i
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/VertexFormat.cpp.i
 .PHONY : VertexFormat.cpp.i
 
 VertexFormat.s: VertexFormat.cpp.s
@@ -2109,7 +2109,7 @@ VertexFormat.s: VertexFormat.cpp.s
 
 # target to generate assembly for a file
 VertexFormat.cpp.s:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/VertexFormat.cpp.s
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/VertexFormat.cpp.s
 .PHONY : VertexFormat.cpp.s
 
 __/__/Placeholder.o: __/__/Placeholder.cpp.o
@@ -2117,8 +2117,8 @@ __/__/Placeholder.o: __/__/Placeholder.cpp.o
 
 # target to build an object file
 __/__/Placeholder.cpp.o:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/__/__/Placeholder.cpp.o
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/webgpu_dawn.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/webgpu_dawn.dir/__/__/Placeholder.cpp.o
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/__/__/Placeholder.cpp.o
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/webgpu_dawn.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/webgpu_dawn.dir/__/__/Placeholder.cpp.o
 .PHONY : __/__/Placeholder.cpp.o
 
 __/__/Placeholder.i: __/__/Placeholder.cpp.i
@@ -2126,8 +2126,8 @@ __/__/Placeholder.i: __/__/Placeholder.cpp.i
 
 # target to preprocess a source file
 __/__/Placeholder.cpp.i:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/__/__/Placeholder.cpp.i
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/webgpu_dawn.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/webgpu_dawn.dir/__/__/Placeholder.cpp.i
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/__/__/Placeholder.cpp.i
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/webgpu_dawn.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/webgpu_dawn.dir/__/__/Placeholder.cpp.i
 .PHONY : __/__/Placeholder.cpp.i
 
 __/__/Placeholder.s: __/__/Placeholder.cpp.s
@@ -2135,8 +2135,8 @@ __/__/Placeholder.s: __/__/Placeholder.cpp.s
 
 # target to generate assembly for a file
 __/__/Placeholder.cpp.s:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/__/__/Placeholder.cpp.s
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/webgpu_dawn.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/webgpu_dawn.dir/__/__/Placeholder.cpp.s
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/__/__/Placeholder.cpp.s
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/webgpu_dawn.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/webgpu_dawn.dir/__/__/Placeholder.cpp.s
 .PHONY : __/__/Placeholder.cpp.s
 
 __/__/__/gen/src/dawn/native/ChainUtils_autogen.o: __/__/__/gen/src/dawn/native/ChainUtils_autogen.cpp.o
@@ -2144,7 +2144,7 @@ __/__/__/gen/src/dawn/native/ChainUtils_autogen.o: __/__/__/gen/src/dawn/native/
 
 # target to build an object file
 __/__/__/gen/src/dawn/native/ChainUtils_autogen.cpp.o:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/__/__/__/gen/src/dawn/native/ChainUtils_autogen.cpp.o
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/__/__/__/gen/src/dawn/native/ChainUtils_autogen.cpp.o
 .PHONY : __/__/__/gen/src/dawn/native/ChainUtils_autogen.cpp.o
 
 __/__/__/gen/src/dawn/native/ChainUtils_autogen.i: __/__/__/gen/src/dawn/native/ChainUtils_autogen.cpp.i
@@ -2152,7 +2152,7 @@ __/__/__/gen/src/dawn/native/ChainUtils_autogen.i: __/__/__/gen/src/dawn/native/
 
 # target to preprocess a source file
 __/__/__/gen/src/dawn/native/ChainUtils_autogen.cpp.i:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/__/__/__/gen/src/dawn/native/ChainUtils_autogen.cpp.i
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/__/__/__/gen/src/dawn/native/ChainUtils_autogen.cpp.i
 .PHONY : __/__/__/gen/src/dawn/native/ChainUtils_autogen.cpp.i
 
 __/__/__/gen/src/dawn/native/ChainUtils_autogen.s: __/__/__/gen/src/dawn/native/ChainUtils_autogen.cpp.s
@@ -2160,7 +2160,7 @@ __/__/__/gen/src/dawn/native/ChainUtils_autogen.s: __/__/__/gen/src/dawn/native/
 
 # target to generate assembly for a file
 __/__/__/gen/src/dawn/native/ChainUtils_autogen.cpp.s:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/__/__/__/gen/src/dawn/native/ChainUtils_autogen.cpp.s
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/__/__/__/gen/src/dawn/native/ChainUtils_autogen.cpp.s
 .PHONY : __/__/__/gen/src/dawn/native/ChainUtils_autogen.cpp.s
 
 __/__/__/gen/src/dawn/native/ObjectType_autogen.o: __/__/__/gen/src/dawn/native/ObjectType_autogen.cpp.o
@@ -2168,7 +2168,7 @@ __/__/__/gen/src/dawn/native/ObjectType_autogen.o: __/__/__/gen/src/dawn/native/
 
 # target to build an object file
 __/__/__/gen/src/dawn/native/ObjectType_autogen.cpp.o:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/__/__/__/gen/src/dawn/native/ObjectType_autogen.cpp.o
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/__/__/__/gen/src/dawn/native/ObjectType_autogen.cpp.o
 .PHONY : __/__/__/gen/src/dawn/native/ObjectType_autogen.cpp.o
 
 __/__/__/gen/src/dawn/native/ObjectType_autogen.i: __/__/__/gen/src/dawn/native/ObjectType_autogen.cpp.i
@@ -2176,7 +2176,7 @@ __/__/__/gen/src/dawn/native/ObjectType_autogen.i: __/__/__/gen/src/dawn/native/
 
 # target to preprocess a source file
 __/__/__/gen/src/dawn/native/ObjectType_autogen.cpp.i:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/__/__/__/gen/src/dawn/native/ObjectType_autogen.cpp.i
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/__/__/__/gen/src/dawn/native/ObjectType_autogen.cpp.i
 .PHONY : __/__/__/gen/src/dawn/native/ObjectType_autogen.cpp.i
 
 __/__/__/gen/src/dawn/native/ObjectType_autogen.s: __/__/__/gen/src/dawn/native/ObjectType_autogen.cpp.s
@@ -2184,7 +2184,7 @@ __/__/__/gen/src/dawn/native/ObjectType_autogen.s: __/__/__/gen/src/dawn/native/
 
 # target to generate assembly for a file
 __/__/__/gen/src/dawn/native/ObjectType_autogen.cpp.s:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/__/__/__/gen/src/dawn/native/ObjectType_autogen.cpp.s
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/__/__/__/gen/src/dawn/native/ObjectType_autogen.cpp.s
 .PHONY : __/__/__/gen/src/dawn/native/ObjectType_autogen.cpp.s
 
 __/__/__/gen/src/dawn/native/ProcTable.o: __/__/__/gen/src/dawn/native/ProcTable.cpp.o
@@ -2192,7 +2192,7 @@ __/__/__/gen/src/dawn/native/ProcTable.o: __/__/__/gen/src/dawn/native/ProcTable
 
 # target to build an object file
 __/__/__/gen/src/dawn/native/ProcTable.cpp.o:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/__/__/__/gen/src/dawn/native/ProcTable.cpp.o
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/__/__/__/gen/src/dawn/native/ProcTable.cpp.o
 .PHONY : __/__/__/gen/src/dawn/native/ProcTable.cpp.o
 
 __/__/__/gen/src/dawn/native/ProcTable.i: __/__/__/gen/src/dawn/native/ProcTable.cpp.i
@@ -2200,7 +2200,7 @@ __/__/__/gen/src/dawn/native/ProcTable.i: __/__/__/gen/src/dawn/native/ProcTable
 
 # target to preprocess a source file
 __/__/__/gen/src/dawn/native/ProcTable.cpp.i:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/__/__/__/gen/src/dawn/native/ProcTable.cpp.i
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/__/__/__/gen/src/dawn/native/ProcTable.cpp.i
 .PHONY : __/__/__/gen/src/dawn/native/ProcTable.cpp.i
 
 __/__/__/gen/src/dawn/native/ProcTable.s: __/__/__/gen/src/dawn/native/ProcTable.cpp.s
@@ -2208,7 +2208,7 @@ __/__/__/gen/src/dawn/native/ProcTable.s: __/__/__/gen/src/dawn/native/ProcTable
 
 # target to generate assembly for a file
 __/__/__/gen/src/dawn/native/ProcTable.cpp.s:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/__/__/__/gen/src/dawn/native/ProcTable.cpp.s
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/__/__/__/gen/src/dawn/native/ProcTable.cpp.s
 .PHONY : __/__/__/gen/src/dawn/native/ProcTable.cpp.s
 
 __/__/__/gen/src/dawn/native/ValidationUtils_autogen.o: __/__/__/gen/src/dawn/native/ValidationUtils_autogen.cpp.o
@@ -2216,7 +2216,7 @@ __/__/__/gen/src/dawn/native/ValidationUtils_autogen.o: __/__/__/gen/src/dawn/na
 
 # target to build an object file
 __/__/__/gen/src/dawn/native/ValidationUtils_autogen.cpp.o:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/__/__/__/gen/src/dawn/native/ValidationUtils_autogen.cpp.o
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/__/__/__/gen/src/dawn/native/ValidationUtils_autogen.cpp.o
 .PHONY : __/__/__/gen/src/dawn/native/ValidationUtils_autogen.cpp.o
 
 __/__/__/gen/src/dawn/native/ValidationUtils_autogen.i: __/__/__/gen/src/dawn/native/ValidationUtils_autogen.cpp.i
@@ -2224,7 +2224,7 @@ __/__/__/gen/src/dawn/native/ValidationUtils_autogen.i: __/__/__/gen/src/dawn/na
 
 # target to preprocess a source file
 __/__/__/gen/src/dawn/native/ValidationUtils_autogen.cpp.i:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/__/__/__/gen/src/dawn/native/ValidationUtils_autogen.cpp.i
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/__/__/__/gen/src/dawn/native/ValidationUtils_autogen.cpp.i
 .PHONY : __/__/__/gen/src/dawn/native/ValidationUtils_autogen.cpp.i
 
 __/__/__/gen/src/dawn/native/ValidationUtils_autogen.s: __/__/__/gen/src/dawn/native/ValidationUtils_autogen.cpp.s
@@ -2232,7 +2232,7 @@ __/__/__/gen/src/dawn/native/ValidationUtils_autogen.s: __/__/__/gen/src/dawn/na
 
 # target to generate assembly for a file
 __/__/__/gen/src/dawn/native/ValidationUtils_autogen.cpp.s:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/__/__/__/gen/src/dawn/native/ValidationUtils_autogen.cpp.s
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/__/__/__/gen/src/dawn/native/ValidationUtils_autogen.cpp.s
 .PHONY : __/__/__/gen/src/dawn/native/ValidationUtils_autogen.cpp.s
 
 __/__/__/gen/src/dawn/native/webgpu_StreamImpl_autogen.o: __/__/__/gen/src/dawn/native/webgpu_StreamImpl_autogen.cpp.o
@@ -2240,7 +2240,7 @@ __/__/__/gen/src/dawn/native/webgpu_StreamImpl_autogen.o: __/__/__/gen/src/dawn/
 
 # target to build an object file
 __/__/__/gen/src/dawn/native/webgpu_StreamImpl_autogen.cpp.o:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/__/__/__/gen/src/dawn/native/webgpu_StreamImpl_autogen.cpp.o
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/__/__/__/gen/src/dawn/native/webgpu_StreamImpl_autogen.cpp.o
 .PHONY : __/__/__/gen/src/dawn/native/webgpu_StreamImpl_autogen.cpp.o
 
 __/__/__/gen/src/dawn/native/webgpu_StreamImpl_autogen.i: __/__/__/gen/src/dawn/native/webgpu_StreamImpl_autogen.cpp.i
@@ -2248,7 +2248,7 @@ __/__/__/gen/src/dawn/native/webgpu_StreamImpl_autogen.i: __/__/__/gen/src/dawn/
 
 # target to preprocess a source file
 __/__/__/gen/src/dawn/native/webgpu_StreamImpl_autogen.cpp.i:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/__/__/__/gen/src/dawn/native/webgpu_StreamImpl_autogen.cpp.i
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/__/__/__/gen/src/dawn/native/webgpu_StreamImpl_autogen.cpp.i
 .PHONY : __/__/__/gen/src/dawn/native/webgpu_StreamImpl_autogen.cpp.i
 
 __/__/__/gen/src/dawn/native/webgpu_StreamImpl_autogen.s: __/__/__/gen/src/dawn/native/webgpu_StreamImpl_autogen.cpp.s
@@ -2256,7 +2256,7 @@ __/__/__/gen/src/dawn/native/webgpu_StreamImpl_autogen.s: __/__/__/gen/src/dawn/
 
 # target to generate assembly for a file
 __/__/__/gen/src/dawn/native/webgpu_StreamImpl_autogen.cpp.s:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/__/__/__/gen/src/dawn/native/webgpu_StreamImpl_autogen.cpp.s
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/__/__/__/gen/src/dawn/native/webgpu_StreamImpl_autogen.cpp.s
 .PHONY : __/__/__/gen/src/dawn/native/webgpu_StreamImpl_autogen.cpp.s
 
 __/__/__/gen/src/dawn/native/webgpu_absl_format_autogen.o: __/__/__/gen/src/dawn/native/webgpu_absl_format_autogen.cpp.o
@@ -2264,7 +2264,7 @@ __/__/__/gen/src/dawn/native/webgpu_absl_format_autogen.o: __/__/__/gen/src/dawn
 
 # target to build an object file
 __/__/__/gen/src/dawn/native/webgpu_absl_format_autogen.cpp.o:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/__/__/__/gen/src/dawn/native/webgpu_absl_format_autogen.cpp.o
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/__/__/__/gen/src/dawn/native/webgpu_absl_format_autogen.cpp.o
 .PHONY : __/__/__/gen/src/dawn/native/webgpu_absl_format_autogen.cpp.o
 
 __/__/__/gen/src/dawn/native/webgpu_absl_format_autogen.i: __/__/__/gen/src/dawn/native/webgpu_absl_format_autogen.cpp.i
@@ -2272,7 +2272,7 @@ __/__/__/gen/src/dawn/native/webgpu_absl_format_autogen.i: __/__/__/gen/src/dawn
 
 # target to preprocess a source file
 __/__/__/gen/src/dawn/native/webgpu_absl_format_autogen.cpp.i:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/__/__/__/gen/src/dawn/native/webgpu_absl_format_autogen.cpp.i
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/__/__/__/gen/src/dawn/native/webgpu_absl_format_autogen.cpp.i
 .PHONY : __/__/__/gen/src/dawn/native/webgpu_absl_format_autogen.cpp.i
 
 __/__/__/gen/src/dawn/native/webgpu_absl_format_autogen.s: __/__/__/gen/src/dawn/native/webgpu_absl_format_autogen.cpp.s
@@ -2280,7 +2280,7 @@ __/__/__/gen/src/dawn/native/webgpu_absl_format_autogen.s: __/__/__/gen/src/dawn
 
 # target to generate assembly for a file
 __/__/__/gen/src/dawn/native/webgpu_absl_format_autogen.cpp.s:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/__/__/__/gen/src/dawn/native/webgpu_absl_format_autogen.cpp.s
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/__/__/__/gen/src/dawn/native/webgpu_absl_format_autogen.cpp.s
 .PHONY : __/__/__/gen/src/dawn/native/webgpu_absl_format_autogen.cpp.s
 
 __/__/__/gen/src/dawn/native/webgpu_dawn_native_proc.o: __/__/__/gen/src/dawn/native/webgpu_dawn_native_proc.cpp.o
@@ -2288,7 +2288,7 @@ __/__/__/gen/src/dawn/native/webgpu_dawn_native_proc.o: __/__/__/gen/src/dawn/na
 
 # target to build an object file
 __/__/__/gen/src/dawn/native/webgpu_dawn_native_proc.cpp.o:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/webgpu_dawn.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/webgpu_dawn.dir/__/__/__/gen/src/dawn/native/webgpu_dawn_native_proc.cpp.o
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/webgpu_dawn.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/webgpu_dawn.dir/__/__/__/gen/src/dawn/native/webgpu_dawn_native_proc.cpp.o
 .PHONY : __/__/__/gen/src/dawn/native/webgpu_dawn_native_proc.cpp.o
 
 __/__/__/gen/src/dawn/native/webgpu_dawn_native_proc.i: __/__/__/gen/src/dawn/native/webgpu_dawn_native_proc.cpp.i
@@ -2296,7 +2296,7 @@ __/__/__/gen/src/dawn/native/webgpu_dawn_native_proc.i: __/__/__/gen/src/dawn/na
 
 # target to preprocess a source file
 __/__/__/gen/src/dawn/native/webgpu_dawn_native_proc.cpp.i:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/webgpu_dawn.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/webgpu_dawn.dir/__/__/__/gen/src/dawn/native/webgpu_dawn_native_proc.cpp.i
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/webgpu_dawn.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/webgpu_dawn.dir/__/__/__/gen/src/dawn/native/webgpu_dawn_native_proc.cpp.i
 .PHONY : __/__/__/gen/src/dawn/native/webgpu_dawn_native_proc.cpp.i
 
 __/__/__/gen/src/dawn/native/webgpu_dawn_native_proc.s: __/__/__/gen/src/dawn/native/webgpu_dawn_native_proc.cpp.s
@@ -2304,7 +2304,7 @@ __/__/__/gen/src/dawn/native/webgpu_dawn_native_proc.s: __/__/__/gen/src/dawn/na
 
 # target to generate assembly for a file
 __/__/__/gen/src/dawn/native/webgpu_dawn_native_proc.cpp.s:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/webgpu_dawn.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/webgpu_dawn.dir/__/__/__/gen/src/dawn/native/webgpu_dawn_native_proc.cpp.s
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/webgpu_dawn.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/webgpu_dawn.dir/__/__/__/gen/src/dawn/native/webgpu_dawn_native_proc.cpp.s
 .PHONY : __/__/__/gen/src/dawn/native/webgpu_dawn_native_proc.cpp.s
 
 __/__/__/gen/src/dawn/native/wgpu_structs_autogen.o: __/__/__/gen/src/dawn/native/wgpu_structs_autogen.cpp.o
@@ -2312,7 +2312,7 @@ __/__/__/gen/src/dawn/native/wgpu_structs_autogen.o: __/__/__/gen/src/dawn/nativ
 
 # target to build an object file
 __/__/__/gen/src/dawn/native/wgpu_structs_autogen.cpp.o:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/__/__/__/gen/src/dawn/native/wgpu_structs_autogen.cpp.o
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/__/__/__/gen/src/dawn/native/wgpu_structs_autogen.cpp.o
 .PHONY : __/__/__/gen/src/dawn/native/wgpu_structs_autogen.cpp.o
 
 __/__/__/gen/src/dawn/native/wgpu_structs_autogen.i: __/__/__/gen/src/dawn/native/wgpu_structs_autogen.cpp.i
@@ -2320,7 +2320,7 @@ __/__/__/gen/src/dawn/native/wgpu_structs_autogen.i: __/__/__/gen/src/dawn/nativ
 
 # target to preprocess a source file
 __/__/__/gen/src/dawn/native/wgpu_structs_autogen.cpp.i:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/__/__/__/gen/src/dawn/native/wgpu_structs_autogen.cpp.i
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/__/__/__/gen/src/dawn/native/wgpu_structs_autogen.cpp.i
 .PHONY : __/__/__/gen/src/dawn/native/wgpu_structs_autogen.cpp.i
 
 __/__/__/gen/src/dawn/native/wgpu_structs_autogen.s: __/__/__/gen/src/dawn/native/wgpu_structs_autogen.cpp.s
@@ -2328,7 +2328,7 @@ __/__/__/gen/src/dawn/native/wgpu_structs_autogen.s: __/__/__/gen/src/dawn/nativ
 
 # target to generate assembly for a file
 __/__/__/gen/src/dawn/native/wgpu_structs_autogen.cpp.s:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/__/__/__/gen/src/dawn/native/wgpu_structs_autogen.cpp.s
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/__/__/__/gen/src/dawn/native/wgpu_structs_autogen.cpp.s
 .PHONY : __/__/__/gen/src/dawn/native/wgpu_structs_autogen.cpp.s
 
 metal/BackendMTL.o: metal/BackendMTL.mm.o
@@ -2336,7 +2336,7 @@ metal/BackendMTL.o: metal/BackendMTL.mm.o
 
 # target to build an object file
 metal/BackendMTL.mm.o:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/metal/BackendMTL.mm.o
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/metal/BackendMTL.mm.o
 .PHONY : metal/BackendMTL.mm.o
 
 metal/BackendMTL.i: metal/BackendMTL.mm.i
@@ -2344,7 +2344,7 @@ metal/BackendMTL.i: metal/BackendMTL.mm.i
 
 # target to preprocess a source file
 metal/BackendMTL.mm.i:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/metal/BackendMTL.mm.i
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/metal/BackendMTL.mm.i
 .PHONY : metal/BackendMTL.mm.i
 
 metal/BackendMTL.s: metal/BackendMTL.mm.s
@@ -2352,7 +2352,7 @@ metal/BackendMTL.s: metal/BackendMTL.mm.s
 
 # target to generate assembly for a file
 metal/BackendMTL.mm.s:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/metal/BackendMTL.mm.s
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/metal/BackendMTL.mm.s
 .PHONY : metal/BackendMTL.mm.s
 
 metal/BindGroupLayoutMTL.o: metal/BindGroupLayoutMTL.mm.o
@@ -2360,7 +2360,7 @@ metal/BindGroupLayoutMTL.o: metal/BindGroupLayoutMTL.mm.o
 
 # target to build an object file
 metal/BindGroupLayoutMTL.mm.o:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/metal/BindGroupLayoutMTL.mm.o
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/metal/BindGroupLayoutMTL.mm.o
 .PHONY : metal/BindGroupLayoutMTL.mm.o
 
 metal/BindGroupLayoutMTL.i: metal/BindGroupLayoutMTL.mm.i
@@ -2368,7 +2368,7 @@ metal/BindGroupLayoutMTL.i: metal/BindGroupLayoutMTL.mm.i
 
 # target to preprocess a source file
 metal/BindGroupLayoutMTL.mm.i:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/metal/BindGroupLayoutMTL.mm.i
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/metal/BindGroupLayoutMTL.mm.i
 .PHONY : metal/BindGroupLayoutMTL.mm.i
 
 metal/BindGroupLayoutMTL.s: metal/BindGroupLayoutMTL.mm.s
@@ -2376,7 +2376,7 @@ metal/BindGroupLayoutMTL.s: metal/BindGroupLayoutMTL.mm.s
 
 # target to generate assembly for a file
 metal/BindGroupLayoutMTL.mm.s:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/metal/BindGroupLayoutMTL.mm.s
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/metal/BindGroupLayoutMTL.mm.s
 .PHONY : metal/BindGroupLayoutMTL.mm.s
 
 metal/BindGroupMTL.o: metal/BindGroupMTL.mm.o
@@ -2384,7 +2384,7 @@ metal/BindGroupMTL.o: metal/BindGroupMTL.mm.o
 
 # target to build an object file
 metal/BindGroupMTL.mm.o:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/metal/BindGroupMTL.mm.o
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/metal/BindGroupMTL.mm.o
 .PHONY : metal/BindGroupMTL.mm.o
 
 metal/BindGroupMTL.i: metal/BindGroupMTL.mm.i
@@ -2392,7 +2392,7 @@ metal/BindGroupMTL.i: metal/BindGroupMTL.mm.i
 
 # target to preprocess a source file
 metal/BindGroupMTL.mm.i:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/metal/BindGroupMTL.mm.i
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/metal/BindGroupMTL.mm.i
 .PHONY : metal/BindGroupMTL.mm.i
 
 metal/BindGroupMTL.s: metal/BindGroupMTL.mm.s
@@ -2400,7 +2400,7 @@ metal/BindGroupMTL.s: metal/BindGroupMTL.mm.s
 
 # target to generate assembly for a file
 metal/BindGroupMTL.mm.s:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/metal/BindGroupMTL.mm.s
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/metal/BindGroupMTL.mm.s
 .PHONY : metal/BindGroupMTL.mm.s
 
 metal/BufferMTL.o: metal/BufferMTL.mm.o
@@ -2408,7 +2408,7 @@ metal/BufferMTL.o: metal/BufferMTL.mm.o
 
 # target to build an object file
 metal/BufferMTL.mm.o:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/metal/BufferMTL.mm.o
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/metal/BufferMTL.mm.o
 .PHONY : metal/BufferMTL.mm.o
 
 metal/BufferMTL.i: metal/BufferMTL.mm.i
@@ -2416,7 +2416,7 @@ metal/BufferMTL.i: metal/BufferMTL.mm.i
 
 # target to preprocess a source file
 metal/BufferMTL.mm.i:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/metal/BufferMTL.mm.i
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/metal/BufferMTL.mm.i
 .PHONY : metal/BufferMTL.mm.i
 
 metal/BufferMTL.s: metal/BufferMTL.mm.s
@@ -2424,7 +2424,7 @@ metal/BufferMTL.s: metal/BufferMTL.mm.s
 
 # target to generate assembly for a file
 metal/BufferMTL.mm.s:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/metal/BufferMTL.mm.s
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/metal/BufferMTL.mm.s
 .PHONY : metal/BufferMTL.mm.s
 
 metal/CommandBufferMTL.o: metal/CommandBufferMTL.mm.o
@@ -2432,7 +2432,7 @@ metal/CommandBufferMTL.o: metal/CommandBufferMTL.mm.o
 
 # target to build an object file
 metal/CommandBufferMTL.mm.o:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/metal/CommandBufferMTL.mm.o
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/metal/CommandBufferMTL.mm.o
 .PHONY : metal/CommandBufferMTL.mm.o
 
 metal/CommandBufferMTL.i: metal/CommandBufferMTL.mm.i
@@ -2440,7 +2440,7 @@ metal/CommandBufferMTL.i: metal/CommandBufferMTL.mm.i
 
 # target to preprocess a source file
 metal/CommandBufferMTL.mm.i:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/metal/CommandBufferMTL.mm.i
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/metal/CommandBufferMTL.mm.i
 .PHONY : metal/CommandBufferMTL.mm.i
 
 metal/CommandBufferMTL.s: metal/CommandBufferMTL.mm.s
@@ -2448,7 +2448,7 @@ metal/CommandBufferMTL.s: metal/CommandBufferMTL.mm.s
 
 # target to generate assembly for a file
 metal/CommandBufferMTL.mm.s:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/metal/CommandBufferMTL.mm.s
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/metal/CommandBufferMTL.mm.s
 .PHONY : metal/CommandBufferMTL.mm.s
 
 metal/CommandRecordingContext.o: metal/CommandRecordingContext.mm.o
@@ -2456,7 +2456,7 @@ metal/CommandRecordingContext.o: metal/CommandRecordingContext.mm.o
 
 # target to build an object file
 metal/CommandRecordingContext.mm.o:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/metal/CommandRecordingContext.mm.o
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/metal/CommandRecordingContext.mm.o
 .PHONY : metal/CommandRecordingContext.mm.o
 
 metal/CommandRecordingContext.i: metal/CommandRecordingContext.mm.i
@@ -2464,7 +2464,7 @@ metal/CommandRecordingContext.i: metal/CommandRecordingContext.mm.i
 
 # target to preprocess a source file
 metal/CommandRecordingContext.mm.i:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/metal/CommandRecordingContext.mm.i
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/metal/CommandRecordingContext.mm.i
 .PHONY : metal/CommandRecordingContext.mm.i
 
 metal/CommandRecordingContext.s: metal/CommandRecordingContext.mm.s
@@ -2472,7 +2472,7 @@ metal/CommandRecordingContext.s: metal/CommandRecordingContext.mm.s
 
 # target to generate assembly for a file
 metal/CommandRecordingContext.mm.s:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/metal/CommandRecordingContext.mm.s
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/metal/CommandRecordingContext.mm.s
 .PHONY : metal/CommandRecordingContext.mm.s
 
 metal/ComputePipelineMTL.o: metal/ComputePipelineMTL.mm.o
@@ -2480,7 +2480,7 @@ metal/ComputePipelineMTL.o: metal/ComputePipelineMTL.mm.o
 
 # target to build an object file
 metal/ComputePipelineMTL.mm.o:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/metal/ComputePipelineMTL.mm.o
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/metal/ComputePipelineMTL.mm.o
 .PHONY : metal/ComputePipelineMTL.mm.o
 
 metal/ComputePipelineMTL.i: metal/ComputePipelineMTL.mm.i
@@ -2488,7 +2488,7 @@ metal/ComputePipelineMTL.i: metal/ComputePipelineMTL.mm.i
 
 # target to preprocess a source file
 metal/ComputePipelineMTL.mm.i:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/metal/ComputePipelineMTL.mm.i
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/metal/ComputePipelineMTL.mm.i
 .PHONY : metal/ComputePipelineMTL.mm.i
 
 metal/ComputePipelineMTL.s: metal/ComputePipelineMTL.mm.s
@@ -2496,7 +2496,7 @@ metal/ComputePipelineMTL.s: metal/ComputePipelineMTL.mm.s
 
 # target to generate assembly for a file
 metal/ComputePipelineMTL.mm.s:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/metal/ComputePipelineMTL.mm.s
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/metal/ComputePipelineMTL.mm.s
 .PHONY : metal/ComputePipelineMTL.mm.s
 
 metal/DeviceMTL.o: metal/DeviceMTL.mm.o
@@ -2504,7 +2504,7 @@ metal/DeviceMTL.o: metal/DeviceMTL.mm.o
 
 # target to build an object file
 metal/DeviceMTL.mm.o:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/metal/DeviceMTL.mm.o
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/metal/DeviceMTL.mm.o
 .PHONY : metal/DeviceMTL.mm.o
 
 metal/DeviceMTL.i: metal/DeviceMTL.mm.i
@@ -2512,7 +2512,7 @@ metal/DeviceMTL.i: metal/DeviceMTL.mm.i
 
 # target to preprocess a source file
 metal/DeviceMTL.mm.i:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/metal/DeviceMTL.mm.i
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/metal/DeviceMTL.mm.i
 .PHONY : metal/DeviceMTL.mm.i
 
 metal/DeviceMTL.s: metal/DeviceMTL.mm.s
@@ -2520,7 +2520,7 @@ metal/DeviceMTL.s: metal/DeviceMTL.mm.s
 
 # target to generate assembly for a file
 metal/DeviceMTL.mm.s:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/metal/DeviceMTL.mm.s
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/metal/DeviceMTL.mm.s
 .PHONY : metal/DeviceMTL.mm.s
 
 metal/MetalBackend.o: metal/MetalBackend.mm.o
@@ -2528,7 +2528,7 @@ metal/MetalBackend.o: metal/MetalBackend.mm.o
 
 # target to build an object file
 metal/MetalBackend.mm.o:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/metal/MetalBackend.mm.o
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/metal/MetalBackend.mm.o
 .PHONY : metal/MetalBackend.mm.o
 
 metal/MetalBackend.i: metal/MetalBackend.mm.i
@@ -2536,7 +2536,7 @@ metal/MetalBackend.i: metal/MetalBackend.mm.i
 
 # target to preprocess a source file
 metal/MetalBackend.mm.i:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/metal/MetalBackend.mm.i
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/metal/MetalBackend.mm.i
 .PHONY : metal/MetalBackend.mm.i
 
 metal/MetalBackend.s: metal/MetalBackend.mm.s
@@ -2544,7 +2544,7 @@ metal/MetalBackend.s: metal/MetalBackend.mm.s
 
 # target to generate assembly for a file
 metal/MetalBackend.mm.s:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/metal/MetalBackend.mm.s
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/metal/MetalBackend.mm.s
 .PHONY : metal/MetalBackend.mm.s
 
 metal/PipelineLayoutMTL.o: metal/PipelineLayoutMTL.mm.o
@@ -2552,7 +2552,7 @@ metal/PipelineLayoutMTL.o: metal/PipelineLayoutMTL.mm.o
 
 # target to build an object file
 metal/PipelineLayoutMTL.mm.o:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/metal/PipelineLayoutMTL.mm.o
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/metal/PipelineLayoutMTL.mm.o
 .PHONY : metal/PipelineLayoutMTL.mm.o
 
 metal/PipelineLayoutMTL.i: metal/PipelineLayoutMTL.mm.i
@@ -2560,7 +2560,7 @@ metal/PipelineLayoutMTL.i: metal/PipelineLayoutMTL.mm.i
 
 # target to preprocess a source file
 metal/PipelineLayoutMTL.mm.i:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/metal/PipelineLayoutMTL.mm.i
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/metal/PipelineLayoutMTL.mm.i
 .PHONY : metal/PipelineLayoutMTL.mm.i
 
 metal/PipelineLayoutMTL.s: metal/PipelineLayoutMTL.mm.s
@@ -2568,7 +2568,7 @@ metal/PipelineLayoutMTL.s: metal/PipelineLayoutMTL.mm.s
 
 # target to generate assembly for a file
 metal/PipelineLayoutMTL.mm.s:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/metal/PipelineLayoutMTL.mm.s
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/metal/PipelineLayoutMTL.mm.s
 .PHONY : metal/PipelineLayoutMTL.mm.s
 
 metal/QuerySetMTL.o: metal/QuerySetMTL.mm.o
@@ -2576,7 +2576,7 @@ metal/QuerySetMTL.o: metal/QuerySetMTL.mm.o
 
 # target to build an object file
 metal/QuerySetMTL.mm.o:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/metal/QuerySetMTL.mm.o
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/metal/QuerySetMTL.mm.o
 .PHONY : metal/QuerySetMTL.mm.o
 
 metal/QuerySetMTL.i: metal/QuerySetMTL.mm.i
@@ -2584,7 +2584,7 @@ metal/QuerySetMTL.i: metal/QuerySetMTL.mm.i
 
 # target to preprocess a source file
 metal/QuerySetMTL.mm.i:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/metal/QuerySetMTL.mm.i
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/metal/QuerySetMTL.mm.i
 .PHONY : metal/QuerySetMTL.mm.i
 
 metal/QuerySetMTL.s: metal/QuerySetMTL.mm.s
@@ -2592,7 +2592,7 @@ metal/QuerySetMTL.s: metal/QuerySetMTL.mm.s
 
 # target to generate assembly for a file
 metal/QuerySetMTL.mm.s:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/metal/QuerySetMTL.mm.s
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/metal/QuerySetMTL.mm.s
 .PHONY : metal/QuerySetMTL.mm.s
 
 metal/QueueMTL.o: metal/QueueMTL.mm.o
@@ -2600,7 +2600,7 @@ metal/QueueMTL.o: metal/QueueMTL.mm.o
 
 # target to build an object file
 metal/QueueMTL.mm.o:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/metal/QueueMTL.mm.o
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/metal/QueueMTL.mm.o
 .PHONY : metal/QueueMTL.mm.o
 
 metal/QueueMTL.i: metal/QueueMTL.mm.i
@@ -2608,7 +2608,7 @@ metal/QueueMTL.i: metal/QueueMTL.mm.i
 
 # target to preprocess a source file
 metal/QueueMTL.mm.i:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/metal/QueueMTL.mm.i
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/metal/QueueMTL.mm.i
 .PHONY : metal/QueueMTL.mm.i
 
 metal/QueueMTL.s: metal/QueueMTL.mm.s
@@ -2616,7 +2616,7 @@ metal/QueueMTL.s: metal/QueueMTL.mm.s
 
 # target to generate assembly for a file
 metal/QueueMTL.mm.s:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/metal/QueueMTL.mm.s
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/metal/QueueMTL.mm.s
 .PHONY : metal/QueueMTL.mm.s
 
 metal/RenderPipelineMTL.o: metal/RenderPipelineMTL.mm.o
@@ -2624,7 +2624,7 @@ metal/RenderPipelineMTL.o: metal/RenderPipelineMTL.mm.o
 
 # target to build an object file
 metal/RenderPipelineMTL.mm.o:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/metal/RenderPipelineMTL.mm.o
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/metal/RenderPipelineMTL.mm.o
 .PHONY : metal/RenderPipelineMTL.mm.o
 
 metal/RenderPipelineMTL.i: metal/RenderPipelineMTL.mm.i
@@ -2632,7 +2632,7 @@ metal/RenderPipelineMTL.i: metal/RenderPipelineMTL.mm.i
 
 # target to preprocess a source file
 metal/RenderPipelineMTL.mm.i:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/metal/RenderPipelineMTL.mm.i
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/metal/RenderPipelineMTL.mm.i
 .PHONY : metal/RenderPipelineMTL.mm.i
 
 metal/RenderPipelineMTL.s: metal/RenderPipelineMTL.mm.s
@@ -2640,7 +2640,7 @@ metal/RenderPipelineMTL.s: metal/RenderPipelineMTL.mm.s
 
 # target to generate assembly for a file
 metal/RenderPipelineMTL.mm.s:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/metal/RenderPipelineMTL.mm.s
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/metal/RenderPipelineMTL.mm.s
 .PHONY : metal/RenderPipelineMTL.mm.s
 
 metal/SamplerMTL.o: metal/SamplerMTL.mm.o
@@ -2648,7 +2648,7 @@ metal/SamplerMTL.o: metal/SamplerMTL.mm.o
 
 # target to build an object file
 metal/SamplerMTL.mm.o:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/metal/SamplerMTL.mm.o
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/metal/SamplerMTL.mm.o
 .PHONY : metal/SamplerMTL.mm.o
 
 metal/SamplerMTL.i: metal/SamplerMTL.mm.i
@@ -2656,7 +2656,7 @@ metal/SamplerMTL.i: metal/SamplerMTL.mm.i
 
 # target to preprocess a source file
 metal/SamplerMTL.mm.i:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/metal/SamplerMTL.mm.i
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/metal/SamplerMTL.mm.i
 .PHONY : metal/SamplerMTL.mm.i
 
 metal/SamplerMTL.s: metal/SamplerMTL.mm.s
@@ -2664,7 +2664,7 @@ metal/SamplerMTL.s: metal/SamplerMTL.mm.s
 
 # target to generate assembly for a file
 metal/SamplerMTL.mm.s:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/metal/SamplerMTL.mm.s
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/metal/SamplerMTL.mm.s
 .PHONY : metal/SamplerMTL.mm.s
 
 metal/ShaderModuleMTL.o: metal/ShaderModuleMTL.mm.o
@@ -2672,7 +2672,7 @@ metal/ShaderModuleMTL.o: metal/ShaderModuleMTL.mm.o
 
 # target to build an object file
 metal/ShaderModuleMTL.mm.o:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/metal/ShaderModuleMTL.mm.o
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/metal/ShaderModuleMTL.mm.o
 .PHONY : metal/ShaderModuleMTL.mm.o
 
 metal/ShaderModuleMTL.i: metal/ShaderModuleMTL.mm.i
@@ -2680,7 +2680,7 @@ metal/ShaderModuleMTL.i: metal/ShaderModuleMTL.mm.i
 
 # target to preprocess a source file
 metal/ShaderModuleMTL.mm.i:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/metal/ShaderModuleMTL.mm.i
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/metal/ShaderModuleMTL.mm.i
 .PHONY : metal/ShaderModuleMTL.mm.i
 
 metal/ShaderModuleMTL.s: metal/ShaderModuleMTL.mm.s
@@ -2688,7 +2688,7 @@ metal/ShaderModuleMTL.s: metal/ShaderModuleMTL.mm.s
 
 # target to generate assembly for a file
 metal/ShaderModuleMTL.mm.s:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/metal/ShaderModuleMTL.mm.s
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/metal/ShaderModuleMTL.mm.s
 .PHONY : metal/ShaderModuleMTL.mm.s
 
 metal/SwapChainMTL.o: metal/SwapChainMTL.mm.o
@@ -2696,7 +2696,7 @@ metal/SwapChainMTL.o: metal/SwapChainMTL.mm.o
 
 # target to build an object file
 metal/SwapChainMTL.mm.o:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/metal/SwapChainMTL.mm.o
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/metal/SwapChainMTL.mm.o
 .PHONY : metal/SwapChainMTL.mm.o
 
 metal/SwapChainMTL.i: metal/SwapChainMTL.mm.i
@@ -2704,7 +2704,7 @@ metal/SwapChainMTL.i: metal/SwapChainMTL.mm.i
 
 # target to preprocess a source file
 metal/SwapChainMTL.mm.i:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/metal/SwapChainMTL.mm.i
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/metal/SwapChainMTL.mm.i
 .PHONY : metal/SwapChainMTL.mm.i
 
 metal/SwapChainMTL.s: metal/SwapChainMTL.mm.s
@@ -2712,7 +2712,7 @@ metal/SwapChainMTL.s: metal/SwapChainMTL.mm.s
 
 # target to generate assembly for a file
 metal/SwapChainMTL.mm.s:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/metal/SwapChainMTL.mm.s
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/metal/SwapChainMTL.mm.s
 .PHONY : metal/SwapChainMTL.mm.s
 
 metal/TextureMTL.o: metal/TextureMTL.mm.o
@@ -2720,7 +2720,7 @@ metal/TextureMTL.o: metal/TextureMTL.mm.o
 
 # target to build an object file
 metal/TextureMTL.mm.o:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/metal/TextureMTL.mm.o
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/metal/TextureMTL.mm.o
 .PHONY : metal/TextureMTL.mm.o
 
 metal/TextureMTL.i: metal/TextureMTL.mm.i
@@ -2728,7 +2728,7 @@ metal/TextureMTL.i: metal/TextureMTL.mm.i
 
 # target to preprocess a source file
 metal/TextureMTL.mm.i:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/metal/TextureMTL.mm.i
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/metal/TextureMTL.mm.i
 .PHONY : metal/TextureMTL.mm.i
 
 metal/TextureMTL.s: metal/TextureMTL.mm.s
@@ -2736,7 +2736,7 @@ metal/TextureMTL.s: metal/TextureMTL.mm.s
 
 # target to generate assembly for a file
 metal/TextureMTL.mm.s:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/metal/TextureMTL.mm.s
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/metal/TextureMTL.mm.s
 .PHONY : metal/TextureMTL.mm.s
 
 metal/UtilsMetal.o: metal/UtilsMetal.mm.o
@@ -2744,7 +2744,7 @@ metal/UtilsMetal.o: metal/UtilsMetal.mm.o
 
 # target to build an object file
 metal/UtilsMetal.mm.o:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/metal/UtilsMetal.mm.o
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/metal/UtilsMetal.mm.o
 .PHONY : metal/UtilsMetal.mm.o
 
 metal/UtilsMetal.i: metal/UtilsMetal.mm.i
@@ -2752,7 +2752,7 @@ metal/UtilsMetal.i: metal/UtilsMetal.mm.i
 
 # target to preprocess a source file
 metal/UtilsMetal.mm.i:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/metal/UtilsMetal.mm.i
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/metal/UtilsMetal.mm.i
 .PHONY : metal/UtilsMetal.mm.i
 
 metal/UtilsMetal.s: metal/UtilsMetal.mm.s
@@ -2760,7 +2760,7 @@ metal/UtilsMetal.s: metal/UtilsMetal.mm.s
 
 # target to generate assembly for a file
 metal/UtilsMetal.mm.s:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/metal/UtilsMetal.mm.s
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/metal/UtilsMetal.mm.s
 .PHONY : metal/UtilsMetal.mm.s
 
 stream/BlobSource.o: stream/BlobSource.cpp.o
@@ -2768,7 +2768,7 @@ stream/BlobSource.o: stream/BlobSource.cpp.o
 
 # target to build an object file
 stream/BlobSource.cpp.o:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/stream/BlobSource.cpp.o
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/stream/BlobSource.cpp.o
 .PHONY : stream/BlobSource.cpp.o
 
 stream/BlobSource.i: stream/BlobSource.cpp.i
@@ -2776,7 +2776,7 @@ stream/BlobSource.i: stream/BlobSource.cpp.i
 
 # target to preprocess a source file
 stream/BlobSource.cpp.i:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/stream/BlobSource.cpp.i
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/stream/BlobSource.cpp.i
 .PHONY : stream/BlobSource.cpp.i
 
 stream/BlobSource.s: stream/BlobSource.cpp.s
@@ -2784,7 +2784,7 @@ stream/BlobSource.s: stream/BlobSource.cpp.s
 
 # target to generate assembly for a file
 stream/BlobSource.cpp.s:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/stream/BlobSource.cpp.s
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/stream/BlobSource.cpp.s
 .PHONY : stream/BlobSource.cpp.s
 
 stream/ByteVectorSink.o: stream/ByteVectorSink.cpp.o
@@ -2792,7 +2792,7 @@ stream/ByteVectorSink.o: stream/ByteVectorSink.cpp.o
 
 # target to build an object file
 stream/ByteVectorSink.cpp.o:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/stream/ByteVectorSink.cpp.o
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/stream/ByteVectorSink.cpp.o
 .PHONY : stream/ByteVectorSink.cpp.o
 
 stream/ByteVectorSink.i: stream/ByteVectorSink.cpp.i
@@ -2800,7 +2800,7 @@ stream/ByteVectorSink.i: stream/ByteVectorSink.cpp.i
 
 # target to preprocess a source file
 stream/ByteVectorSink.cpp.i:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/stream/ByteVectorSink.cpp.i
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/stream/ByteVectorSink.cpp.i
 .PHONY : stream/ByteVectorSink.cpp.i
 
 stream/ByteVectorSink.s: stream/ByteVectorSink.cpp.s
@@ -2808,7 +2808,7 @@ stream/ByteVectorSink.s: stream/ByteVectorSink.cpp.s
 
 # target to generate assembly for a file
 stream/ByteVectorSink.cpp.s:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/stream/ByteVectorSink.cpp.s
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/stream/ByteVectorSink.cpp.s
 .PHONY : stream/ByteVectorSink.cpp.s
 
 stream/Stream.o: stream/Stream.cpp.o
@@ -2816,7 +2816,7 @@ stream/Stream.o: stream/Stream.cpp.o
 
 # target to build an object file
 stream/Stream.cpp.o:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/stream/Stream.cpp.o
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/stream/Stream.cpp.o
 .PHONY : stream/Stream.cpp.o
 
 stream/Stream.i: stream/Stream.cpp.i
@@ -2824,7 +2824,7 @@ stream/Stream.i: stream/Stream.cpp.i
 
 # target to preprocess a source file
 stream/Stream.cpp.i:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/stream/Stream.cpp.i
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/stream/Stream.cpp.i
 .PHONY : stream/Stream.cpp.i
 
 stream/Stream.s: stream/Stream.cpp.s
@@ -2832,7 +2832,7 @@ stream/Stream.s: stream/Stream.cpp.s
 
 # target to generate assembly for a file
 stream/Stream.cpp.s:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/stream/Stream.cpp.s
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/stream/Stream.cpp.s
 .PHONY : stream/Stream.cpp.s
 
 utils/WGPUHelpers.o: utils/WGPUHelpers.cpp.o
@@ -2840,7 +2840,7 @@ utils/WGPUHelpers.o: utils/WGPUHelpers.cpp.o
 
 # target to build an object file
 utils/WGPUHelpers.cpp.o:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/utils/WGPUHelpers.cpp.o
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/utils/WGPUHelpers.cpp.o
 .PHONY : utils/WGPUHelpers.cpp.o
 
 utils/WGPUHelpers.i: utils/WGPUHelpers.cpp.i
@@ -2848,7 +2848,7 @@ utils/WGPUHelpers.i: utils/WGPUHelpers.cpp.i
 
 # target to preprocess a source file
 utils/WGPUHelpers.cpp.i:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/utils/WGPUHelpers.cpp.i
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/utils/WGPUHelpers.cpp.i
 .PHONY : utils/WGPUHelpers.cpp.i
 
 utils/WGPUHelpers.s: utils/WGPUHelpers.cpp.s
@@ -2856,7 +2856,7 @@ utils/WGPUHelpers.s: utils/WGPUHelpers.cpp.s
 
 # target to generate assembly for a file
 utils/WGPUHelpers.cpp.s:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/utils/WGPUHelpers.cpp.s
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/utils/WGPUHelpers.cpp.s
 .PHONY : utils/WGPUHelpers.cpp.s
 
 webgpu_absl_format.o: webgpu_absl_format.cpp.o
@@ -2864,7 +2864,7 @@ webgpu_absl_format.o: webgpu_absl_format.cpp.o
 
 # target to build an object file
 webgpu_absl_format.cpp.o:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/webgpu_absl_format.cpp.o
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/webgpu_absl_format.cpp.o
 .PHONY : webgpu_absl_format.cpp.o
 
 webgpu_absl_format.i: webgpu_absl_format.cpp.i
@@ -2872,7 +2872,7 @@ webgpu_absl_format.i: webgpu_absl_format.cpp.i
 
 # target to preprocess a source file
 webgpu_absl_format.cpp.i:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/webgpu_absl_format.cpp.i
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/webgpu_absl_format.cpp.i
 .PHONY : webgpu_absl_format.cpp.i
 
 webgpu_absl_format.s: webgpu_absl_format.cpp.s
@@ -2880,7 +2880,7 @@ webgpu_absl_format.s: webgpu_absl_format.cpp.s
 
 # target to generate assembly for a file
 webgpu_absl_format.cpp.s:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/webgpu_absl_format.cpp.s
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/build.make _deps/dawn-build/src/dawn/native/CMakeFiles/dawn_native.dir/webgpu_absl_format.cpp.s
 .PHONY : webgpu_absl_format.cpp.s
 
 # Help Target
@@ -3246,6 +3246,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

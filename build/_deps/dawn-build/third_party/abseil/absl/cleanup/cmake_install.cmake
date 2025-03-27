@@ -1,4 +1,4 @@
-# Install script for directory: /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build/_deps/dawn-src/third_party/abseil-cpp/absl/cleanup
+# Install script for directory: /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build/_deps/dawn-src/third_party/abseil-cpp/absl/cleanup
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

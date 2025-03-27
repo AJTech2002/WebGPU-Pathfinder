@@ -57,10 +57,10 @@ RM = /opt/homebrew/Cellar/cmake/3.29.2/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder
+CMAKE_SOURCE_DIR = /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build
+CMAKE_BINARY_DIR = /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build/CMakeFiles /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build/_deps/dawn-build/third_party/abseil/absl/status//CMakeFiles/progress.marks
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/dawn-build/third_party/abseil/absl/status/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build/CMakeFiles 0
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build/CMakeFiles /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build/_deps/dawn-build/third_party/abseil/absl/status//CMakeFiles/progress.marks
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/dawn-build/third_party/abseil/absl/status/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/dawn-build/third_party/abseil/absl/status/clean
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/dawn-build/third_party/abseil/absl/status/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,22 +103,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/dawn-build/third_party/abseil/absl/status/preinstall
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/dawn-build/third_party/abseil/absl/status/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/dawn-build/third_party/abseil/absl/status/preinstall
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/dawn-build/third_party/abseil/absl/status/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 _deps/dawn-build/third_party/abseil/absl/status/CMakeFiles/absl_status.dir/rule:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/dawn-build/third_party/abseil/absl/status/CMakeFiles/absl_status.dir/rule
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/dawn-build/third_party/abseil/absl/status/CMakeFiles/absl_status.dir/rule
 .PHONY : _deps/dawn-build/third_party/abseil/absl/status/CMakeFiles/absl_status.dir/rule
 
 # Convenience name for target.
@@ -127,12 +127,12 @@ absl_status: _deps/dawn-build/third_party/abseil/absl/status/CMakeFiles/absl_sta
 
 # fast build rule for target.
 absl_status/fast:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/third_party/abseil/absl/status/CMakeFiles/absl_status.dir/build.make _deps/dawn-build/third_party/abseil/absl/status/CMakeFiles/absl_status.dir/build
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/third_party/abseil/absl/status/CMakeFiles/absl_status.dir/build.make _deps/dawn-build/third_party/abseil/absl/status/CMakeFiles/absl_status.dir/build
 .PHONY : absl_status/fast
 
 # Convenience name for target.
 _deps/dawn-build/third_party/abseil/absl/status/CMakeFiles/absl_statusor.dir/rule:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/dawn-build/third_party/abseil/absl/status/CMakeFiles/absl_statusor.dir/rule
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/dawn-build/third_party/abseil/absl/status/CMakeFiles/absl_statusor.dir/rule
 .PHONY : _deps/dawn-build/third_party/abseil/absl/status/CMakeFiles/absl_statusor.dir/rule
 
 # Convenience name for target.
@@ -141,7 +141,7 @@ absl_statusor: _deps/dawn-build/third_party/abseil/absl/status/CMakeFiles/absl_s
 
 # fast build rule for target.
 absl_statusor/fast:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/third_party/abseil/absl/status/CMakeFiles/absl_statusor.dir/build.make _deps/dawn-build/third_party/abseil/absl/status/CMakeFiles/absl_statusor.dir/build
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/third_party/abseil/absl/status/CMakeFiles/absl_statusor.dir/build.make _deps/dawn-build/third_party/abseil/absl/status/CMakeFiles/absl_statusor.dir/build
 .PHONY : absl_statusor/fast
 
 status.o: status.cc.o
@@ -149,7 +149,7 @@ status.o: status.cc.o
 
 # target to build an object file
 status.cc.o:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/third_party/abseil/absl/status/CMakeFiles/absl_status.dir/build.make _deps/dawn-build/third_party/abseil/absl/status/CMakeFiles/absl_status.dir/status.cc.o
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/third_party/abseil/absl/status/CMakeFiles/absl_status.dir/build.make _deps/dawn-build/third_party/abseil/absl/status/CMakeFiles/absl_status.dir/status.cc.o
 .PHONY : status.cc.o
 
 status.i: status.cc.i
@@ -157,7 +157,7 @@ status.i: status.cc.i
 
 # target to preprocess a source file
 status.cc.i:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/third_party/abseil/absl/status/CMakeFiles/absl_status.dir/build.make _deps/dawn-build/third_party/abseil/absl/status/CMakeFiles/absl_status.dir/status.cc.i
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/third_party/abseil/absl/status/CMakeFiles/absl_status.dir/build.make _deps/dawn-build/third_party/abseil/absl/status/CMakeFiles/absl_status.dir/status.cc.i
 .PHONY : status.cc.i
 
 status.s: status.cc.s
@@ -165,7 +165,7 @@ status.s: status.cc.s
 
 # target to generate assembly for a file
 status.cc.s:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/third_party/abseil/absl/status/CMakeFiles/absl_status.dir/build.make _deps/dawn-build/third_party/abseil/absl/status/CMakeFiles/absl_status.dir/status.cc.s
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/third_party/abseil/absl/status/CMakeFiles/absl_status.dir/build.make _deps/dawn-build/third_party/abseil/absl/status/CMakeFiles/absl_status.dir/status.cc.s
 .PHONY : status.cc.s
 
 status_payload_printer.o: status_payload_printer.cc.o
@@ -173,7 +173,7 @@ status_payload_printer.o: status_payload_printer.cc.o
 
 # target to build an object file
 status_payload_printer.cc.o:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/third_party/abseil/absl/status/CMakeFiles/absl_status.dir/build.make _deps/dawn-build/third_party/abseil/absl/status/CMakeFiles/absl_status.dir/status_payload_printer.cc.o
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/third_party/abseil/absl/status/CMakeFiles/absl_status.dir/build.make _deps/dawn-build/third_party/abseil/absl/status/CMakeFiles/absl_status.dir/status_payload_printer.cc.o
 .PHONY : status_payload_printer.cc.o
 
 status_payload_printer.i: status_payload_printer.cc.i
@@ -181,7 +181,7 @@ status_payload_printer.i: status_payload_printer.cc.i
 
 # target to preprocess a source file
 status_payload_printer.cc.i:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/third_party/abseil/absl/status/CMakeFiles/absl_status.dir/build.make _deps/dawn-build/third_party/abseil/absl/status/CMakeFiles/absl_status.dir/status_payload_printer.cc.i
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/third_party/abseil/absl/status/CMakeFiles/absl_status.dir/build.make _deps/dawn-build/third_party/abseil/absl/status/CMakeFiles/absl_status.dir/status_payload_printer.cc.i
 .PHONY : status_payload_printer.cc.i
 
 status_payload_printer.s: status_payload_printer.cc.s
@@ -189,7 +189,7 @@ status_payload_printer.s: status_payload_printer.cc.s
 
 # target to generate assembly for a file
 status_payload_printer.cc.s:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/third_party/abseil/absl/status/CMakeFiles/absl_status.dir/build.make _deps/dawn-build/third_party/abseil/absl/status/CMakeFiles/absl_status.dir/status_payload_printer.cc.s
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/third_party/abseil/absl/status/CMakeFiles/absl_status.dir/build.make _deps/dawn-build/third_party/abseil/absl/status/CMakeFiles/absl_status.dir/status_payload_printer.cc.s
 .PHONY : status_payload_printer.cc.s
 
 statusor.o: statusor.cc.o
@@ -197,7 +197,7 @@ statusor.o: statusor.cc.o
 
 # target to build an object file
 statusor.cc.o:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/third_party/abseil/absl/status/CMakeFiles/absl_statusor.dir/build.make _deps/dawn-build/third_party/abseil/absl/status/CMakeFiles/absl_statusor.dir/statusor.cc.o
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/third_party/abseil/absl/status/CMakeFiles/absl_statusor.dir/build.make _deps/dawn-build/third_party/abseil/absl/status/CMakeFiles/absl_statusor.dir/statusor.cc.o
 .PHONY : statusor.cc.o
 
 statusor.i: statusor.cc.i
@@ -205,7 +205,7 @@ statusor.i: statusor.cc.i
 
 # target to preprocess a source file
 statusor.cc.i:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/third_party/abseil/absl/status/CMakeFiles/absl_statusor.dir/build.make _deps/dawn-build/third_party/abseil/absl/status/CMakeFiles/absl_statusor.dir/statusor.cc.i
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/third_party/abseil/absl/status/CMakeFiles/absl_statusor.dir/build.make _deps/dawn-build/third_party/abseil/absl/status/CMakeFiles/absl_statusor.dir/statusor.cc.i
 .PHONY : statusor.cc.i
 
 statusor.s: statusor.cc.s
@@ -213,7 +213,7 @@ statusor.s: statusor.cc.s
 
 # target to generate assembly for a file
 statusor.cc.s:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/third_party/abseil/absl/status/CMakeFiles/absl_statusor.dir/build.make _deps/dawn-build/third_party/abseil/absl/status/CMakeFiles/absl_statusor.dir/statusor.cc.s
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/third_party/abseil/absl/status/CMakeFiles/absl_statusor.dir/build.make _deps/dawn-build/third_party/abseil/absl/status/CMakeFiles/absl_statusor.dir/statusor.cc.s
 .PHONY : statusor.cc.s
 
 # Help Target
@@ -246,6 +246,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

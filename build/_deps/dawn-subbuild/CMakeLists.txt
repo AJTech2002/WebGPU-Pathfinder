@@ -19,9 +19,9 @@ project(dawn-populate NONE)
 
 include(ExternalProject)
 ExternalProject_Add(dawn-populate
-                     "UPDATE_DISCONNECTED" "False" "EXTERNALPROJECT_INTERNAL_ARGUMENT_SEPARATOR" "DOWNLOAD_COMMAND" "cd" "/Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build/_deps/dawn-src" "&&" "git" "init" "&&" "git" "fetch" "--depth=1" "https://dawn.googlesource.com/dawn" "chromium/5869" "&&" "git" "reset" "--hard" "FETCH_HEAD"
-                    SOURCE_DIR          "/Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build/_deps/dawn-src"
-                    BINARY_DIR          "/Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build/_deps/dawn-build"
+                     "UPDATE_DISCONNECTED" "False" "EXTERNALPROJECT_INTERNAL_ARGUMENT_SEPARATOR" "DOWNLOAD_COMMAND" "cd" "/Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build/_deps/dawn-src" "&&" "git" "init" "&&" "git" "fetch" "--depth=1" "https://dawn.googlesource.com/dawn" "chromium/5869" "&&" "git" "reset" "--hard" "FETCH_HEAD"
+                    SOURCE_DIR          "/Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build/_deps/dawn-src"
+                    BINARY_DIR          "/Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build/_deps/dawn-build"
                     CONFIGURE_COMMAND   ""
                     BUILD_COMMAND       ""
                     INSTALL_COMMAND     ""

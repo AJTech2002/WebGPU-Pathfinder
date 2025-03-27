@@ -1,4 +1,4 @@
-# Install script for directory: /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build/_deps/dawn-src/src/dawn
+# Install script for directory: /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build/_deps/dawn-src/src/dawn
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,13 +39,13 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build/_deps/dawn-build/src/dawn/common/cmake_install.cmake")
-  include("/Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build/_deps/dawn-build/src/dawn/platform/cmake_install.cmake")
-  include("/Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build/_deps/dawn-build/src/dawn/native/cmake_install.cmake")
-  include("/Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build/_deps/dawn-build/src/dawn/wire/cmake_install.cmake")
-  include("/Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build/_deps/dawn-build/src/dawn/utils/cmake_install.cmake")
-  include("/Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build/_deps/dawn-build/src/dawn/glfw/cmake_install.cmake")
-  include("/Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build/_deps/dawn-build/src/dawn/tests/benchmarks/cmake_install.cmake")
+  include("/Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build/_deps/dawn-build/src/dawn/common/cmake_install.cmake")
+  include("/Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build/_deps/dawn-build/src/dawn/platform/cmake_install.cmake")
+  include("/Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build/_deps/dawn-build/src/dawn/native/cmake_install.cmake")
+  include("/Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build/_deps/dawn-build/src/dawn/wire/cmake_install.cmake")
+  include("/Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build/_deps/dawn-build/src/dawn/utils/cmake_install.cmake")
+  include("/Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build/_deps/dawn-build/src/dawn/glfw/cmake_install.cmake")
+  include("/Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build/_deps/dawn-build/src/dawn/tests/benchmarks/cmake_install.cmake")
 
 endif()
 

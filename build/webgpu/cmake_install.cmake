@@ -1,4 +1,4 @@
-# Install script for directory: /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/webgpu
+# Install script for directory: /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/webgpu
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,6 +39,6 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build/_deps/dawn-build/cmake_install.cmake")
+  include("/Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build/_deps/webgpu-backend-dawn-build/cmake_install.cmake")
 endif()
 

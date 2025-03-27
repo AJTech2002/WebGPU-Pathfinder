@@ -1,4 +1,4 @@
-# Install script for directory: /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build/_deps/dawn-src/src/dawn/native
+# Install script for directory: /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build/_deps/dawn-src/src/dawn/native
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

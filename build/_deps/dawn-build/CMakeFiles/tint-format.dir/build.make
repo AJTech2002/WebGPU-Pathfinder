@@ -53,10 +53,10 @@ RM = /opt/homebrew/Cellar/cmake/3.29.2/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder
+CMAKE_SOURCE_DIR = /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build
+CMAKE_BINARY_DIR = /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build
 
 # Utility rule file for tint-format.
 
@@ -67,8 +67,8 @@ include _deps/dawn-build/CMakeFiles/tint-format.dir/compiler_depend.make
 include _deps/dawn-build/CMakeFiles/tint-format.dir/progress.make
 
 _deps/dawn-build/CMakeFiles/tint-format:
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Running formatter"
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build/_deps/dawn-src && ./tools/format
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Running formatter"
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build/_deps/dawn-src && ./tools/format
 
 tint-format: _deps/dawn-build/CMakeFiles/tint-format
 tint-format: _deps/dawn-build/CMakeFiles/tint-format.dir/build.make
@@ -79,10 +79,10 @@ _deps/dawn-build/CMakeFiles/tint-format.dir/build: tint-format
 .PHONY : _deps/dawn-build/CMakeFiles/tint-format.dir/build
 
 _deps/dawn-build/CMakeFiles/tint-format.dir/clean:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build/_deps/dawn-build && $(CMAKE_COMMAND) -P CMakeFiles/tint-format.dir/cmake_clean.cmake
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build/_deps/dawn-build && $(CMAKE_COMMAND) -P CMakeFiles/tint-format.dir/cmake_clean.cmake
 .PHONY : _deps/dawn-build/CMakeFiles/tint-format.dir/clean
 
 _deps/dawn-build/CMakeFiles/tint-format.dir/depend:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build/_deps/dawn-src /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build/_deps/dawn-build /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build/_deps/dawn-build/CMakeFiles/tint-format.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build/_deps/dawn-src /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build/_deps/dawn-build /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build/_deps/dawn-build/CMakeFiles/tint-format.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : _deps/dawn-build/CMakeFiles/tint-format.dir/depend
 

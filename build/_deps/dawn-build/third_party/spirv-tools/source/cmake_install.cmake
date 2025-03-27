@@ -1,4 +1,4 @@
-# Install script for directory: /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build/_deps/dawn-src/third_party/vulkan-deps/spirv-tools/src/source
+# Install script for directory: /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build/_deps/dawn-src/third_party/vulkan-deps/spirv-tools/src/source
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,31 +39,31 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build/_deps/dawn-build/third_party/spirv-tools/source/opt/cmake_install.cmake")
+  include("/Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build/_deps/dawn-build/third_party/spirv-tools/source/opt/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build/_deps/dawn-build/third_party/spirv-tools/source/reduce/cmake_install.cmake")
+  include("/Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build/_deps/dawn-build/third_party/spirv-tools/source/reduce/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build/_deps/dawn-build/third_party/spirv-tools/source/fuzz/cmake_install.cmake")
+  include("/Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build/_deps/dawn-build/third_party/spirv-tools/source/fuzz/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build/_deps/dawn-build/third_party/spirv-tools/source/link/cmake_install.cmake")
+  include("/Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build/_deps/dawn-build/third_party/spirv-tools/source/link/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build/_deps/dawn-build/third_party/spirv-tools/source/lint/cmake_install.cmake")
+  include("/Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build/_deps/dawn-build/third_party/spirv-tools/source/lint/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build/_deps/dawn-build/third_party/spirv-tools/source/diff/cmake_install.cmake")
+  include("/Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build/_deps/dawn-build/third_party/spirv-tools/source/diff/cmake_install.cmake")
 endif()
 

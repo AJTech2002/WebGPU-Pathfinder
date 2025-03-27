@@ -4,7 +4,7 @@
 # compile CXX with /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++
 CXX_DEFINES = -DWGPU_IMPLEMENTATION
 
-CXX_INCLUDES = -I/Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build/_deps/dawn-src/include -I/Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build/_deps/dawn-build/gen/include
+CXX_INCLUDES = -I/Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build/_deps/dawn-src/include -I/Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build/_deps/dawn-build/gen/include
 
 CXX_FLAGSarm64 = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -fPIC -fno-exceptions -fno-rtti -Wno-deprecated-builtins -Wno-unknown-warning-option
 

@@ -57,10 +57,10 @@ RM = /opt/homebrew/Cellar/cmake/3.29.2/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder
+CMAKE_SOURCE_DIR = /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build
+CMAKE_BINARY_DIR = /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build/CMakeFiles /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build/_deps/dawn-build/third_party/abseil/absl/container//CMakeFiles/progress.marks
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/dawn-build/third_party/abseil/absl/container/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build/CMakeFiles 0
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build/CMakeFiles /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build/_deps/dawn-build/third_party/abseil/absl/container//CMakeFiles/progress.marks
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/dawn-build/third_party/abseil/absl/container/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/dawn-build/third_party/abseil/absl/container/clean
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/dawn-build/third_party/abseil/absl/container/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,22 +103,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/dawn-build/third_party/abseil/absl/container/preinstall
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/dawn-build/third_party/abseil/absl/container/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/dawn-build/third_party/abseil/absl/container/preinstall
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/dawn-build/third_party/abseil/absl/container/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 _deps/dawn-build/third_party/abseil/absl/container/CMakeFiles/absl_hashtablez_sampler.dir/rule:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/dawn-build/third_party/abseil/absl/container/CMakeFiles/absl_hashtablez_sampler.dir/rule
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/dawn-build/third_party/abseil/absl/container/CMakeFiles/absl_hashtablez_sampler.dir/rule
 .PHONY : _deps/dawn-build/third_party/abseil/absl/container/CMakeFiles/absl_hashtablez_sampler.dir/rule
 
 # Convenience name for target.
@@ -127,12 +127,12 @@ absl_hashtablez_sampler: _deps/dawn-build/third_party/abseil/absl/container/CMak
 
 # fast build rule for target.
 absl_hashtablez_sampler/fast:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/third_party/abseil/absl/container/CMakeFiles/absl_hashtablez_sampler.dir/build.make _deps/dawn-build/third_party/abseil/absl/container/CMakeFiles/absl_hashtablez_sampler.dir/build
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/third_party/abseil/absl/container/CMakeFiles/absl_hashtablez_sampler.dir/build.make _deps/dawn-build/third_party/abseil/absl/container/CMakeFiles/absl_hashtablez_sampler.dir/build
 .PHONY : absl_hashtablez_sampler/fast
 
 # Convenience name for target.
 _deps/dawn-build/third_party/abseil/absl/container/CMakeFiles/absl_raw_hash_set.dir/rule:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/dawn-build/third_party/abseil/absl/container/CMakeFiles/absl_raw_hash_set.dir/rule
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/dawn-build/third_party/abseil/absl/container/CMakeFiles/absl_raw_hash_set.dir/rule
 .PHONY : _deps/dawn-build/third_party/abseil/absl/container/CMakeFiles/absl_raw_hash_set.dir/rule
 
 # Convenience name for target.
@@ -141,7 +141,7 @@ absl_raw_hash_set: _deps/dawn-build/third_party/abseil/absl/container/CMakeFiles
 
 # fast build rule for target.
 absl_raw_hash_set/fast:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/third_party/abseil/absl/container/CMakeFiles/absl_raw_hash_set.dir/build.make _deps/dawn-build/third_party/abseil/absl/container/CMakeFiles/absl_raw_hash_set.dir/build
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/third_party/abseil/absl/container/CMakeFiles/absl_raw_hash_set.dir/build.make _deps/dawn-build/third_party/abseil/absl/container/CMakeFiles/absl_raw_hash_set.dir/build
 .PHONY : absl_raw_hash_set/fast
 
 internal/hashtablez_sampler.o: internal/hashtablez_sampler.cc.o
@@ -149,7 +149,7 @@ internal/hashtablez_sampler.o: internal/hashtablez_sampler.cc.o
 
 # target to build an object file
 internal/hashtablez_sampler.cc.o:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/third_party/abseil/absl/container/CMakeFiles/absl_hashtablez_sampler.dir/build.make _deps/dawn-build/third_party/abseil/absl/container/CMakeFiles/absl_hashtablez_sampler.dir/internal/hashtablez_sampler.cc.o
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/third_party/abseil/absl/container/CMakeFiles/absl_hashtablez_sampler.dir/build.make _deps/dawn-build/third_party/abseil/absl/container/CMakeFiles/absl_hashtablez_sampler.dir/internal/hashtablez_sampler.cc.o
 .PHONY : internal/hashtablez_sampler.cc.o
 
 internal/hashtablez_sampler.i: internal/hashtablez_sampler.cc.i
@@ -157,7 +157,7 @@ internal/hashtablez_sampler.i: internal/hashtablez_sampler.cc.i
 
 # target to preprocess a source file
 internal/hashtablez_sampler.cc.i:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/third_party/abseil/absl/container/CMakeFiles/absl_hashtablez_sampler.dir/build.make _deps/dawn-build/third_party/abseil/absl/container/CMakeFiles/absl_hashtablez_sampler.dir/internal/hashtablez_sampler.cc.i
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/third_party/abseil/absl/container/CMakeFiles/absl_hashtablez_sampler.dir/build.make _deps/dawn-build/third_party/abseil/absl/container/CMakeFiles/absl_hashtablez_sampler.dir/internal/hashtablez_sampler.cc.i
 .PHONY : internal/hashtablez_sampler.cc.i
 
 internal/hashtablez_sampler.s: internal/hashtablez_sampler.cc.s
@@ -165,7 +165,7 @@ internal/hashtablez_sampler.s: internal/hashtablez_sampler.cc.s
 
 # target to generate assembly for a file
 internal/hashtablez_sampler.cc.s:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/third_party/abseil/absl/container/CMakeFiles/absl_hashtablez_sampler.dir/build.make _deps/dawn-build/third_party/abseil/absl/container/CMakeFiles/absl_hashtablez_sampler.dir/internal/hashtablez_sampler.cc.s
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/third_party/abseil/absl/container/CMakeFiles/absl_hashtablez_sampler.dir/build.make _deps/dawn-build/third_party/abseil/absl/container/CMakeFiles/absl_hashtablez_sampler.dir/internal/hashtablez_sampler.cc.s
 .PHONY : internal/hashtablez_sampler.cc.s
 
 internal/hashtablez_sampler_force_weak_definition.o: internal/hashtablez_sampler_force_weak_definition.cc.o
@@ -173,7 +173,7 @@ internal/hashtablez_sampler_force_weak_definition.o: internal/hashtablez_sampler
 
 # target to build an object file
 internal/hashtablez_sampler_force_weak_definition.cc.o:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/third_party/abseil/absl/container/CMakeFiles/absl_hashtablez_sampler.dir/build.make _deps/dawn-build/third_party/abseil/absl/container/CMakeFiles/absl_hashtablez_sampler.dir/internal/hashtablez_sampler_force_weak_definition.cc.o
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/third_party/abseil/absl/container/CMakeFiles/absl_hashtablez_sampler.dir/build.make _deps/dawn-build/third_party/abseil/absl/container/CMakeFiles/absl_hashtablez_sampler.dir/internal/hashtablez_sampler_force_weak_definition.cc.o
 .PHONY : internal/hashtablez_sampler_force_weak_definition.cc.o
 
 internal/hashtablez_sampler_force_weak_definition.i: internal/hashtablez_sampler_force_weak_definition.cc.i
@@ -181,7 +181,7 @@ internal/hashtablez_sampler_force_weak_definition.i: internal/hashtablez_sampler
 
 # target to preprocess a source file
 internal/hashtablez_sampler_force_weak_definition.cc.i:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/third_party/abseil/absl/container/CMakeFiles/absl_hashtablez_sampler.dir/build.make _deps/dawn-build/third_party/abseil/absl/container/CMakeFiles/absl_hashtablez_sampler.dir/internal/hashtablez_sampler_force_weak_definition.cc.i
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/third_party/abseil/absl/container/CMakeFiles/absl_hashtablez_sampler.dir/build.make _deps/dawn-build/third_party/abseil/absl/container/CMakeFiles/absl_hashtablez_sampler.dir/internal/hashtablez_sampler_force_weak_definition.cc.i
 .PHONY : internal/hashtablez_sampler_force_weak_definition.cc.i
 
 internal/hashtablez_sampler_force_weak_definition.s: internal/hashtablez_sampler_force_weak_definition.cc.s
@@ -189,7 +189,7 @@ internal/hashtablez_sampler_force_weak_definition.s: internal/hashtablez_sampler
 
 # target to generate assembly for a file
 internal/hashtablez_sampler_force_weak_definition.cc.s:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/third_party/abseil/absl/container/CMakeFiles/absl_hashtablez_sampler.dir/build.make _deps/dawn-build/third_party/abseil/absl/container/CMakeFiles/absl_hashtablez_sampler.dir/internal/hashtablez_sampler_force_weak_definition.cc.s
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/third_party/abseil/absl/container/CMakeFiles/absl_hashtablez_sampler.dir/build.make _deps/dawn-build/third_party/abseil/absl/container/CMakeFiles/absl_hashtablez_sampler.dir/internal/hashtablez_sampler_force_weak_definition.cc.s
 .PHONY : internal/hashtablez_sampler_force_weak_definition.cc.s
 
 internal/raw_hash_set.o: internal/raw_hash_set.cc.o
@@ -197,7 +197,7 @@ internal/raw_hash_set.o: internal/raw_hash_set.cc.o
 
 # target to build an object file
 internal/raw_hash_set.cc.o:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/third_party/abseil/absl/container/CMakeFiles/absl_raw_hash_set.dir/build.make _deps/dawn-build/third_party/abseil/absl/container/CMakeFiles/absl_raw_hash_set.dir/internal/raw_hash_set.cc.o
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/third_party/abseil/absl/container/CMakeFiles/absl_raw_hash_set.dir/build.make _deps/dawn-build/third_party/abseil/absl/container/CMakeFiles/absl_raw_hash_set.dir/internal/raw_hash_set.cc.o
 .PHONY : internal/raw_hash_set.cc.o
 
 internal/raw_hash_set.i: internal/raw_hash_set.cc.i
@@ -205,7 +205,7 @@ internal/raw_hash_set.i: internal/raw_hash_set.cc.i
 
 # target to preprocess a source file
 internal/raw_hash_set.cc.i:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/third_party/abseil/absl/container/CMakeFiles/absl_raw_hash_set.dir/build.make _deps/dawn-build/third_party/abseil/absl/container/CMakeFiles/absl_raw_hash_set.dir/internal/raw_hash_set.cc.i
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/third_party/abseil/absl/container/CMakeFiles/absl_raw_hash_set.dir/build.make _deps/dawn-build/third_party/abseil/absl/container/CMakeFiles/absl_raw_hash_set.dir/internal/raw_hash_set.cc.i
 .PHONY : internal/raw_hash_set.cc.i
 
 internal/raw_hash_set.s: internal/raw_hash_set.cc.s
@@ -213,7 +213,7 @@ internal/raw_hash_set.s: internal/raw_hash_set.cc.s
 
 # target to generate assembly for a file
 internal/raw_hash_set.cc.s:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/third_party/abseil/absl/container/CMakeFiles/absl_raw_hash_set.dir/build.make _deps/dawn-build/third_party/abseil/absl/container/CMakeFiles/absl_raw_hash_set.dir/internal/raw_hash_set.cc.s
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/third_party/abseil/absl/container/CMakeFiles/absl_raw_hash_set.dir/build.make _deps/dawn-build/third_party/abseil/absl/container/CMakeFiles/absl_raw_hash_set.dir/internal/raw_hash_set.cc.s
 .PHONY : internal/raw_hash_set.cc.s
 
 # Help Target
@@ -246,6 +246,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

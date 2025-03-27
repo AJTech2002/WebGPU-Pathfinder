@@ -3,7 +3,7 @@
 # No other meaning or use of this file is supported.
 
 method=custom
-command=cd;/Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build/_deps/dawn-src;&&;git;init;&&;git;fetch;--depth=1;https://dawn.googlesource.com/dawn;chromium/5869;&&;git;reset;--hard;FETCH_HEAD
-source_dir=/Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build/_deps/dawn-src
-work_dir=/Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build/_deps/dawn-subbuild/dawn-populate-prefix/src
+command=cd;/Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build/_deps/dawn-src;&&;git;init;&&;git;fetch;--depth=1;https://dawn.googlesource.com/dawn;chromium/5869;&&;git;reset;--hard;FETCH_HEAD
+source_dir=/Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build/_deps/dawn-src
+work_dir=/Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build/_deps/dawn-subbuild/dawn-populate-prefix/src
 

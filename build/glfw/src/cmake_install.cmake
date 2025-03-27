@@ -1,4 +1,4 @@
-# Install script for directory: /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/glfw/src
+# Install script for directory: /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/glfw/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

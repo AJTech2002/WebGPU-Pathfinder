@@ -53,10 +53,10 @@ RM = /opt/homebrew/Cellar/cmake/3.29.2/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder
+CMAKE_SOURCE_DIR = /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build
+CMAKE_BINARY_DIR = /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build
 
 # Include any dependencies generated for this target.
 include _deps/dawn-build/src/tint/CMakeFiles/tint_utils_io.dir/depend.make
@@ -72,30 +72,30 @@ include _deps/dawn-build/src/tint/CMakeFiles/tint_utils_io.dir/flags.make
 _deps/dawn-build/src/tint/CMakeFiles/tint_utils_io.dir/utils/io/command_posix.cc.o: _deps/dawn-build/src/tint/CMakeFiles/tint_utils_io.dir/flags.make
 _deps/dawn-build/src/tint/CMakeFiles/tint_utils_io.dir/utils/io/command_posix.cc.o: _deps/dawn-src/src/tint/utils/io/command_posix.cc
 _deps/dawn-build/src/tint/CMakeFiles/tint_utils_io.dir/utils/io/command_posix.cc.o: _deps/dawn-build/src/tint/CMakeFiles/tint_utils_io.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object _deps/dawn-build/src/tint/CMakeFiles/tint_utils_io.dir/utils/io/command_posix.cc.o"
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build/_deps/dawn-build/src/tint && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT _deps/dawn-build/src/tint/CMakeFiles/tint_utils_io.dir/utils/io/command_posix.cc.o -MF CMakeFiles/tint_utils_io.dir/utils/io/command_posix.cc.o.d -o CMakeFiles/tint_utils_io.dir/utils/io/command_posix.cc.o -c /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build/_deps/dawn-src/src/tint/utils/io/command_posix.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object _deps/dawn-build/src/tint/CMakeFiles/tint_utils_io.dir/utils/io/command_posix.cc.o"
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build/_deps/dawn-build/src/tint && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT _deps/dawn-build/src/tint/CMakeFiles/tint_utils_io.dir/utils/io/command_posix.cc.o -MF CMakeFiles/tint_utils_io.dir/utils/io/command_posix.cc.o.d -o CMakeFiles/tint_utils_io.dir/utils/io/command_posix.cc.o -c /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build/_deps/dawn-src/src/tint/utils/io/command_posix.cc
 
 _deps/dawn-build/src/tint/CMakeFiles/tint_utils_io.dir/utils/io/command_posix.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/tint_utils_io.dir/utils/io/command_posix.cc.i"
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build/_deps/dawn-build/src/tint && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build/_deps/dawn-src/src/tint/utils/io/command_posix.cc > CMakeFiles/tint_utils_io.dir/utils/io/command_posix.cc.i
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build/_deps/dawn-build/src/tint && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build/_deps/dawn-src/src/tint/utils/io/command_posix.cc > CMakeFiles/tint_utils_io.dir/utils/io/command_posix.cc.i
 
 _deps/dawn-build/src/tint/CMakeFiles/tint_utils_io.dir/utils/io/command_posix.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/tint_utils_io.dir/utils/io/command_posix.cc.s"
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build/_deps/dawn-build/src/tint && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build/_deps/dawn-src/src/tint/utils/io/command_posix.cc -o CMakeFiles/tint_utils_io.dir/utils/io/command_posix.cc.s
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build/_deps/dawn-build/src/tint && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build/_deps/dawn-src/src/tint/utils/io/command_posix.cc -o CMakeFiles/tint_utils_io.dir/utils/io/command_posix.cc.s
 
 _deps/dawn-build/src/tint/CMakeFiles/tint_utils_io.dir/utils/io/tmpfile_posix.cc.o: _deps/dawn-build/src/tint/CMakeFiles/tint_utils_io.dir/flags.make
 _deps/dawn-build/src/tint/CMakeFiles/tint_utils_io.dir/utils/io/tmpfile_posix.cc.o: _deps/dawn-src/src/tint/utils/io/tmpfile_posix.cc
 _deps/dawn-build/src/tint/CMakeFiles/tint_utils_io.dir/utils/io/tmpfile_posix.cc.o: _deps/dawn-build/src/tint/CMakeFiles/tint_utils_io.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object _deps/dawn-build/src/tint/CMakeFiles/tint_utils_io.dir/utils/io/tmpfile_posix.cc.o"
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build/_deps/dawn-build/src/tint && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT _deps/dawn-build/src/tint/CMakeFiles/tint_utils_io.dir/utils/io/tmpfile_posix.cc.o -MF CMakeFiles/tint_utils_io.dir/utils/io/tmpfile_posix.cc.o.d -o CMakeFiles/tint_utils_io.dir/utils/io/tmpfile_posix.cc.o -c /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build/_deps/dawn-src/src/tint/utils/io/tmpfile_posix.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object _deps/dawn-build/src/tint/CMakeFiles/tint_utils_io.dir/utils/io/tmpfile_posix.cc.o"
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build/_deps/dawn-build/src/tint && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT _deps/dawn-build/src/tint/CMakeFiles/tint_utils_io.dir/utils/io/tmpfile_posix.cc.o -MF CMakeFiles/tint_utils_io.dir/utils/io/tmpfile_posix.cc.o.d -o CMakeFiles/tint_utils_io.dir/utils/io/tmpfile_posix.cc.o -c /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build/_deps/dawn-src/src/tint/utils/io/tmpfile_posix.cc
 
 _deps/dawn-build/src/tint/CMakeFiles/tint_utils_io.dir/utils/io/tmpfile_posix.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/tint_utils_io.dir/utils/io/tmpfile_posix.cc.i"
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build/_deps/dawn-build/src/tint && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build/_deps/dawn-src/src/tint/utils/io/tmpfile_posix.cc > CMakeFiles/tint_utils_io.dir/utils/io/tmpfile_posix.cc.i
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build/_deps/dawn-build/src/tint && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build/_deps/dawn-src/src/tint/utils/io/tmpfile_posix.cc > CMakeFiles/tint_utils_io.dir/utils/io/tmpfile_posix.cc.i
 
 _deps/dawn-build/src/tint/CMakeFiles/tint_utils_io.dir/utils/io/tmpfile_posix.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/tint_utils_io.dir/utils/io/tmpfile_posix.cc.s"
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build/_deps/dawn-build/src/tint && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build/_deps/dawn-src/src/tint/utils/io/tmpfile_posix.cc -o CMakeFiles/tint_utils_io.dir/utils/io/tmpfile_posix.cc.s
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build/_deps/dawn-build/src/tint && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build/_deps/dawn-src/src/tint/utils/io/tmpfile_posix.cc -o CMakeFiles/tint_utils_io.dir/utils/io/tmpfile_posix.cc.s
 
 # Object files for target tint_utils_io
 tint_utils_io_OBJECTS = \
@@ -109,19 +109,19 @@ _deps/dawn-build/src/tint/libtint_utils_io.a: _deps/dawn-build/src/tint/CMakeFil
 _deps/dawn-build/src/tint/libtint_utils_io.a: _deps/dawn-build/src/tint/CMakeFiles/tint_utils_io.dir/utils/io/tmpfile_posix.cc.o
 _deps/dawn-build/src/tint/libtint_utils_io.a: _deps/dawn-build/src/tint/CMakeFiles/tint_utils_io.dir/build.make
 _deps/dawn-build/src/tint/libtint_utils_io.a: _deps/dawn-build/src/tint/CMakeFiles/tint_utils_io.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX static library libtint_utils_io.a"
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build/_deps/dawn-build/src/tint && $(CMAKE_COMMAND) -P CMakeFiles/tint_utils_io.dir/cmake_clean_target.cmake
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build/_deps/dawn-build/src/tint && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/tint_utils_io.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX static library libtint_utils_io.a"
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build/_deps/dawn-build/src/tint && $(CMAKE_COMMAND) -P CMakeFiles/tint_utils_io.dir/cmake_clean_target.cmake
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build/_deps/dawn-build/src/tint && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/tint_utils_io.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 _deps/dawn-build/src/tint/CMakeFiles/tint_utils_io.dir/build: _deps/dawn-build/src/tint/libtint_utils_io.a
 .PHONY : _deps/dawn-build/src/tint/CMakeFiles/tint_utils_io.dir/build
 
 _deps/dawn-build/src/tint/CMakeFiles/tint_utils_io.dir/clean:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build/_deps/dawn-build/src/tint && $(CMAKE_COMMAND) -P CMakeFiles/tint_utils_io.dir/cmake_clean.cmake
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build/_deps/dawn-build/src/tint && $(CMAKE_COMMAND) -P CMakeFiles/tint_utils_io.dir/cmake_clean.cmake
 .PHONY : _deps/dawn-build/src/tint/CMakeFiles/tint_utils_io.dir/clean
 
 _deps/dawn-build/src/tint/CMakeFiles/tint_utils_io.dir/depend:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build/_deps/dawn-src/src/tint /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build/_deps/dawn-build/src/tint /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build/_deps/dawn-build/src/tint/CMakeFiles/tint_utils_io.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build/_deps/dawn-src/src/tint /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build/_deps/dawn-build/src/tint /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build/_deps/dawn-build/src/tint/CMakeFiles/tint_utils_io.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : _deps/dawn-build/src/tint/CMakeFiles/tint_utils_io.dir/depend
 

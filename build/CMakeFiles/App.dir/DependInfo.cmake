@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/main.cpp" "CMakeFiles/App.dir/main.cpp.o" "gcc" "CMakeFiles/App.dir/main.cpp.o.d"
+  "/Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/main.cpp" "CMakeFiles/App.dir/main.cpp.o" "gcc" "CMakeFiles/App.dir/main.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

@@ -57,10 +57,10 @@ RM = /opt/homebrew/Cellar/cmake/3.29.2/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder
+CMAKE_SOURCE_DIR = /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build
+CMAKE_BINARY_DIR = /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build/CMakeFiles /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build/_deps/dawn-build/src/dawn/wire//CMakeFiles/progress.marks
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/dawn-build/src/dawn/wire/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build/CMakeFiles 0
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build/CMakeFiles /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build/_deps/dawn-build/src/dawn/wire//CMakeFiles/progress.marks
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/dawn-build/src/dawn/wire/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/dawn-build/src/dawn/wire/clean
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/dawn-build/src/dawn/wire/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,22 +103,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/dawn-build/src/dawn/wire/preinstall
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/dawn-build/src/dawn/wire/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/dawn-build/src/dawn/wire/preinstall
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/dawn-build/src/dawn/wire/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/rule:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/rule
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/rule
 .PHONY : _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/rule
 
 # Convenience name for target.
@@ -127,7 +127,7 @@ dawn_wire: _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/rule
 
 # fast build rule for target.
 dawn_wire/fast:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/build.make _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/build
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/build.make _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/build
 .PHONY : dawn_wire/fast
 
 ChunkedCommandHandler.o: ChunkedCommandHandler.cpp.o
@@ -135,7 +135,7 @@ ChunkedCommandHandler.o: ChunkedCommandHandler.cpp.o
 
 # target to build an object file
 ChunkedCommandHandler.cpp.o:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/build.make _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/ChunkedCommandHandler.cpp.o
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/build.make _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/ChunkedCommandHandler.cpp.o
 .PHONY : ChunkedCommandHandler.cpp.o
 
 ChunkedCommandHandler.i: ChunkedCommandHandler.cpp.i
@@ -143,7 +143,7 @@ ChunkedCommandHandler.i: ChunkedCommandHandler.cpp.i
 
 # target to preprocess a source file
 ChunkedCommandHandler.cpp.i:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/build.make _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/ChunkedCommandHandler.cpp.i
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/build.make _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/ChunkedCommandHandler.cpp.i
 .PHONY : ChunkedCommandHandler.cpp.i
 
 ChunkedCommandHandler.s: ChunkedCommandHandler.cpp.s
@@ -151,7 +151,7 @@ ChunkedCommandHandler.s: ChunkedCommandHandler.cpp.s
 
 # target to generate assembly for a file
 ChunkedCommandHandler.cpp.s:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/build.make _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/ChunkedCommandHandler.cpp.s
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/build.make _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/ChunkedCommandHandler.cpp.s
 .PHONY : ChunkedCommandHandler.cpp.s
 
 ChunkedCommandSerializer.o: ChunkedCommandSerializer.cpp.o
@@ -159,7 +159,7 @@ ChunkedCommandSerializer.o: ChunkedCommandSerializer.cpp.o
 
 # target to build an object file
 ChunkedCommandSerializer.cpp.o:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/build.make _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/ChunkedCommandSerializer.cpp.o
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/build.make _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/ChunkedCommandSerializer.cpp.o
 .PHONY : ChunkedCommandSerializer.cpp.o
 
 ChunkedCommandSerializer.i: ChunkedCommandSerializer.cpp.i
@@ -167,7 +167,7 @@ ChunkedCommandSerializer.i: ChunkedCommandSerializer.cpp.i
 
 # target to preprocess a source file
 ChunkedCommandSerializer.cpp.i:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/build.make _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/ChunkedCommandSerializer.cpp.i
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/build.make _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/ChunkedCommandSerializer.cpp.i
 .PHONY : ChunkedCommandSerializer.cpp.i
 
 ChunkedCommandSerializer.s: ChunkedCommandSerializer.cpp.s
@@ -175,7 +175,7 @@ ChunkedCommandSerializer.s: ChunkedCommandSerializer.cpp.s
 
 # target to generate assembly for a file
 ChunkedCommandSerializer.cpp.s:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/build.make _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/ChunkedCommandSerializer.cpp.s
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/build.make _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/ChunkedCommandSerializer.cpp.s
 .PHONY : ChunkedCommandSerializer.cpp.s
 
 ObjectHandle.o: ObjectHandle.cpp.o
@@ -183,7 +183,7 @@ ObjectHandle.o: ObjectHandle.cpp.o
 
 # target to build an object file
 ObjectHandle.cpp.o:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/build.make _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/ObjectHandle.cpp.o
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/build.make _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/ObjectHandle.cpp.o
 .PHONY : ObjectHandle.cpp.o
 
 ObjectHandle.i: ObjectHandle.cpp.i
@@ -191,7 +191,7 @@ ObjectHandle.i: ObjectHandle.cpp.i
 
 # target to preprocess a source file
 ObjectHandle.cpp.i:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/build.make _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/ObjectHandle.cpp.i
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/build.make _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/ObjectHandle.cpp.i
 .PHONY : ObjectHandle.cpp.i
 
 ObjectHandle.s: ObjectHandle.cpp.s
@@ -199,7 +199,7 @@ ObjectHandle.s: ObjectHandle.cpp.s
 
 # target to generate assembly for a file
 ObjectHandle.cpp.s:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/build.make _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/ObjectHandle.cpp.s
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/build.make _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/ObjectHandle.cpp.s
 .PHONY : ObjectHandle.cpp.s
 
 SupportedFeatures.o: SupportedFeatures.cpp.o
@@ -207,7 +207,7 @@ SupportedFeatures.o: SupportedFeatures.cpp.o
 
 # target to build an object file
 SupportedFeatures.cpp.o:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/build.make _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/SupportedFeatures.cpp.o
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/build.make _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/SupportedFeatures.cpp.o
 .PHONY : SupportedFeatures.cpp.o
 
 SupportedFeatures.i: SupportedFeatures.cpp.i
@@ -215,7 +215,7 @@ SupportedFeatures.i: SupportedFeatures.cpp.i
 
 # target to preprocess a source file
 SupportedFeatures.cpp.i:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/build.make _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/SupportedFeatures.cpp.i
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/build.make _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/SupportedFeatures.cpp.i
 .PHONY : SupportedFeatures.cpp.i
 
 SupportedFeatures.s: SupportedFeatures.cpp.s
@@ -223,7 +223,7 @@ SupportedFeatures.s: SupportedFeatures.cpp.s
 
 # target to generate assembly for a file
 SupportedFeatures.cpp.s:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/build.make _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/SupportedFeatures.cpp.s
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/build.make _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/SupportedFeatures.cpp.s
 .PHONY : SupportedFeatures.cpp.s
 
 Wire.o: Wire.cpp.o
@@ -231,7 +231,7 @@ Wire.o: Wire.cpp.o
 
 # target to build an object file
 Wire.cpp.o:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/build.make _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/Wire.cpp.o
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/build.make _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/Wire.cpp.o
 .PHONY : Wire.cpp.o
 
 Wire.i: Wire.cpp.i
@@ -239,7 +239,7 @@ Wire.i: Wire.cpp.i
 
 # target to preprocess a source file
 Wire.cpp.i:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/build.make _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/Wire.cpp.i
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/build.make _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/Wire.cpp.i
 .PHONY : Wire.cpp.i
 
 Wire.s: Wire.cpp.s
@@ -247,7 +247,7 @@ Wire.s: Wire.cpp.s
 
 # target to generate assembly for a file
 Wire.cpp.s:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/build.make _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/Wire.cpp.s
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/build.make _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/Wire.cpp.s
 .PHONY : Wire.cpp.s
 
 WireClient.o: WireClient.cpp.o
@@ -255,7 +255,7 @@ WireClient.o: WireClient.cpp.o
 
 # target to build an object file
 WireClient.cpp.o:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/build.make _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/WireClient.cpp.o
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/build.make _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/WireClient.cpp.o
 .PHONY : WireClient.cpp.o
 
 WireClient.i: WireClient.cpp.i
@@ -263,7 +263,7 @@ WireClient.i: WireClient.cpp.i
 
 # target to preprocess a source file
 WireClient.cpp.i:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/build.make _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/WireClient.cpp.i
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/build.make _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/WireClient.cpp.i
 .PHONY : WireClient.cpp.i
 
 WireClient.s: WireClient.cpp.s
@@ -271,7 +271,7 @@ WireClient.s: WireClient.cpp.s
 
 # target to generate assembly for a file
 WireClient.cpp.s:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/build.make _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/WireClient.cpp.s
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/build.make _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/WireClient.cpp.s
 .PHONY : WireClient.cpp.s
 
 WireDeserializeAllocator.o: WireDeserializeAllocator.cpp.o
@@ -279,7 +279,7 @@ WireDeserializeAllocator.o: WireDeserializeAllocator.cpp.o
 
 # target to build an object file
 WireDeserializeAllocator.cpp.o:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/build.make _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/WireDeserializeAllocator.cpp.o
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/build.make _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/WireDeserializeAllocator.cpp.o
 .PHONY : WireDeserializeAllocator.cpp.o
 
 WireDeserializeAllocator.i: WireDeserializeAllocator.cpp.i
@@ -287,7 +287,7 @@ WireDeserializeAllocator.i: WireDeserializeAllocator.cpp.i
 
 # target to preprocess a source file
 WireDeserializeAllocator.cpp.i:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/build.make _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/WireDeserializeAllocator.cpp.i
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/build.make _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/WireDeserializeAllocator.cpp.i
 .PHONY : WireDeserializeAllocator.cpp.i
 
 WireDeserializeAllocator.s: WireDeserializeAllocator.cpp.s
@@ -295,7 +295,7 @@ WireDeserializeAllocator.s: WireDeserializeAllocator.cpp.s
 
 # target to generate assembly for a file
 WireDeserializeAllocator.cpp.s:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/build.make _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/WireDeserializeAllocator.cpp.s
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/build.make _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/WireDeserializeAllocator.cpp.s
 .PHONY : WireDeserializeAllocator.cpp.s
 
 WireServer.o: WireServer.cpp.o
@@ -303,7 +303,7 @@ WireServer.o: WireServer.cpp.o
 
 # target to build an object file
 WireServer.cpp.o:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/build.make _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/WireServer.cpp.o
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/build.make _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/WireServer.cpp.o
 .PHONY : WireServer.cpp.o
 
 WireServer.i: WireServer.cpp.i
@@ -311,7 +311,7 @@ WireServer.i: WireServer.cpp.i
 
 # target to preprocess a source file
 WireServer.cpp.i:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/build.make _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/WireServer.cpp.i
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/build.make _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/WireServer.cpp.i
 .PHONY : WireServer.cpp.i
 
 WireServer.s: WireServer.cpp.s
@@ -319,7 +319,7 @@ WireServer.s: WireServer.cpp.s
 
 # target to generate assembly for a file
 WireServer.cpp.s:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/build.make _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/WireServer.cpp.s
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/build.make _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/WireServer.cpp.s
 .PHONY : WireServer.cpp.s
 
 __/__/Placeholder.o: __/__/Placeholder.cpp.o
@@ -327,7 +327,7 @@ __/__/Placeholder.o: __/__/Placeholder.cpp.o
 
 # target to build an object file
 __/__/Placeholder.cpp.o:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/build.make _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/__/__/Placeholder.cpp.o
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/build.make _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/__/__/Placeholder.cpp.o
 .PHONY : __/__/Placeholder.cpp.o
 
 __/__/Placeholder.i: __/__/Placeholder.cpp.i
@@ -335,7 +335,7 @@ __/__/Placeholder.i: __/__/Placeholder.cpp.i
 
 # target to preprocess a source file
 __/__/Placeholder.cpp.i:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/build.make _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/__/__/Placeholder.cpp.i
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/build.make _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/__/__/Placeholder.cpp.i
 .PHONY : __/__/Placeholder.cpp.i
 
 __/__/Placeholder.s: __/__/Placeholder.cpp.s
@@ -343,7 +343,7 @@ __/__/Placeholder.s: __/__/Placeholder.cpp.s
 
 # target to generate assembly for a file
 __/__/Placeholder.cpp.s:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/build.make _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/__/__/Placeholder.cpp.s
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/build.make _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/__/__/Placeholder.cpp.s
 .PHONY : __/__/Placeholder.cpp.s
 
 __/__/__/gen/src/dawn/wire/WireCmd_autogen.o: __/__/__/gen/src/dawn/wire/WireCmd_autogen.cpp.o
@@ -351,7 +351,7 @@ __/__/__/gen/src/dawn/wire/WireCmd_autogen.o: __/__/__/gen/src/dawn/wire/WireCmd
 
 # target to build an object file
 __/__/__/gen/src/dawn/wire/WireCmd_autogen.cpp.o:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/build.make _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/__/__/__/gen/src/dawn/wire/WireCmd_autogen.cpp.o
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/build.make _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/__/__/__/gen/src/dawn/wire/WireCmd_autogen.cpp.o
 .PHONY : __/__/__/gen/src/dawn/wire/WireCmd_autogen.cpp.o
 
 __/__/__/gen/src/dawn/wire/WireCmd_autogen.i: __/__/__/gen/src/dawn/wire/WireCmd_autogen.cpp.i
@@ -359,7 +359,7 @@ __/__/__/gen/src/dawn/wire/WireCmd_autogen.i: __/__/__/gen/src/dawn/wire/WireCmd
 
 # target to preprocess a source file
 __/__/__/gen/src/dawn/wire/WireCmd_autogen.cpp.i:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/build.make _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/__/__/__/gen/src/dawn/wire/WireCmd_autogen.cpp.i
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/build.make _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/__/__/__/gen/src/dawn/wire/WireCmd_autogen.cpp.i
 .PHONY : __/__/__/gen/src/dawn/wire/WireCmd_autogen.cpp.i
 
 __/__/__/gen/src/dawn/wire/WireCmd_autogen.s: __/__/__/gen/src/dawn/wire/WireCmd_autogen.cpp.s
@@ -367,7 +367,7 @@ __/__/__/gen/src/dawn/wire/WireCmd_autogen.s: __/__/__/gen/src/dawn/wire/WireCmd
 
 # target to generate assembly for a file
 __/__/__/gen/src/dawn/wire/WireCmd_autogen.cpp.s:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/build.make _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/__/__/__/gen/src/dawn/wire/WireCmd_autogen.cpp.s
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/build.make _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/__/__/__/gen/src/dawn/wire/WireCmd_autogen.cpp.s
 .PHONY : __/__/__/gen/src/dawn/wire/WireCmd_autogen.cpp.s
 
 __/__/__/gen/src/dawn/wire/client/ApiProcs_autogen.o: __/__/__/gen/src/dawn/wire/client/ApiProcs_autogen.cpp.o
@@ -375,7 +375,7 @@ __/__/__/gen/src/dawn/wire/client/ApiProcs_autogen.o: __/__/__/gen/src/dawn/wire
 
 # target to build an object file
 __/__/__/gen/src/dawn/wire/client/ApiProcs_autogen.cpp.o:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/build.make _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/__/__/__/gen/src/dawn/wire/client/ApiProcs_autogen.cpp.o
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/build.make _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/__/__/__/gen/src/dawn/wire/client/ApiProcs_autogen.cpp.o
 .PHONY : __/__/__/gen/src/dawn/wire/client/ApiProcs_autogen.cpp.o
 
 __/__/__/gen/src/dawn/wire/client/ApiProcs_autogen.i: __/__/__/gen/src/dawn/wire/client/ApiProcs_autogen.cpp.i
@@ -383,7 +383,7 @@ __/__/__/gen/src/dawn/wire/client/ApiProcs_autogen.i: __/__/__/gen/src/dawn/wire
 
 # target to preprocess a source file
 __/__/__/gen/src/dawn/wire/client/ApiProcs_autogen.cpp.i:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/build.make _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/__/__/__/gen/src/dawn/wire/client/ApiProcs_autogen.cpp.i
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/build.make _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/__/__/__/gen/src/dawn/wire/client/ApiProcs_autogen.cpp.i
 .PHONY : __/__/__/gen/src/dawn/wire/client/ApiProcs_autogen.cpp.i
 
 __/__/__/gen/src/dawn/wire/client/ApiProcs_autogen.s: __/__/__/gen/src/dawn/wire/client/ApiProcs_autogen.cpp.s
@@ -391,7 +391,7 @@ __/__/__/gen/src/dawn/wire/client/ApiProcs_autogen.s: __/__/__/gen/src/dawn/wire
 
 # target to generate assembly for a file
 __/__/__/gen/src/dawn/wire/client/ApiProcs_autogen.cpp.s:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/build.make _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/__/__/__/gen/src/dawn/wire/client/ApiProcs_autogen.cpp.s
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/build.make _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/__/__/__/gen/src/dawn/wire/client/ApiProcs_autogen.cpp.s
 .PHONY : __/__/__/gen/src/dawn/wire/client/ApiProcs_autogen.cpp.s
 
 __/__/__/gen/src/dawn/wire/client/ClientHandlers_autogen.o: __/__/__/gen/src/dawn/wire/client/ClientHandlers_autogen.cpp.o
@@ -399,7 +399,7 @@ __/__/__/gen/src/dawn/wire/client/ClientHandlers_autogen.o: __/__/__/gen/src/daw
 
 # target to build an object file
 __/__/__/gen/src/dawn/wire/client/ClientHandlers_autogen.cpp.o:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/build.make _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/__/__/__/gen/src/dawn/wire/client/ClientHandlers_autogen.cpp.o
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/build.make _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/__/__/__/gen/src/dawn/wire/client/ClientHandlers_autogen.cpp.o
 .PHONY : __/__/__/gen/src/dawn/wire/client/ClientHandlers_autogen.cpp.o
 
 __/__/__/gen/src/dawn/wire/client/ClientHandlers_autogen.i: __/__/__/gen/src/dawn/wire/client/ClientHandlers_autogen.cpp.i
@@ -407,7 +407,7 @@ __/__/__/gen/src/dawn/wire/client/ClientHandlers_autogen.i: __/__/__/gen/src/daw
 
 # target to preprocess a source file
 __/__/__/gen/src/dawn/wire/client/ClientHandlers_autogen.cpp.i:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/build.make _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/__/__/__/gen/src/dawn/wire/client/ClientHandlers_autogen.cpp.i
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/build.make _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/__/__/__/gen/src/dawn/wire/client/ClientHandlers_autogen.cpp.i
 .PHONY : __/__/__/gen/src/dawn/wire/client/ClientHandlers_autogen.cpp.i
 
 __/__/__/gen/src/dawn/wire/client/ClientHandlers_autogen.s: __/__/__/gen/src/dawn/wire/client/ClientHandlers_autogen.cpp.s
@@ -415,7 +415,7 @@ __/__/__/gen/src/dawn/wire/client/ClientHandlers_autogen.s: __/__/__/gen/src/daw
 
 # target to generate assembly for a file
 __/__/__/gen/src/dawn/wire/client/ClientHandlers_autogen.cpp.s:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/build.make _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/__/__/__/gen/src/dawn/wire/client/ClientHandlers_autogen.cpp.s
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/build.make _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/__/__/__/gen/src/dawn/wire/client/ClientHandlers_autogen.cpp.s
 .PHONY : __/__/__/gen/src/dawn/wire/client/ClientHandlers_autogen.cpp.s
 
 __/__/__/gen/src/dawn/wire/server/ServerDoers_autogen.o: __/__/__/gen/src/dawn/wire/server/ServerDoers_autogen.cpp.o
@@ -423,7 +423,7 @@ __/__/__/gen/src/dawn/wire/server/ServerDoers_autogen.o: __/__/__/gen/src/dawn/w
 
 # target to build an object file
 __/__/__/gen/src/dawn/wire/server/ServerDoers_autogen.cpp.o:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/build.make _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/__/__/__/gen/src/dawn/wire/server/ServerDoers_autogen.cpp.o
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/build.make _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/__/__/__/gen/src/dawn/wire/server/ServerDoers_autogen.cpp.o
 .PHONY : __/__/__/gen/src/dawn/wire/server/ServerDoers_autogen.cpp.o
 
 __/__/__/gen/src/dawn/wire/server/ServerDoers_autogen.i: __/__/__/gen/src/dawn/wire/server/ServerDoers_autogen.cpp.i
@@ -431,7 +431,7 @@ __/__/__/gen/src/dawn/wire/server/ServerDoers_autogen.i: __/__/__/gen/src/dawn/w
 
 # target to preprocess a source file
 __/__/__/gen/src/dawn/wire/server/ServerDoers_autogen.cpp.i:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/build.make _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/__/__/__/gen/src/dawn/wire/server/ServerDoers_autogen.cpp.i
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/build.make _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/__/__/__/gen/src/dawn/wire/server/ServerDoers_autogen.cpp.i
 .PHONY : __/__/__/gen/src/dawn/wire/server/ServerDoers_autogen.cpp.i
 
 __/__/__/gen/src/dawn/wire/server/ServerDoers_autogen.s: __/__/__/gen/src/dawn/wire/server/ServerDoers_autogen.cpp.s
@@ -439,7 +439,7 @@ __/__/__/gen/src/dawn/wire/server/ServerDoers_autogen.s: __/__/__/gen/src/dawn/w
 
 # target to generate assembly for a file
 __/__/__/gen/src/dawn/wire/server/ServerDoers_autogen.cpp.s:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/build.make _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/__/__/__/gen/src/dawn/wire/server/ServerDoers_autogen.cpp.s
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/build.make _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/__/__/__/gen/src/dawn/wire/server/ServerDoers_autogen.cpp.s
 .PHONY : __/__/__/gen/src/dawn/wire/server/ServerDoers_autogen.cpp.s
 
 __/__/__/gen/src/dawn/wire/server/ServerHandlers_autogen.o: __/__/__/gen/src/dawn/wire/server/ServerHandlers_autogen.cpp.o
@@ -447,7 +447,7 @@ __/__/__/gen/src/dawn/wire/server/ServerHandlers_autogen.o: __/__/__/gen/src/daw
 
 # target to build an object file
 __/__/__/gen/src/dawn/wire/server/ServerHandlers_autogen.cpp.o:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/build.make _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/__/__/__/gen/src/dawn/wire/server/ServerHandlers_autogen.cpp.o
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/build.make _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/__/__/__/gen/src/dawn/wire/server/ServerHandlers_autogen.cpp.o
 .PHONY : __/__/__/gen/src/dawn/wire/server/ServerHandlers_autogen.cpp.o
 
 __/__/__/gen/src/dawn/wire/server/ServerHandlers_autogen.i: __/__/__/gen/src/dawn/wire/server/ServerHandlers_autogen.cpp.i
@@ -455,7 +455,7 @@ __/__/__/gen/src/dawn/wire/server/ServerHandlers_autogen.i: __/__/__/gen/src/daw
 
 # target to preprocess a source file
 __/__/__/gen/src/dawn/wire/server/ServerHandlers_autogen.cpp.i:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/build.make _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/__/__/__/gen/src/dawn/wire/server/ServerHandlers_autogen.cpp.i
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/build.make _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/__/__/__/gen/src/dawn/wire/server/ServerHandlers_autogen.cpp.i
 .PHONY : __/__/__/gen/src/dawn/wire/server/ServerHandlers_autogen.cpp.i
 
 __/__/__/gen/src/dawn/wire/server/ServerHandlers_autogen.s: __/__/__/gen/src/dawn/wire/server/ServerHandlers_autogen.cpp.s
@@ -463,7 +463,7 @@ __/__/__/gen/src/dawn/wire/server/ServerHandlers_autogen.s: __/__/__/gen/src/daw
 
 # target to generate assembly for a file
 __/__/__/gen/src/dawn/wire/server/ServerHandlers_autogen.cpp.s:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/build.make _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/__/__/__/gen/src/dawn/wire/server/ServerHandlers_autogen.cpp.s
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/build.make _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/__/__/__/gen/src/dawn/wire/server/ServerHandlers_autogen.cpp.s
 .PHONY : __/__/__/gen/src/dawn/wire/server/ServerHandlers_autogen.cpp.s
 
 client/Adapter.o: client/Adapter.cpp.o
@@ -471,7 +471,7 @@ client/Adapter.o: client/Adapter.cpp.o
 
 # target to build an object file
 client/Adapter.cpp.o:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/build.make _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/client/Adapter.cpp.o
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/build.make _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/client/Adapter.cpp.o
 .PHONY : client/Adapter.cpp.o
 
 client/Adapter.i: client/Adapter.cpp.i
@@ -479,7 +479,7 @@ client/Adapter.i: client/Adapter.cpp.i
 
 # target to preprocess a source file
 client/Adapter.cpp.i:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/build.make _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/client/Adapter.cpp.i
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/build.make _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/client/Adapter.cpp.i
 .PHONY : client/Adapter.cpp.i
 
 client/Adapter.s: client/Adapter.cpp.s
@@ -487,7 +487,7 @@ client/Adapter.s: client/Adapter.cpp.s
 
 # target to generate assembly for a file
 client/Adapter.cpp.s:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/build.make _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/client/Adapter.cpp.s
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/build.make _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/client/Adapter.cpp.s
 .PHONY : client/Adapter.cpp.s
 
 client/Buffer.o: client/Buffer.cpp.o
@@ -495,7 +495,7 @@ client/Buffer.o: client/Buffer.cpp.o
 
 # target to build an object file
 client/Buffer.cpp.o:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/build.make _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/client/Buffer.cpp.o
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/build.make _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/client/Buffer.cpp.o
 .PHONY : client/Buffer.cpp.o
 
 client/Buffer.i: client/Buffer.cpp.i
@@ -503,7 +503,7 @@ client/Buffer.i: client/Buffer.cpp.i
 
 # target to preprocess a source file
 client/Buffer.cpp.i:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/build.make _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/client/Buffer.cpp.i
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/build.make _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/client/Buffer.cpp.i
 .PHONY : client/Buffer.cpp.i
 
 client/Buffer.s: client/Buffer.cpp.s
@@ -511,7 +511,7 @@ client/Buffer.s: client/Buffer.cpp.s
 
 # target to generate assembly for a file
 client/Buffer.cpp.s:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/build.make _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/client/Buffer.cpp.s
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/build.make _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/client/Buffer.cpp.s
 .PHONY : client/Buffer.cpp.s
 
 client/Client.o: client/Client.cpp.o
@@ -519,7 +519,7 @@ client/Client.o: client/Client.cpp.o
 
 # target to build an object file
 client/Client.cpp.o:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/build.make _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/client/Client.cpp.o
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/build.make _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/client/Client.cpp.o
 .PHONY : client/Client.cpp.o
 
 client/Client.i: client/Client.cpp.i
@@ -527,7 +527,7 @@ client/Client.i: client/Client.cpp.i
 
 # target to preprocess a source file
 client/Client.cpp.i:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/build.make _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/client/Client.cpp.i
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/build.make _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/client/Client.cpp.i
 .PHONY : client/Client.cpp.i
 
 client/Client.s: client/Client.cpp.s
@@ -535,7 +535,7 @@ client/Client.s: client/Client.cpp.s
 
 # target to generate assembly for a file
 client/Client.cpp.s:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/build.make _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/client/Client.cpp.s
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/build.make _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/client/Client.cpp.s
 .PHONY : client/Client.cpp.s
 
 client/ClientDoers.o: client/ClientDoers.cpp.o
@@ -543,7 +543,7 @@ client/ClientDoers.o: client/ClientDoers.cpp.o
 
 # target to build an object file
 client/ClientDoers.cpp.o:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/build.make _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/client/ClientDoers.cpp.o
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/build.make _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/client/ClientDoers.cpp.o
 .PHONY : client/ClientDoers.cpp.o
 
 client/ClientDoers.i: client/ClientDoers.cpp.i
@@ -551,7 +551,7 @@ client/ClientDoers.i: client/ClientDoers.cpp.i
 
 # target to preprocess a source file
 client/ClientDoers.cpp.i:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/build.make _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/client/ClientDoers.cpp.i
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/build.make _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/client/ClientDoers.cpp.i
 .PHONY : client/ClientDoers.cpp.i
 
 client/ClientDoers.s: client/ClientDoers.cpp.s
@@ -559,7 +559,7 @@ client/ClientDoers.s: client/ClientDoers.cpp.s
 
 # target to generate assembly for a file
 client/ClientDoers.cpp.s:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/build.make _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/client/ClientDoers.cpp.s
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/build.make _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/client/ClientDoers.cpp.s
 .PHONY : client/ClientDoers.cpp.s
 
 client/ClientInlineMemoryTransferService.o: client/ClientInlineMemoryTransferService.cpp.o
@@ -567,7 +567,7 @@ client/ClientInlineMemoryTransferService.o: client/ClientInlineMemoryTransferSer
 
 # target to build an object file
 client/ClientInlineMemoryTransferService.cpp.o:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/build.make _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/client/ClientInlineMemoryTransferService.cpp.o
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/build.make _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/client/ClientInlineMemoryTransferService.cpp.o
 .PHONY : client/ClientInlineMemoryTransferService.cpp.o
 
 client/ClientInlineMemoryTransferService.i: client/ClientInlineMemoryTransferService.cpp.i
@@ -575,7 +575,7 @@ client/ClientInlineMemoryTransferService.i: client/ClientInlineMemoryTransferSer
 
 # target to preprocess a source file
 client/ClientInlineMemoryTransferService.cpp.i:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/build.make _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/client/ClientInlineMemoryTransferService.cpp.i
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/build.make _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/client/ClientInlineMemoryTransferService.cpp.i
 .PHONY : client/ClientInlineMemoryTransferService.cpp.i
 
 client/ClientInlineMemoryTransferService.s: client/ClientInlineMemoryTransferService.cpp.s
@@ -583,7 +583,7 @@ client/ClientInlineMemoryTransferService.s: client/ClientInlineMemoryTransferSer
 
 # target to generate assembly for a file
 client/ClientInlineMemoryTransferService.cpp.s:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/build.make _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/client/ClientInlineMemoryTransferService.cpp.s
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/build.make _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/client/ClientInlineMemoryTransferService.cpp.s
 .PHONY : client/ClientInlineMemoryTransferService.cpp.s
 
 client/Device.o: client/Device.cpp.o
@@ -591,7 +591,7 @@ client/Device.o: client/Device.cpp.o
 
 # target to build an object file
 client/Device.cpp.o:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/build.make _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/client/Device.cpp.o
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/build.make _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/client/Device.cpp.o
 .PHONY : client/Device.cpp.o
 
 client/Device.i: client/Device.cpp.i
@@ -599,7 +599,7 @@ client/Device.i: client/Device.cpp.i
 
 # target to preprocess a source file
 client/Device.cpp.i:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/build.make _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/client/Device.cpp.i
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/build.make _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/client/Device.cpp.i
 .PHONY : client/Device.cpp.i
 
 client/Device.s: client/Device.cpp.s
@@ -607,7 +607,7 @@ client/Device.s: client/Device.cpp.s
 
 # target to generate assembly for a file
 client/Device.cpp.s:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/build.make _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/client/Device.cpp.s
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/build.make _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/client/Device.cpp.s
 .PHONY : client/Device.cpp.s
 
 client/Instance.o: client/Instance.cpp.o
@@ -615,7 +615,7 @@ client/Instance.o: client/Instance.cpp.o
 
 # target to build an object file
 client/Instance.cpp.o:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/build.make _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/client/Instance.cpp.o
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/build.make _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/client/Instance.cpp.o
 .PHONY : client/Instance.cpp.o
 
 client/Instance.i: client/Instance.cpp.i
@@ -623,7 +623,7 @@ client/Instance.i: client/Instance.cpp.i
 
 # target to preprocess a source file
 client/Instance.cpp.i:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/build.make _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/client/Instance.cpp.i
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/build.make _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/client/Instance.cpp.i
 .PHONY : client/Instance.cpp.i
 
 client/Instance.s: client/Instance.cpp.s
@@ -631,7 +631,7 @@ client/Instance.s: client/Instance.cpp.s
 
 # target to generate assembly for a file
 client/Instance.cpp.s:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/build.make _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/client/Instance.cpp.s
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/build.make _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/client/Instance.cpp.s
 .PHONY : client/Instance.cpp.s
 
 client/LimitsAndFeatures.o: client/LimitsAndFeatures.cpp.o
@@ -639,7 +639,7 @@ client/LimitsAndFeatures.o: client/LimitsAndFeatures.cpp.o
 
 # target to build an object file
 client/LimitsAndFeatures.cpp.o:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/build.make _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/client/LimitsAndFeatures.cpp.o
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/build.make _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/client/LimitsAndFeatures.cpp.o
 .PHONY : client/LimitsAndFeatures.cpp.o
 
 client/LimitsAndFeatures.i: client/LimitsAndFeatures.cpp.i
@@ -647,7 +647,7 @@ client/LimitsAndFeatures.i: client/LimitsAndFeatures.cpp.i
 
 # target to preprocess a source file
 client/LimitsAndFeatures.cpp.i:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/build.make _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/client/LimitsAndFeatures.cpp.i
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/build.make _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/client/LimitsAndFeatures.cpp.i
 .PHONY : client/LimitsAndFeatures.cpp.i
 
 client/LimitsAndFeatures.s: client/LimitsAndFeatures.cpp.s
@@ -655,7 +655,7 @@ client/LimitsAndFeatures.s: client/LimitsAndFeatures.cpp.s
 
 # target to generate assembly for a file
 client/LimitsAndFeatures.cpp.s:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/build.make _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/client/LimitsAndFeatures.cpp.s
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/build.make _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/client/LimitsAndFeatures.cpp.s
 .PHONY : client/LimitsAndFeatures.cpp.s
 
 client/ObjectBase.o: client/ObjectBase.cpp.o
@@ -663,7 +663,7 @@ client/ObjectBase.o: client/ObjectBase.cpp.o
 
 # target to build an object file
 client/ObjectBase.cpp.o:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/build.make _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/client/ObjectBase.cpp.o
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/build.make _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/client/ObjectBase.cpp.o
 .PHONY : client/ObjectBase.cpp.o
 
 client/ObjectBase.i: client/ObjectBase.cpp.i
@@ -671,7 +671,7 @@ client/ObjectBase.i: client/ObjectBase.cpp.i
 
 # target to preprocess a source file
 client/ObjectBase.cpp.i:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/build.make _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/client/ObjectBase.cpp.i
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/build.make _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/client/ObjectBase.cpp.i
 .PHONY : client/ObjectBase.cpp.i
 
 client/ObjectBase.s: client/ObjectBase.cpp.s
@@ -679,7 +679,7 @@ client/ObjectBase.s: client/ObjectBase.cpp.s
 
 # target to generate assembly for a file
 client/ObjectBase.cpp.s:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/build.make _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/client/ObjectBase.cpp.s
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/build.make _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/client/ObjectBase.cpp.s
 .PHONY : client/ObjectBase.cpp.s
 
 client/ObjectStore.o: client/ObjectStore.cpp.o
@@ -687,7 +687,7 @@ client/ObjectStore.o: client/ObjectStore.cpp.o
 
 # target to build an object file
 client/ObjectStore.cpp.o:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/build.make _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/client/ObjectStore.cpp.o
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/build.make _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/client/ObjectStore.cpp.o
 .PHONY : client/ObjectStore.cpp.o
 
 client/ObjectStore.i: client/ObjectStore.cpp.i
@@ -695,7 +695,7 @@ client/ObjectStore.i: client/ObjectStore.cpp.i
 
 # target to preprocess a source file
 client/ObjectStore.cpp.i:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/build.make _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/client/ObjectStore.cpp.i
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/build.make _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/client/ObjectStore.cpp.i
 .PHONY : client/ObjectStore.cpp.i
 
 client/ObjectStore.s: client/ObjectStore.cpp.s
@@ -703,7 +703,7 @@ client/ObjectStore.s: client/ObjectStore.cpp.s
 
 # target to generate assembly for a file
 client/ObjectStore.cpp.s:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/build.make _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/client/ObjectStore.cpp.s
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/build.make _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/client/ObjectStore.cpp.s
 .PHONY : client/ObjectStore.cpp.s
 
 client/QuerySet.o: client/QuerySet.cpp.o
@@ -711,7 +711,7 @@ client/QuerySet.o: client/QuerySet.cpp.o
 
 # target to build an object file
 client/QuerySet.cpp.o:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/build.make _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/client/QuerySet.cpp.o
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/build.make _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/client/QuerySet.cpp.o
 .PHONY : client/QuerySet.cpp.o
 
 client/QuerySet.i: client/QuerySet.cpp.i
@@ -719,7 +719,7 @@ client/QuerySet.i: client/QuerySet.cpp.i
 
 # target to preprocess a source file
 client/QuerySet.cpp.i:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/build.make _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/client/QuerySet.cpp.i
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/build.make _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/client/QuerySet.cpp.i
 .PHONY : client/QuerySet.cpp.i
 
 client/QuerySet.s: client/QuerySet.cpp.s
@@ -727,7 +727,7 @@ client/QuerySet.s: client/QuerySet.cpp.s
 
 # target to generate assembly for a file
 client/QuerySet.cpp.s:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/build.make _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/client/QuerySet.cpp.s
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/build.make _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/client/QuerySet.cpp.s
 .PHONY : client/QuerySet.cpp.s
 
 client/Queue.o: client/Queue.cpp.o
@@ -735,7 +735,7 @@ client/Queue.o: client/Queue.cpp.o
 
 # target to build an object file
 client/Queue.cpp.o:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/build.make _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/client/Queue.cpp.o
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/build.make _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/client/Queue.cpp.o
 .PHONY : client/Queue.cpp.o
 
 client/Queue.i: client/Queue.cpp.i
@@ -743,7 +743,7 @@ client/Queue.i: client/Queue.cpp.i
 
 # target to preprocess a source file
 client/Queue.cpp.i:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/build.make _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/client/Queue.cpp.i
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/build.make _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/client/Queue.cpp.i
 .PHONY : client/Queue.cpp.i
 
 client/Queue.s: client/Queue.cpp.s
@@ -751,7 +751,7 @@ client/Queue.s: client/Queue.cpp.s
 
 # target to generate assembly for a file
 client/Queue.cpp.s:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/build.make _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/client/Queue.cpp.s
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/build.make _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/client/Queue.cpp.s
 .PHONY : client/Queue.cpp.s
 
 client/ShaderModule.o: client/ShaderModule.cpp.o
@@ -759,7 +759,7 @@ client/ShaderModule.o: client/ShaderModule.cpp.o
 
 # target to build an object file
 client/ShaderModule.cpp.o:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/build.make _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/client/ShaderModule.cpp.o
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/build.make _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/client/ShaderModule.cpp.o
 .PHONY : client/ShaderModule.cpp.o
 
 client/ShaderModule.i: client/ShaderModule.cpp.i
@@ -767,7 +767,7 @@ client/ShaderModule.i: client/ShaderModule.cpp.i
 
 # target to preprocess a source file
 client/ShaderModule.cpp.i:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/build.make _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/client/ShaderModule.cpp.i
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/build.make _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/client/ShaderModule.cpp.i
 .PHONY : client/ShaderModule.cpp.i
 
 client/ShaderModule.s: client/ShaderModule.cpp.s
@@ -775,7 +775,7 @@ client/ShaderModule.s: client/ShaderModule.cpp.s
 
 # target to generate assembly for a file
 client/ShaderModule.cpp.s:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/build.make _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/client/ShaderModule.cpp.s
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/build.make _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/client/ShaderModule.cpp.s
 .PHONY : client/ShaderModule.cpp.s
 
 client/SwapChain.o: client/SwapChain.cpp.o
@@ -783,7 +783,7 @@ client/SwapChain.o: client/SwapChain.cpp.o
 
 # target to build an object file
 client/SwapChain.cpp.o:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/build.make _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/client/SwapChain.cpp.o
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/build.make _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/client/SwapChain.cpp.o
 .PHONY : client/SwapChain.cpp.o
 
 client/SwapChain.i: client/SwapChain.cpp.i
@@ -791,7 +791,7 @@ client/SwapChain.i: client/SwapChain.cpp.i
 
 # target to preprocess a source file
 client/SwapChain.cpp.i:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/build.make _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/client/SwapChain.cpp.i
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/build.make _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/client/SwapChain.cpp.i
 .PHONY : client/SwapChain.cpp.i
 
 client/SwapChain.s: client/SwapChain.cpp.s
@@ -799,7 +799,7 @@ client/SwapChain.s: client/SwapChain.cpp.s
 
 # target to generate assembly for a file
 client/SwapChain.cpp.s:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/build.make _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/client/SwapChain.cpp.s
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/build.make _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/client/SwapChain.cpp.s
 .PHONY : client/SwapChain.cpp.s
 
 client/Texture.o: client/Texture.cpp.o
@@ -807,7 +807,7 @@ client/Texture.o: client/Texture.cpp.o
 
 # target to build an object file
 client/Texture.cpp.o:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/build.make _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/client/Texture.cpp.o
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/build.make _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/client/Texture.cpp.o
 .PHONY : client/Texture.cpp.o
 
 client/Texture.i: client/Texture.cpp.i
@@ -815,7 +815,7 @@ client/Texture.i: client/Texture.cpp.i
 
 # target to preprocess a source file
 client/Texture.cpp.i:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/build.make _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/client/Texture.cpp.i
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/build.make _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/client/Texture.cpp.i
 .PHONY : client/Texture.cpp.i
 
 client/Texture.s: client/Texture.cpp.s
@@ -823,7 +823,7 @@ client/Texture.s: client/Texture.cpp.s
 
 # target to generate assembly for a file
 client/Texture.cpp.s:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/build.make _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/client/Texture.cpp.s
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/build.make _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/client/Texture.cpp.s
 .PHONY : client/Texture.cpp.s
 
 server/Server.o: server/Server.cpp.o
@@ -831,7 +831,7 @@ server/Server.o: server/Server.cpp.o
 
 # target to build an object file
 server/Server.cpp.o:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/build.make _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/server/Server.cpp.o
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/build.make _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/server/Server.cpp.o
 .PHONY : server/Server.cpp.o
 
 server/Server.i: server/Server.cpp.i
@@ -839,7 +839,7 @@ server/Server.i: server/Server.cpp.i
 
 # target to preprocess a source file
 server/Server.cpp.i:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/build.make _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/server/Server.cpp.i
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/build.make _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/server/Server.cpp.i
 .PHONY : server/Server.cpp.i
 
 server/Server.s: server/Server.cpp.s
@@ -847,7 +847,7 @@ server/Server.s: server/Server.cpp.s
 
 # target to generate assembly for a file
 server/Server.cpp.s:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/build.make _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/server/Server.cpp.s
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/build.make _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/server/Server.cpp.s
 .PHONY : server/Server.cpp.s
 
 server/ServerAdapter.o: server/ServerAdapter.cpp.o
@@ -855,7 +855,7 @@ server/ServerAdapter.o: server/ServerAdapter.cpp.o
 
 # target to build an object file
 server/ServerAdapter.cpp.o:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/build.make _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/server/ServerAdapter.cpp.o
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/build.make _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/server/ServerAdapter.cpp.o
 .PHONY : server/ServerAdapter.cpp.o
 
 server/ServerAdapter.i: server/ServerAdapter.cpp.i
@@ -863,7 +863,7 @@ server/ServerAdapter.i: server/ServerAdapter.cpp.i
 
 # target to preprocess a source file
 server/ServerAdapter.cpp.i:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/build.make _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/server/ServerAdapter.cpp.i
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/build.make _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/server/ServerAdapter.cpp.i
 .PHONY : server/ServerAdapter.cpp.i
 
 server/ServerAdapter.s: server/ServerAdapter.cpp.s
@@ -871,7 +871,7 @@ server/ServerAdapter.s: server/ServerAdapter.cpp.s
 
 # target to generate assembly for a file
 server/ServerAdapter.cpp.s:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/build.make _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/server/ServerAdapter.cpp.s
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/build.make _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/server/ServerAdapter.cpp.s
 .PHONY : server/ServerAdapter.cpp.s
 
 server/ServerBuffer.o: server/ServerBuffer.cpp.o
@@ -879,7 +879,7 @@ server/ServerBuffer.o: server/ServerBuffer.cpp.o
 
 # target to build an object file
 server/ServerBuffer.cpp.o:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/build.make _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/server/ServerBuffer.cpp.o
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/build.make _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/server/ServerBuffer.cpp.o
 .PHONY : server/ServerBuffer.cpp.o
 
 server/ServerBuffer.i: server/ServerBuffer.cpp.i
@@ -887,7 +887,7 @@ server/ServerBuffer.i: server/ServerBuffer.cpp.i
 
 # target to preprocess a source file
 server/ServerBuffer.cpp.i:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/build.make _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/server/ServerBuffer.cpp.i
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/build.make _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/server/ServerBuffer.cpp.i
 .PHONY : server/ServerBuffer.cpp.i
 
 server/ServerBuffer.s: server/ServerBuffer.cpp.s
@@ -895,7 +895,7 @@ server/ServerBuffer.s: server/ServerBuffer.cpp.s
 
 # target to generate assembly for a file
 server/ServerBuffer.cpp.s:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/build.make _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/server/ServerBuffer.cpp.s
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/build.make _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/server/ServerBuffer.cpp.s
 .PHONY : server/ServerBuffer.cpp.s
 
 server/ServerDevice.o: server/ServerDevice.cpp.o
@@ -903,7 +903,7 @@ server/ServerDevice.o: server/ServerDevice.cpp.o
 
 # target to build an object file
 server/ServerDevice.cpp.o:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/build.make _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/server/ServerDevice.cpp.o
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/build.make _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/server/ServerDevice.cpp.o
 .PHONY : server/ServerDevice.cpp.o
 
 server/ServerDevice.i: server/ServerDevice.cpp.i
@@ -911,7 +911,7 @@ server/ServerDevice.i: server/ServerDevice.cpp.i
 
 # target to preprocess a source file
 server/ServerDevice.cpp.i:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/build.make _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/server/ServerDevice.cpp.i
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/build.make _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/server/ServerDevice.cpp.i
 .PHONY : server/ServerDevice.cpp.i
 
 server/ServerDevice.s: server/ServerDevice.cpp.s
@@ -919,7 +919,7 @@ server/ServerDevice.s: server/ServerDevice.cpp.s
 
 # target to generate assembly for a file
 server/ServerDevice.cpp.s:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/build.make _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/server/ServerDevice.cpp.s
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/build.make _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/server/ServerDevice.cpp.s
 .PHONY : server/ServerDevice.cpp.s
 
 server/ServerInlineMemoryTransferService.o: server/ServerInlineMemoryTransferService.cpp.o
@@ -927,7 +927,7 @@ server/ServerInlineMemoryTransferService.o: server/ServerInlineMemoryTransferSer
 
 # target to build an object file
 server/ServerInlineMemoryTransferService.cpp.o:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/build.make _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/server/ServerInlineMemoryTransferService.cpp.o
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/build.make _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/server/ServerInlineMemoryTransferService.cpp.o
 .PHONY : server/ServerInlineMemoryTransferService.cpp.o
 
 server/ServerInlineMemoryTransferService.i: server/ServerInlineMemoryTransferService.cpp.i
@@ -935,7 +935,7 @@ server/ServerInlineMemoryTransferService.i: server/ServerInlineMemoryTransferSer
 
 # target to preprocess a source file
 server/ServerInlineMemoryTransferService.cpp.i:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/build.make _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/server/ServerInlineMemoryTransferService.cpp.i
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/build.make _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/server/ServerInlineMemoryTransferService.cpp.i
 .PHONY : server/ServerInlineMemoryTransferService.cpp.i
 
 server/ServerInlineMemoryTransferService.s: server/ServerInlineMemoryTransferService.cpp.s
@@ -943,7 +943,7 @@ server/ServerInlineMemoryTransferService.s: server/ServerInlineMemoryTransferSer
 
 # target to generate assembly for a file
 server/ServerInlineMemoryTransferService.cpp.s:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/build.make _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/server/ServerInlineMemoryTransferService.cpp.s
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/build.make _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/server/ServerInlineMemoryTransferService.cpp.s
 .PHONY : server/ServerInlineMemoryTransferService.cpp.s
 
 server/ServerInstance.o: server/ServerInstance.cpp.o
@@ -951,7 +951,7 @@ server/ServerInstance.o: server/ServerInstance.cpp.o
 
 # target to build an object file
 server/ServerInstance.cpp.o:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/build.make _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/server/ServerInstance.cpp.o
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/build.make _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/server/ServerInstance.cpp.o
 .PHONY : server/ServerInstance.cpp.o
 
 server/ServerInstance.i: server/ServerInstance.cpp.i
@@ -959,7 +959,7 @@ server/ServerInstance.i: server/ServerInstance.cpp.i
 
 # target to preprocess a source file
 server/ServerInstance.cpp.i:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/build.make _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/server/ServerInstance.cpp.i
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/build.make _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/server/ServerInstance.cpp.i
 .PHONY : server/ServerInstance.cpp.i
 
 server/ServerInstance.s: server/ServerInstance.cpp.s
@@ -967,7 +967,7 @@ server/ServerInstance.s: server/ServerInstance.cpp.s
 
 # target to generate assembly for a file
 server/ServerInstance.cpp.s:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/build.make _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/server/ServerInstance.cpp.s
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/build.make _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/server/ServerInstance.cpp.s
 .PHONY : server/ServerInstance.cpp.s
 
 server/ServerQueue.o: server/ServerQueue.cpp.o
@@ -975,7 +975,7 @@ server/ServerQueue.o: server/ServerQueue.cpp.o
 
 # target to build an object file
 server/ServerQueue.cpp.o:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/build.make _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/server/ServerQueue.cpp.o
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/build.make _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/server/ServerQueue.cpp.o
 .PHONY : server/ServerQueue.cpp.o
 
 server/ServerQueue.i: server/ServerQueue.cpp.i
@@ -983,7 +983,7 @@ server/ServerQueue.i: server/ServerQueue.cpp.i
 
 # target to preprocess a source file
 server/ServerQueue.cpp.i:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/build.make _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/server/ServerQueue.cpp.i
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/build.make _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/server/ServerQueue.cpp.i
 .PHONY : server/ServerQueue.cpp.i
 
 server/ServerQueue.s: server/ServerQueue.cpp.s
@@ -991,7 +991,7 @@ server/ServerQueue.s: server/ServerQueue.cpp.s
 
 # target to generate assembly for a file
 server/ServerQueue.cpp.s:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/build.make _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/server/ServerQueue.cpp.s
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/build.make _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/server/ServerQueue.cpp.s
 .PHONY : server/ServerQueue.cpp.s
 
 server/ServerShaderModule.o: server/ServerShaderModule.cpp.o
@@ -999,7 +999,7 @@ server/ServerShaderModule.o: server/ServerShaderModule.cpp.o
 
 # target to build an object file
 server/ServerShaderModule.cpp.o:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/build.make _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/server/ServerShaderModule.cpp.o
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/build.make _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/server/ServerShaderModule.cpp.o
 .PHONY : server/ServerShaderModule.cpp.o
 
 server/ServerShaderModule.i: server/ServerShaderModule.cpp.i
@@ -1007,7 +1007,7 @@ server/ServerShaderModule.i: server/ServerShaderModule.cpp.i
 
 # target to preprocess a source file
 server/ServerShaderModule.cpp.i:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/build.make _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/server/ServerShaderModule.cpp.i
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/build.make _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/server/ServerShaderModule.cpp.i
 .PHONY : server/ServerShaderModule.cpp.i
 
 server/ServerShaderModule.s: server/ServerShaderModule.cpp.s
@@ -1015,7 +1015,7 @@ server/ServerShaderModule.s: server/ServerShaderModule.cpp.s
 
 # target to generate assembly for a file
 server/ServerShaderModule.cpp.s:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/build.make _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/server/ServerShaderModule.cpp.s
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/build.make _deps/dawn-build/src/dawn/wire/CMakeFiles/dawn_wire.dir/server/ServerShaderModule.cpp.s
 .PHONY : server/ServerShaderModule.cpp.s
 
 # Help Target
@@ -1149,6 +1149,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

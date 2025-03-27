@@ -53,10 +53,10 @@ RM = /opt/homebrew/Cellar/cmake/3.29.2/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder
+CMAKE_SOURCE_DIR = /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build
+CMAKE_BINARY_DIR = /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build
 
 # Utility rule file for spirv-tools-vimsyntax.
 
@@ -73,8 +73,8 @@ _deps/dawn-build/third_party/spirv-tools/spvasm.vim: _deps/dawn-src/third_party/
 _deps/dawn-build/third_party/spirv-tools/spvasm.vim: _deps/dawn-src/third_party/vulkan-deps/spirv-headers/src/include/spirv/unified1/extinst.glsl.std.450.grammar.json
 _deps/dawn-build/third_party/spirv-tools/spvasm.vim: _deps/dawn-src/third_party/vulkan-deps/spirv-headers/src/include/spirv/unified1/extinst.opencl.std.100.grammar.json
 _deps/dawn-build/third_party/spirv-tools/spvasm.vim: _deps/dawn-src/third_party/vulkan-deps/spirv-headers/src/include/spirv/unified1/extinst.debuginfo.grammar.json
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generate spvasm.vim: Vim syntax file for SPIR-V assembly."
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build/_deps/dawn-build/third_party/spirv-tools/source && /opt/homebrew/Frameworks/Python.framework/Versions/3.12/bin/python3.12 /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build/_deps/dawn-src/third_party/vulkan-deps/spirv-tools/src/utils/generate_vim_syntax.py --spirv-core-grammar=/Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build/_deps/dawn-src/third_party/vulkan-deps/spirv-headers/src/include/spirv/unified1/spirv.core.grammar.json --extinst-debuginfo-grammar=/Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build/_deps/dawn-src/third_party/vulkan-deps/spirv-headers/src/include/spirv/unified1/extinst.debuginfo.grammar.json --extinst-glsl-grammar=/Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build/_deps/dawn-src/third_party/vulkan-deps/spirv-headers/src/include/spirv/unified1/extinst.glsl.std.450.grammar.json --extinst-opencl-grammar=/Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build/_deps/dawn-src/third_party/vulkan-deps/spirv-headers/src/include/spirv/unified1/extinst.opencl.std.100.grammar.json >/Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build/_deps/dawn-build/third_party/spirv-tools/spvasm.vim
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generate spvasm.vim: Vim syntax file for SPIR-V assembly."
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build/_deps/dawn-build/third_party/spirv-tools/source && /opt/homebrew/Frameworks/Python.framework/Versions/3.13/bin/python3.13 /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build/_deps/dawn-src/third_party/vulkan-deps/spirv-tools/src/utils/generate_vim_syntax.py --spirv-core-grammar=/Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build/_deps/dawn-src/third_party/vulkan-deps/spirv-headers/src/include/spirv/unified1/spirv.core.grammar.json --extinst-debuginfo-grammar=/Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build/_deps/dawn-src/third_party/vulkan-deps/spirv-headers/src/include/spirv/unified1/extinst.debuginfo.grammar.json --extinst-glsl-grammar=/Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build/_deps/dawn-src/third_party/vulkan-deps/spirv-headers/src/include/spirv/unified1/extinst.glsl.std.450.grammar.json --extinst-opencl-grammar=/Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build/_deps/dawn-src/third_party/vulkan-deps/spirv-headers/src/include/spirv/unified1/extinst.opencl.std.100.grammar.json >/Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build/_deps/dawn-build/third_party/spirv-tools/spvasm.vim
 
 spirv-tools-vimsyntax: _deps/dawn-build/third_party/spirv-tools/source/CMakeFiles/spirv-tools-vimsyntax
 spirv-tools-vimsyntax: _deps/dawn-build/third_party/spirv-tools/spvasm.vim
@@ -86,10 +86,10 @@ _deps/dawn-build/third_party/spirv-tools/source/CMakeFiles/spirv-tools-vimsyntax
 .PHONY : _deps/dawn-build/third_party/spirv-tools/source/CMakeFiles/spirv-tools-vimsyntax.dir/build
 
 _deps/dawn-build/third_party/spirv-tools/source/CMakeFiles/spirv-tools-vimsyntax.dir/clean:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build/_deps/dawn-build/third_party/spirv-tools/source && $(CMAKE_COMMAND) -P CMakeFiles/spirv-tools-vimsyntax.dir/cmake_clean.cmake
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build/_deps/dawn-build/third_party/spirv-tools/source && $(CMAKE_COMMAND) -P CMakeFiles/spirv-tools-vimsyntax.dir/cmake_clean.cmake
 .PHONY : _deps/dawn-build/third_party/spirv-tools/source/CMakeFiles/spirv-tools-vimsyntax.dir/clean
 
 _deps/dawn-build/third_party/spirv-tools/source/CMakeFiles/spirv-tools-vimsyntax.dir/depend:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build/_deps/dawn-src/third_party/vulkan-deps/spirv-tools/src/source /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build/_deps/dawn-build/third_party/spirv-tools/source /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build/_deps/dawn-build/third_party/spirv-tools/source/CMakeFiles/spirv-tools-vimsyntax.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build/_deps/dawn-src/third_party/vulkan-deps/spirv-tools/src/source /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build/_deps/dawn-build/third_party/spirv-tools/source /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build/_deps/dawn-build/third_party/spirv-tools/source/CMakeFiles/spirv-tools-vimsyntax.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : _deps/dawn-build/third_party/spirv-tools/source/CMakeFiles/spirv-tools-vimsyntax.dir/depend
 

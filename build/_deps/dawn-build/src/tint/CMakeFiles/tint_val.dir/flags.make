@@ -4,7 +4,7 @@
 # compile CXX with /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++
 CXX_DEFINES = -DTINT_BUILD_GLSL_WRITER=0 -DTINT_BUILD_HLSL_WRITER=0 -DTINT_BUILD_IR=1 -DTINT_BUILD_MSL_WRITER=1 -DTINT_BUILD_SPV_READER=0 -DTINT_BUILD_SPV_WRITER=0 -DTINT_BUILD_SYNTAX_TREE_WRITER=0 -DTINT_BUILD_WGSL_READER=1 -DTINT_BUILD_WGSL_WRITER=1 -DTINT_ENABLE_MSL_VALIDATION_USING_METAL_API=1
 
-CXX_INCLUDES = -I/Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build/_deps/dawn-src -I/Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build/_deps/dawn-src/include
+CXX_INCLUDES = -I/Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build/_deps/dawn-src -I/Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build/_deps/dawn-src/include
 
 CXX_FLAGSarm64 = -g -std=gnu++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -fPIC -fmodules -fcxx-modules -fno-exceptions -fno-rtti -Wno-deprecated-builtins -Wno-unknown-warning-option -pedantic-errors -Wall -Werror -Wextra -Wno-documentation-unknown-command -Wno-padded -Wno-switch-enum -Wno-unknown-pragmas -Wno-c++98-compat -Wno-c++98-compat-pedantic -Wno-format-pedantic -Wno-poison-system-directories -Wno-return-std-move-in-c++11 -Wno-undefined-var-template -Wno-unsafe-buffer-usage -Wno-used-but-marked-unused -Weverything
 

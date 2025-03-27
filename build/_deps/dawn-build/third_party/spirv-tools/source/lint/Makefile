@@ -57,10 +57,10 @@ RM = /opt/homebrew/Cellar/cmake/3.29.2/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder
+CMAKE_SOURCE_DIR = /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build
+CMAKE_BINARY_DIR = /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build/CMakeFiles /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build/_deps/dawn-build/third_party/spirv-tools/source/lint//CMakeFiles/progress.marks
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/dawn-build/third_party/spirv-tools/source/lint/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build/CMakeFiles 0
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build/CMakeFiles /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build/_deps/dawn-build/third_party/spirv-tools/source/lint//CMakeFiles/progress.marks
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/dawn-build/third_party/spirv-tools/source/lint/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/dawn-build/third_party/spirv-tools/source/lint/clean
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/dawn-build/third_party/spirv-tools/source/lint/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,22 +103,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/dawn-build/third_party/spirv-tools/source/lint/preinstall
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/dawn-build/third_party/spirv-tools/source/lint/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/dawn-build/third_party/spirv-tools/source/lint/preinstall
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/dawn-build/third_party/spirv-tools/source/lint/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 _deps/dawn-build/third_party/spirv-tools/source/lint/CMakeFiles/SPIRV-Tools-lint.dir/rule:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/dawn-build/third_party/spirv-tools/source/lint/CMakeFiles/SPIRV-Tools-lint.dir/rule
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/dawn-build/third_party/spirv-tools/source/lint/CMakeFiles/SPIRV-Tools-lint.dir/rule
 .PHONY : _deps/dawn-build/third_party/spirv-tools/source/lint/CMakeFiles/SPIRV-Tools-lint.dir/rule
 
 # Convenience name for target.
@@ -127,7 +127,7 @@ SPIRV-Tools-lint: _deps/dawn-build/third_party/spirv-tools/source/lint/CMakeFile
 
 # fast build rule for target.
 SPIRV-Tools-lint/fast:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/third_party/spirv-tools/source/lint/CMakeFiles/SPIRV-Tools-lint.dir/build.make _deps/dawn-build/third_party/spirv-tools/source/lint/CMakeFiles/SPIRV-Tools-lint.dir/build
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/third_party/spirv-tools/source/lint/CMakeFiles/SPIRV-Tools-lint.dir/build.make _deps/dawn-build/third_party/spirv-tools/source/lint/CMakeFiles/SPIRV-Tools-lint.dir/build
 .PHONY : SPIRV-Tools-lint/fast
 
 divergence_analysis.o: divergence_analysis.cpp.o
@@ -135,7 +135,7 @@ divergence_analysis.o: divergence_analysis.cpp.o
 
 # target to build an object file
 divergence_analysis.cpp.o:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/third_party/spirv-tools/source/lint/CMakeFiles/SPIRV-Tools-lint.dir/build.make _deps/dawn-build/third_party/spirv-tools/source/lint/CMakeFiles/SPIRV-Tools-lint.dir/divergence_analysis.cpp.o
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/third_party/spirv-tools/source/lint/CMakeFiles/SPIRV-Tools-lint.dir/build.make _deps/dawn-build/third_party/spirv-tools/source/lint/CMakeFiles/SPIRV-Tools-lint.dir/divergence_analysis.cpp.o
 .PHONY : divergence_analysis.cpp.o
 
 divergence_analysis.i: divergence_analysis.cpp.i
@@ -143,7 +143,7 @@ divergence_analysis.i: divergence_analysis.cpp.i
 
 # target to preprocess a source file
 divergence_analysis.cpp.i:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/third_party/spirv-tools/source/lint/CMakeFiles/SPIRV-Tools-lint.dir/build.make _deps/dawn-build/third_party/spirv-tools/source/lint/CMakeFiles/SPIRV-Tools-lint.dir/divergence_analysis.cpp.i
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/third_party/spirv-tools/source/lint/CMakeFiles/SPIRV-Tools-lint.dir/build.make _deps/dawn-build/third_party/spirv-tools/source/lint/CMakeFiles/SPIRV-Tools-lint.dir/divergence_analysis.cpp.i
 .PHONY : divergence_analysis.cpp.i
 
 divergence_analysis.s: divergence_analysis.cpp.s
@@ -151,7 +151,7 @@ divergence_analysis.s: divergence_analysis.cpp.s
 
 # target to generate assembly for a file
 divergence_analysis.cpp.s:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/third_party/spirv-tools/source/lint/CMakeFiles/SPIRV-Tools-lint.dir/build.make _deps/dawn-build/third_party/spirv-tools/source/lint/CMakeFiles/SPIRV-Tools-lint.dir/divergence_analysis.cpp.s
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/third_party/spirv-tools/source/lint/CMakeFiles/SPIRV-Tools-lint.dir/build.make _deps/dawn-build/third_party/spirv-tools/source/lint/CMakeFiles/SPIRV-Tools-lint.dir/divergence_analysis.cpp.s
 .PHONY : divergence_analysis.cpp.s
 
 lint_divergent_derivatives.o: lint_divergent_derivatives.cpp.o
@@ -159,7 +159,7 @@ lint_divergent_derivatives.o: lint_divergent_derivatives.cpp.o
 
 # target to build an object file
 lint_divergent_derivatives.cpp.o:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/third_party/spirv-tools/source/lint/CMakeFiles/SPIRV-Tools-lint.dir/build.make _deps/dawn-build/third_party/spirv-tools/source/lint/CMakeFiles/SPIRV-Tools-lint.dir/lint_divergent_derivatives.cpp.o
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/third_party/spirv-tools/source/lint/CMakeFiles/SPIRV-Tools-lint.dir/build.make _deps/dawn-build/third_party/spirv-tools/source/lint/CMakeFiles/SPIRV-Tools-lint.dir/lint_divergent_derivatives.cpp.o
 .PHONY : lint_divergent_derivatives.cpp.o
 
 lint_divergent_derivatives.i: lint_divergent_derivatives.cpp.i
@@ -167,7 +167,7 @@ lint_divergent_derivatives.i: lint_divergent_derivatives.cpp.i
 
 # target to preprocess a source file
 lint_divergent_derivatives.cpp.i:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/third_party/spirv-tools/source/lint/CMakeFiles/SPIRV-Tools-lint.dir/build.make _deps/dawn-build/third_party/spirv-tools/source/lint/CMakeFiles/SPIRV-Tools-lint.dir/lint_divergent_derivatives.cpp.i
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/third_party/spirv-tools/source/lint/CMakeFiles/SPIRV-Tools-lint.dir/build.make _deps/dawn-build/third_party/spirv-tools/source/lint/CMakeFiles/SPIRV-Tools-lint.dir/lint_divergent_derivatives.cpp.i
 .PHONY : lint_divergent_derivatives.cpp.i
 
 lint_divergent_derivatives.s: lint_divergent_derivatives.cpp.s
@@ -175,7 +175,7 @@ lint_divergent_derivatives.s: lint_divergent_derivatives.cpp.s
 
 # target to generate assembly for a file
 lint_divergent_derivatives.cpp.s:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/third_party/spirv-tools/source/lint/CMakeFiles/SPIRV-Tools-lint.dir/build.make _deps/dawn-build/third_party/spirv-tools/source/lint/CMakeFiles/SPIRV-Tools-lint.dir/lint_divergent_derivatives.cpp.s
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/third_party/spirv-tools/source/lint/CMakeFiles/SPIRV-Tools-lint.dir/build.make _deps/dawn-build/third_party/spirv-tools/source/lint/CMakeFiles/SPIRV-Tools-lint.dir/lint_divergent_derivatives.cpp.s
 .PHONY : lint_divergent_derivatives.cpp.s
 
 linter.o: linter.cpp.o
@@ -183,7 +183,7 @@ linter.o: linter.cpp.o
 
 # target to build an object file
 linter.cpp.o:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/third_party/spirv-tools/source/lint/CMakeFiles/SPIRV-Tools-lint.dir/build.make _deps/dawn-build/third_party/spirv-tools/source/lint/CMakeFiles/SPIRV-Tools-lint.dir/linter.cpp.o
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/third_party/spirv-tools/source/lint/CMakeFiles/SPIRV-Tools-lint.dir/build.make _deps/dawn-build/third_party/spirv-tools/source/lint/CMakeFiles/SPIRV-Tools-lint.dir/linter.cpp.o
 .PHONY : linter.cpp.o
 
 linter.i: linter.cpp.i
@@ -191,7 +191,7 @@ linter.i: linter.cpp.i
 
 # target to preprocess a source file
 linter.cpp.i:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/third_party/spirv-tools/source/lint/CMakeFiles/SPIRV-Tools-lint.dir/build.make _deps/dawn-build/third_party/spirv-tools/source/lint/CMakeFiles/SPIRV-Tools-lint.dir/linter.cpp.i
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/third_party/spirv-tools/source/lint/CMakeFiles/SPIRV-Tools-lint.dir/build.make _deps/dawn-build/third_party/spirv-tools/source/lint/CMakeFiles/SPIRV-Tools-lint.dir/linter.cpp.i
 .PHONY : linter.cpp.i
 
 linter.s: linter.cpp.s
@@ -199,7 +199,7 @@ linter.s: linter.cpp.s
 
 # target to generate assembly for a file
 linter.cpp.s:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/third_party/spirv-tools/source/lint/CMakeFiles/SPIRV-Tools-lint.dir/build.make _deps/dawn-build/third_party/spirv-tools/source/lint/CMakeFiles/SPIRV-Tools-lint.dir/linter.cpp.s
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/third_party/spirv-tools/source/lint/CMakeFiles/SPIRV-Tools-lint.dir/build.make _deps/dawn-build/third_party/spirv-tools/source/lint/CMakeFiles/SPIRV-Tools-lint.dir/linter.cpp.s
 .PHONY : linter.cpp.s
 
 # Help Target
@@ -231,6 +231,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

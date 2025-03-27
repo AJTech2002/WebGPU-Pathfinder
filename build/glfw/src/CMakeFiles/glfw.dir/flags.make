@@ -4,7 +4,7 @@
 # compile C with /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc
 C_DEFINES = -D_GLFW_USE_CONFIG_H
 
-C_INCLUDES = -I/Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/glfw/include -I/Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/glfw/src -I/Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build/glfw/src
+C_INCLUDES = -I/Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/glfw/include -I/Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/glfw/src -I/Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build/glfw/src
 
 C_FLAGSarm64 = -std=gnu99 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -fPIC -Wall
 

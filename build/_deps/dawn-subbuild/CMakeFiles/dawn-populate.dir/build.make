@@ -53,10 +53,10 @@ RM = /opt/homebrew/Cellar/cmake/3.29.2/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build/_deps/dawn-subbuild
+CMAKE_SOURCE_DIR = /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build/_deps/dawn-subbuild
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build/_deps/dawn-subbuild
+CMAKE_BINARY_DIR = /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build/_deps/dawn-subbuild
 
 # Utility rule file for dawn-populate.
 
@@ -77,54 +77,54 @@ CMakeFiles/dawn-populate-complete: dawn-populate-prefix/src/dawn-populate-stamp/
 CMakeFiles/dawn-populate-complete: dawn-populate-prefix/src/dawn-populate-stamp/dawn-populate-build
 CMakeFiles/dawn-populate-complete: dawn-populate-prefix/src/dawn-populate-stamp/dawn-populate-install
 CMakeFiles/dawn-populate-complete: dawn-populate-prefix/src/dawn-populate-stamp/dawn-populate-test
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build/_deps/dawn-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Completed 'dawn-populate'"
-	/opt/homebrew/Cellar/cmake/3.29.2/bin/cmake -E make_directory /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build/_deps/dawn-subbuild/CMakeFiles
-	/opt/homebrew/Cellar/cmake/3.29.2/bin/cmake -E touch /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build/_deps/dawn-subbuild/CMakeFiles/dawn-populate-complete
-	/opt/homebrew/Cellar/cmake/3.29.2/bin/cmake -E touch /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build/_deps/dawn-subbuild/dawn-populate-prefix/src/dawn-populate-stamp/dawn-populate-done
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build/_deps/dawn-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Completed 'dawn-populate'"
+	/opt/homebrew/Cellar/cmake/3.29.2/bin/cmake -E make_directory /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build/_deps/dawn-subbuild/CMakeFiles
+	/opt/homebrew/Cellar/cmake/3.29.2/bin/cmake -E touch /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build/_deps/dawn-subbuild/CMakeFiles/dawn-populate-complete
+	/opt/homebrew/Cellar/cmake/3.29.2/bin/cmake -E touch /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build/_deps/dawn-subbuild/dawn-populate-prefix/src/dawn-populate-stamp/dawn-populate-done
 
 dawn-populate-prefix/src/dawn-populate-stamp/dawn-populate-build: dawn-populate-prefix/src/dawn-populate-stamp/dawn-populate-configure
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build/_deps/dawn-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "No build step for 'dawn-populate'"
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build/_deps/dawn-build && /opt/homebrew/Cellar/cmake/3.29.2/bin/cmake -E echo_append
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build/_deps/dawn-build && /opt/homebrew/Cellar/cmake/3.29.2/bin/cmake -E touch /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build/_deps/dawn-subbuild/dawn-populate-prefix/src/dawn-populate-stamp/dawn-populate-build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build/_deps/dawn-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "No build step for 'dawn-populate'"
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build/_deps/dawn-build && /opt/homebrew/Cellar/cmake/3.29.2/bin/cmake -E echo_append
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build/_deps/dawn-build && /opt/homebrew/Cellar/cmake/3.29.2/bin/cmake -E touch /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build/_deps/dawn-subbuild/dawn-populate-prefix/src/dawn-populate-stamp/dawn-populate-build
 
 dawn-populate-prefix/src/dawn-populate-stamp/dawn-populate-configure: dawn-populate-prefix/tmp/dawn-populate-cfgcmd.txt
 dawn-populate-prefix/src/dawn-populate-stamp/dawn-populate-configure: dawn-populate-prefix/src/dawn-populate-stamp/dawn-populate-patch
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build/_deps/dawn-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "No configure step for 'dawn-populate'"
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build/_deps/dawn-build && /opt/homebrew/Cellar/cmake/3.29.2/bin/cmake -E echo_append
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build/_deps/dawn-build && /opt/homebrew/Cellar/cmake/3.29.2/bin/cmake -E touch /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build/_deps/dawn-subbuild/dawn-populate-prefix/src/dawn-populate-stamp/dawn-populate-configure
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build/_deps/dawn-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "No configure step for 'dawn-populate'"
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build/_deps/dawn-build && /opt/homebrew/Cellar/cmake/3.29.2/bin/cmake -E echo_append
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build/_deps/dawn-build && /opt/homebrew/Cellar/cmake/3.29.2/bin/cmake -E touch /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build/_deps/dawn-subbuild/dawn-populate-prefix/src/dawn-populate-stamp/dawn-populate-configure
 
 dawn-populate-prefix/src/dawn-populate-stamp/dawn-populate-download: dawn-populate-prefix/src/dawn-populate-stamp/dawn-populate-custominfo.txt
 dawn-populate-prefix/src/dawn-populate-stamp/dawn-populate-download: dawn-populate-prefix/src/dawn-populate-stamp/dawn-populate-mkdir
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build/_deps/dawn-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Performing download step for 'dawn-populate'"
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build/_deps/dawn-subbuild/dawn-populate-prefix/src && cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build/_deps/dawn-src && git init && git fetch --depth=1 https://dawn.googlesource.com/dawn chromium/5869 && git reset --hard FETCH_HEAD
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build/_deps/dawn-subbuild/dawn-populate-prefix/src && /opt/homebrew/Cellar/cmake/3.29.2/bin/cmake -E touch /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build/_deps/dawn-subbuild/dawn-populate-prefix/src/dawn-populate-stamp/dawn-populate-download
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build/_deps/dawn-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Performing download step for 'dawn-populate'"
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build/_deps/dawn-subbuild/dawn-populate-prefix/src && cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build/_deps/dawn-src && git init && git fetch --depth=1 https://dawn.googlesource.com/dawn chromium/5869 && git reset --hard FETCH_HEAD
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build/_deps/dawn-subbuild/dawn-populate-prefix/src && /opt/homebrew/Cellar/cmake/3.29.2/bin/cmake -E touch /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build/_deps/dawn-subbuild/dawn-populate-prefix/src/dawn-populate-stamp/dawn-populate-download
 
 dawn-populate-prefix/src/dawn-populate-stamp/dawn-populate-install: dawn-populate-prefix/src/dawn-populate-stamp/dawn-populate-build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build/_deps/dawn-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "No install step for 'dawn-populate'"
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build/_deps/dawn-build && /opt/homebrew/Cellar/cmake/3.29.2/bin/cmake -E echo_append
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build/_deps/dawn-build && /opt/homebrew/Cellar/cmake/3.29.2/bin/cmake -E touch /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build/_deps/dawn-subbuild/dawn-populate-prefix/src/dawn-populate-stamp/dawn-populate-install
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build/_deps/dawn-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "No install step for 'dawn-populate'"
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build/_deps/dawn-build && /opt/homebrew/Cellar/cmake/3.29.2/bin/cmake -E echo_append
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build/_deps/dawn-build && /opt/homebrew/Cellar/cmake/3.29.2/bin/cmake -E touch /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build/_deps/dawn-subbuild/dawn-populate-prefix/src/dawn-populate-stamp/dawn-populate-install
 
 dawn-populate-prefix/src/dawn-populate-stamp/dawn-populate-mkdir:
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build/_deps/dawn-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Creating directories for 'dawn-populate'"
-	/opt/homebrew/Cellar/cmake/3.29.2/bin/cmake -Dcfgdir= -P /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build/_deps/dawn-subbuild/dawn-populate-prefix/tmp/dawn-populate-mkdirs.cmake
-	/opt/homebrew/Cellar/cmake/3.29.2/bin/cmake -E touch /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build/_deps/dawn-subbuild/dawn-populate-prefix/src/dawn-populate-stamp/dawn-populate-mkdir
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build/_deps/dawn-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Creating directories for 'dawn-populate'"
+	/opt/homebrew/Cellar/cmake/3.29.2/bin/cmake -Dcfgdir= -P /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build/_deps/dawn-subbuild/dawn-populate-prefix/tmp/dawn-populate-mkdirs.cmake
+	/opt/homebrew/Cellar/cmake/3.29.2/bin/cmake -E touch /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build/_deps/dawn-subbuild/dawn-populate-prefix/src/dawn-populate-stamp/dawn-populate-mkdir
 
 dawn-populate-prefix/src/dawn-populate-stamp/dawn-populate-patch: dawn-populate-prefix/src/dawn-populate-stamp/dawn-populate-patch-info.txt
 dawn-populate-prefix/src/dawn-populate-stamp/dawn-populate-patch: dawn-populate-prefix/src/dawn-populate-stamp/dawn-populate-update
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build/_deps/dawn-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "No patch step for 'dawn-populate'"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build/_deps/dawn-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "No patch step for 'dawn-populate'"
 	/opt/homebrew/Cellar/cmake/3.29.2/bin/cmake -E echo_append
-	/opt/homebrew/Cellar/cmake/3.29.2/bin/cmake -E touch /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build/_deps/dawn-subbuild/dawn-populate-prefix/src/dawn-populate-stamp/dawn-populate-patch
+	/opt/homebrew/Cellar/cmake/3.29.2/bin/cmake -E touch /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build/_deps/dawn-subbuild/dawn-populate-prefix/src/dawn-populate-stamp/dawn-populate-patch
 
 dawn-populate-prefix/src/dawn-populate-stamp/dawn-populate-test: dawn-populate-prefix/src/dawn-populate-stamp/dawn-populate-install
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build/_deps/dawn-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "No test step for 'dawn-populate'"
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build/_deps/dawn-build && /opt/homebrew/Cellar/cmake/3.29.2/bin/cmake -E echo_append
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build/_deps/dawn-build && /opt/homebrew/Cellar/cmake/3.29.2/bin/cmake -E touch /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build/_deps/dawn-subbuild/dawn-populate-prefix/src/dawn-populate-stamp/dawn-populate-test
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build/_deps/dawn-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "No test step for 'dawn-populate'"
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build/_deps/dawn-build && /opt/homebrew/Cellar/cmake/3.29.2/bin/cmake -E echo_append
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build/_deps/dawn-build && /opt/homebrew/Cellar/cmake/3.29.2/bin/cmake -E touch /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build/_deps/dawn-subbuild/dawn-populate-prefix/src/dawn-populate-stamp/dawn-populate-test
 
 dawn-populate-prefix/src/dawn-populate-stamp/dawn-populate-update: dawn-populate-prefix/src/dawn-populate-stamp/dawn-populate-update-info.txt
 dawn-populate-prefix/src/dawn-populate-stamp/dawn-populate-update: dawn-populate-prefix/src/dawn-populate-stamp/dawn-populate-download
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build/_deps/dawn-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "No update step for 'dawn-populate'"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build/_deps/dawn-subbuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "No update step for 'dawn-populate'"
 	/opt/homebrew/Cellar/cmake/3.29.2/bin/cmake -E echo_append
-	/opt/homebrew/Cellar/cmake/3.29.2/bin/cmake -E touch /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build/_deps/dawn-subbuild/dawn-populate-prefix/src/dawn-populate-stamp/dawn-populate-update
+	/opt/homebrew/Cellar/cmake/3.29.2/bin/cmake -E touch /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build/_deps/dawn-subbuild/dawn-populate-prefix/src/dawn-populate-stamp/dawn-populate-update
 
 dawn-populate: CMakeFiles/dawn-populate
 dawn-populate: CMakeFiles/dawn-populate-complete
@@ -148,6 +148,6 @@ CMakeFiles/dawn-populate.dir/clean:
 .PHONY : CMakeFiles/dawn-populate.dir/clean
 
 CMakeFiles/dawn-populate.dir/depend:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build/_deps/dawn-subbuild && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build/_deps/dawn-subbuild /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build/_deps/dawn-subbuild /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build/_deps/dawn-subbuild /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build/_deps/dawn-subbuild /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build/_deps/dawn-subbuild/CMakeFiles/dawn-populate.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build/_deps/dawn-subbuild && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build/_deps/dawn-subbuild /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build/_deps/dawn-subbuild /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build/_deps/dawn-subbuild /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build/_deps/dawn-subbuild /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build/_deps/dawn-subbuild/CMakeFiles/dawn-populate.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/dawn-populate.dir/depend
 

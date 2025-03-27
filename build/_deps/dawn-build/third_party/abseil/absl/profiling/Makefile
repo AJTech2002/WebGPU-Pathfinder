@@ -57,10 +57,10 @@ RM = /opt/homebrew/Cellar/cmake/3.29.2/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder
+CMAKE_SOURCE_DIR = /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build
+CMAKE_BINARY_DIR = /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build/CMakeFiles /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build/_deps/dawn-build/third_party/abseil/absl/profiling//CMakeFiles/progress.marks
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/dawn-build/third_party/abseil/absl/profiling/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build/CMakeFiles 0
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build/CMakeFiles /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build/_deps/dawn-build/third_party/abseil/absl/profiling//CMakeFiles/progress.marks
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/dawn-build/third_party/abseil/absl/profiling/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/dawn-build/third_party/abseil/absl/profiling/clean
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/dawn-build/third_party/abseil/absl/profiling/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,22 +103,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/dawn-build/third_party/abseil/absl/profiling/preinstall
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/dawn-build/third_party/abseil/absl/profiling/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/dawn-build/third_party/abseil/absl/profiling/preinstall
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/dawn-build/third_party/abseil/absl/profiling/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 _deps/dawn-build/third_party/abseil/absl/profiling/CMakeFiles/absl_exponential_biased.dir/rule:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/dawn-build/third_party/abseil/absl/profiling/CMakeFiles/absl_exponential_biased.dir/rule
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/dawn-build/third_party/abseil/absl/profiling/CMakeFiles/absl_exponential_biased.dir/rule
 .PHONY : _deps/dawn-build/third_party/abseil/absl/profiling/CMakeFiles/absl_exponential_biased.dir/rule
 
 # Convenience name for target.
@@ -127,12 +127,12 @@ absl_exponential_biased: _deps/dawn-build/third_party/abseil/absl/profiling/CMak
 
 # fast build rule for target.
 absl_exponential_biased/fast:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/third_party/abseil/absl/profiling/CMakeFiles/absl_exponential_biased.dir/build.make _deps/dawn-build/third_party/abseil/absl/profiling/CMakeFiles/absl_exponential_biased.dir/build
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/third_party/abseil/absl/profiling/CMakeFiles/absl_exponential_biased.dir/build.make _deps/dawn-build/third_party/abseil/absl/profiling/CMakeFiles/absl_exponential_biased.dir/build
 .PHONY : absl_exponential_biased/fast
 
 # Convenience name for target.
 _deps/dawn-build/third_party/abseil/absl/profiling/CMakeFiles/absl_periodic_sampler.dir/rule:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/dawn-build/third_party/abseil/absl/profiling/CMakeFiles/absl_periodic_sampler.dir/rule
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/dawn-build/third_party/abseil/absl/profiling/CMakeFiles/absl_periodic_sampler.dir/rule
 .PHONY : _deps/dawn-build/third_party/abseil/absl/profiling/CMakeFiles/absl_periodic_sampler.dir/rule
 
 # Convenience name for target.
@@ -141,7 +141,7 @@ absl_periodic_sampler: _deps/dawn-build/third_party/abseil/absl/profiling/CMakeF
 
 # fast build rule for target.
 absl_periodic_sampler/fast:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/third_party/abseil/absl/profiling/CMakeFiles/absl_periodic_sampler.dir/build.make _deps/dawn-build/third_party/abseil/absl/profiling/CMakeFiles/absl_periodic_sampler.dir/build
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/third_party/abseil/absl/profiling/CMakeFiles/absl_periodic_sampler.dir/build.make _deps/dawn-build/third_party/abseil/absl/profiling/CMakeFiles/absl_periodic_sampler.dir/build
 .PHONY : absl_periodic_sampler/fast
 
 internal/exponential_biased.o: internal/exponential_biased.cc.o
@@ -149,7 +149,7 @@ internal/exponential_biased.o: internal/exponential_biased.cc.o
 
 # target to build an object file
 internal/exponential_biased.cc.o:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/third_party/abseil/absl/profiling/CMakeFiles/absl_exponential_biased.dir/build.make _deps/dawn-build/third_party/abseil/absl/profiling/CMakeFiles/absl_exponential_biased.dir/internal/exponential_biased.cc.o
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/third_party/abseil/absl/profiling/CMakeFiles/absl_exponential_biased.dir/build.make _deps/dawn-build/third_party/abseil/absl/profiling/CMakeFiles/absl_exponential_biased.dir/internal/exponential_biased.cc.o
 .PHONY : internal/exponential_biased.cc.o
 
 internal/exponential_biased.i: internal/exponential_biased.cc.i
@@ -157,7 +157,7 @@ internal/exponential_biased.i: internal/exponential_biased.cc.i
 
 # target to preprocess a source file
 internal/exponential_biased.cc.i:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/third_party/abseil/absl/profiling/CMakeFiles/absl_exponential_biased.dir/build.make _deps/dawn-build/third_party/abseil/absl/profiling/CMakeFiles/absl_exponential_biased.dir/internal/exponential_biased.cc.i
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/third_party/abseil/absl/profiling/CMakeFiles/absl_exponential_biased.dir/build.make _deps/dawn-build/third_party/abseil/absl/profiling/CMakeFiles/absl_exponential_biased.dir/internal/exponential_biased.cc.i
 .PHONY : internal/exponential_biased.cc.i
 
 internal/exponential_biased.s: internal/exponential_biased.cc.s
@@ -165,7 +165,7 @@ internal/exponential_biased.s: internal/exponential_biased.cc.s
 
 # target to generate assembly for a file
 internal/exponential_biased.cc.s:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/third_party/abseil/absl/profiling/CMakeFiles/absl_exponential_biased.dir/build.make _deps/dawn-build/third_party/abseil/absl/profiling/CMakeFiles/absl_exponential_biased.dir/internal/exponential_biased.cc.s
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/third_party/abseil/absl/profiling/CMakeFiles/absl_exponential_biased.dir/build.make _deps/dawn-build/third_party/abseil/absl/profiling/CMakeFiles/absl_exponential_biased.dir/internal/exponential_biased.cc.s
 .PHONY : internal/exponential_biased.cc.s
 
 internal/periodic_sampler.o: internal/periodic_sampler.cc.o
@@ -173,7 +173,7 @@ internal/periodic_sampler.o: internal/periodic_sampler.cc.o
 
 # target to build an object file
 internal/periodic_sampler.cc.o:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/third_party/abseil/absl/profiling/CMakeFiles/absl_periodic_sampler.dir/build.make _deps/dawn-build/third_party/abseil/absl/profiling/CMakeFiles/absl_periodic_sampler.dir/internal/periodic_sampler.cc.o
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/third_party/abseil/absl/profiling/CMakeFiles/absl_periodic_sampler.dir/build.make _deps/dawn-build/third_party/abseil/absl/profiling/CMakeFiles/absl_periodic_sampler.dir/internal/periodic_sampler.cc.o
 .PHONY : internal/periodic_sampler.cc.o
 
 internal/periodic_sampler.i: internal/periodic_sampler.cc.i
@@ -181,7 +181,7 @@ internal/periodic_sampler.i: internal/periodic_sampler.cc.i
 
 # target to preprocess a source file
 internal/periodic_sampler.cc.i:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/third_party/abseil/absl/profiling/CMakeFiles/absl_periodic_sampler.dir/build.make _deps/dawn-build/third_party/abseil/absl/profiling/CMakeFiles/absl_periodic_sampler.dir/internal/periodic_sampler.cc.i
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/third_party/abseil/absl/profiling/CMakeFiles/absl_periodic_sampler.dir/build.make _deps/dawn-build/third_party/abseil/absl/profiling/CMakeFiles/absl_periodic_sampler.dir/internal/periodic_sampler.cc.i
 .PHONY : internal/periodic_sampler.cc.i
 
 internal/periodic_sampler.s: internal/periodic_sampler.cc.s
@@ -189,7 +189,7 @@ internal/periodic_sampler.s: internal/periodic_sampler.cc.s
 
 # target to generate assembly for a file
 internal/periodic_sampler.cc.s:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/third_party/abseil/absl/profiling/CMakeFiles/absl_periodic_sampler.dir/build.make _deps/dawn-build/third_party/abseil/absl/profiling/CMakeFiles/absl_periodic_sampler.dir/internal/periodic_sampler.cc.s
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/third_party/abseil/absl/profiling/CMakeFiles/absl_periodic_sampler.dir/build.make _deps/dawn-build/third_party/abseil/absl/profiling/CMakeFiles/absl_periodic_sampler.dir/internal/periodic_sampler.cc.s
 .PHONY : internal/periodic_sampler.cc.s
 
 # Help Target
@@ -219,6 +219,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

@@ -53,10 +53,10 @@ RM = /opt/homebrew/Cellar/cmake/3.29.2/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder
+CMAKE_SOURCE_DIR = /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build
+CMAKE_BINARY_DIR = /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build
 
 # Utility rule file for webgpu_headers_gen.
 
@@ -71,32 +71,32 @@ _deps/dawn-build/src/dawn/CMakeFiles/webgpu_headers_gen: _deps/dawn-build/gen/we
 _deps/dawn-build/gen/webgpu-headers/webgpu.h: _deps/dawn-src/dawn.json
 _deps/dawn-build/gen/webgpu-headers/webgpu.h: _deps/dawn-src/dawn_wire.json
 _deps/dawn-build/gen/webgpu-headers/webgpu.h: _deps/dawn-src/generator/templates/api.h
-_deps/dawn-build/gen/webgpu-headers/webgpu.h: _deps/dawn-src/third_party/jinja2/utils.py
-_deps/dawn-build/gen/webgpu-headers/webgpu.h: _deps/dawn-src/third_party/jinja2/compiler.py
-_deps/dawn-build/gen/webgpu-headers/webgpu.h: _deps/dawn-src/third_party/jinja2/exceptions.py
-_deps/dawn-build/gen/webgpu-headers/webgpu.h: _deps/dawn-src/third_party/jinja2/bccache.py
-_deps/dawn-build/gen/webgpu-headers/webgpu.h: _deps/dawn-src/third_party/jinja2/_identifier.py
-_deps/dawn-build/gen/webgpu-headers/webgpu.h: _deps/dawn-src/generator/dawn_json_generator.py
-_deps/dawn-build/gen/webgpu-headers/webgpu.h: _deps/dawn-src/third_party/jinja2/visitor.py
-_deps/dawn-build/gen/webgpu-headers/webgpu.h: _deps/dawn-src/third_party/jinja2/defaults.py
-_deps/dawn-build/gen/webgpu-headers/webgpu.h: _deps/dawn-src/third_party/markupsafe/__init__.py
-_deps/dawn-build/gen/webgpu-headers/webgpu.h: _deps/dawn-src/third_party/jinja2/runtime.py
 _deps/dawn-build/gen/webgpu-headers/webgpu.h: _deps/dawn-src/third_party/jinja2/filters.py
-_deps/dawn-build/gen/webgpu-headers/webgpu.h: _deps/dawn-src/third_party/jinja2/tests.py
-_deps/dawn-build/gen/webgpu-headers/webgpu.h: _deps/dawn-src/third_party/markupsafe/_native.py
-_deps/dawn-build/gen/webgpu-headers/webgpu.h: _deps/dawn-src/third_party/jinja2/__init__.py
 _deps/dawn-build/gen/webgpu-headers/webgpu.h: _deps/dawn-src/third_party/jinja2/environment.py
+_deps/dawn-build/gen/webgpu-headers/webgpu.h: _deps/dawn-src/third_party/jinja2/bccache.py
 _deps/dawn-build/gen/webgpu-headers/webgpu.h: _deps/dawn-src/third_party/jinja2/loaders.py
-_deps/dawn-build/gen/webgpu-headers/webgpu.h: _deps/dawn-src/third_party/jinja2/_compat.py
+_deps/dawn-build/gen/webgpu-headers/webgpu.h: _deps/dawn-src/third_party/jinja2/visitor.py
+_deps/dawn-build/gen/webgpu-headers/webgpu.h: _deps/dawn-src/third_party/jinja2/tests.py
 _deps/dawn-build/gen/webgpu-headers/webgpu.h: _deps/dawn-src/third_party/jinja2/optimizer.py
-_deps/dawn-build/gen/webgpu-headers/webgpu.h: _deps/dawn-src/third_party/jinja2/idtracking.py
-_deps/dawn-build/gen/webgpu-headers/webgpu.h: _deps/dawn-src/third_party/jinja2/lexer.py
-_deps/dawn-build/gen/webgpu-headers/webgpu.h: _deps/dawn-src/third_party/markupsafe/_compat.py
+_deps/dawn-build/gen/webgpu-headers/webgpu.h: _deps/dawn-src/third_party/jinja2/compiler.py
+_deps/dawn-build/gen/webgpu-headers/webgpu.h: _deps/dawn-src/third_party/jinja2/utils.py
 _deps/dawn-build/gen/webgpu-headers/webgpu.h: _deps/dawn-src/third_party/jinja2/parser.py
-_deps/dawn-build/gen/webgpu-headers/webgpu.h: _deps/dawn-src/third_party/jinja2/nodes.py
+_deps/dawn-build/gen/webgpu-headers/webgpu.h: _deps/dawn-src/third_party/markupsafe/__init__.py
+_deps/dawn-build/gen/webgpu-headers/webgpu.h: _deps/dawn-src/third_party/markupsafe/_native.py
+_deps/dawn-build/gen/webgpu-headers/webgpu.h: _deps/dawn-src/third_party/jinja2/_identifier.py
+_deps/dawn-build/gen/webgpu-headers/webgpu.h: _deps/dawn-src/third_party/jinja2/exceptions.py
+_deps/dawn-build/gen/webgpu-headers/webgpu.h: _deps/dawn-src/third_party/jinja2/defaults.py
+_deps/dawn-build/gen/webgpu-headers/webgpu.h: _deps/dawn-src/generator/dawn_json_generator.py
+_deps/dawn-build/gen/webgpu-headers/webgpu.h: _deps/dawn-src/third_party/jinja2/_compat.py
 _deps/dawn-build/gen/webgpu-headers/webgpu.h: _deps/dawn-src/generator/generator_lib.py
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Dawn: Generating files for WebGPU headers."
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build/_deps/dawn-build/src/dawn && /opt/homebrew/bin/python3 /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build/_deps/dawn-src/generator/dawn_json_generator.py --template-dir /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build/_deps/dawn-src/generator/templates --root-dir /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build/_deps/dawn-src --output-dir /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build/_deps/dawn-build/gen --dawn-json /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build/_deps/dawn-src/dawn.json --wire-json /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build/_deps/dawn-src/dawn_wire.json --targets webgpu_headers --jinja2-path /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build/_deps/dawn-src/third_party/jinja2 --markupsafe-path /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build/_deps/dawn-src/third_party/markupsafe
+_deps/dawn-build/gen/webgpu-headers/webgpu.h: _deps/dawn-src/third_party/jinja2/__init__.py
+_deps/dawn-build/gen/webgpu-headers/webgpu.h: _deps/dawn-src/third_party/jinja2/nodes.py
+_deps/dawn-build/gen/webgpu-headers/webgpu.h: _deps/dawn-src/third_party/jinja2/idtracking.py
+_deps/dawn-build/gen/webgpu-headers/webgpu.h: _deps/dawn-src/third_party/markupsafe/_compat.py
+_deps/dawn-build/gen/webgpu-headers/webgpu.h: _deps/dawn-src/third_party/jinja2/lexer.py
+_deps/dawn-build/gen/webgpu-headers/webgpu.h: _deps/dawn-src/third_party/jinja2/runtime.py
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Dawn: Generating files for WebGPU headers."
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build/_deps/dawn-build/src/dawn && /opt/homebrew/bin/python3 /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build/_deps/dawn-src/generator/dawn_json_generator.py --template-dir /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build/_deps/dawn-src/generator/templates --root-dir /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build/_deps/dawn-src --output-dir /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build/_deps/dawn-build/gen --dawn-json /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build/_deps/dawn-src/dawn.json --wire-json /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build/_deps/dawn-src/dawn_wire.json --targets webgpu_headers --jinja2-path /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build/_deps/dawn-src/third_party/jinja2 --markupsafe-path /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build/_deps/dawn-src/third_party/markupsafe
 
 webgpu_headers_gen: _deps/dawn-build/gen/webgpu-headers/webgpu.h
 webgpu_headers_gen: _deps/dawn-build/src/dawn/CMakeFiles/webgpu_headers_gen
@@ -108,10 +108,10 @@ _deps/dawn-build/src/dawn/CMakeFiles/webgpu_headers_gen.dir/build: webgpu_header
 .PHONY : _deps/dawn-build/src/dawn/CMakeFiles/webgpu_headers_gen.dir/build
 
 _deps/dawn-build/src/dawn/CMakeFiles/webgpu_headers_gen.dir/clean:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build/_deps/dawn-build/src/dawn && $(CMAKE_COMMAND) -P CMakeFiles/webgpu_headers_gen.dir/cmake_clean.cmake
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build/_deps/dawn-build/src/dawn && $(CMAKE_COMMAND) -P CMakeFiles/webgpu_headers_gen.dir/cmake_clean.cmake
 .PHONY : _deps/dawn-build/src/dawn/CMakeFiles/webgpu_headers_gen.dir/clean
 
 _deps/dawn-build/src/dawn/CMakeFiles/webgpu_headers_gen.dir/depend:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build/_deps/dawn-src/src/dawn /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build/_deps/dawn-build/src/dawn /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build/_deps/dawn-build/src/dawn/CMakeFiles/webgpu_headers_gen.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build/_deps/dawn-src/src/dawn /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build/_deps/dawn-build/src/dawn /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build/_deps/dawn-build/src/dawn/CMakeFiles/webgpu_headers_gen.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : _deps/dawn-build/src/dawn/CMakeFiles/webgpu_headers_gen.dir/depend
 

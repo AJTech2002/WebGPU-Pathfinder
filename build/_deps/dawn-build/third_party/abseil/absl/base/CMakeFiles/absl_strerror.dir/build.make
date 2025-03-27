@@ -53,10 +53,10 @@ RM = /opt/homebrew/Cellar/cmake/3.29.2/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder
+CMAKE_SOURCE_DIR = /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build
+CMAKE_BINARY_DIR = /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build
 
 # Include any dependencies generated for this target.
 include _deps/dawn-build/third_party/abseil/absl/base/CMakeFiles/absl_strerror.dir/depend.make
@@ -72,16 +72,16 @@ include _deps/dawn-build/third_party/abseil/absl/base/CMakeFiles/absl_strerror.d
 _deps/dawn-build/third_party/abseil/absl/base/CMakeFiles/absl_strerror.dir/internal/strerror.cc.o: _deps/dawn-build/third_party/abseil/absl/base/CMakeFiles/absl_strerror.dir/flags.make
 _deps/dawn-build/third_party/abseil/absl/base/CMakeFiles/absl_strerror.dir/internal/strerror.cc.o: _deps/dawn-src/third_party/abseil-cpp/absl/base/internal/strerror.cc
 _deps/dawn-build/third_party/abseil/absl/base/CMakeFiles/absl_strerror.dir/internal/strerror.cc.o: _deps/dawn-build/third_party/abseil/absl/base/CMakeFiles/absl_strerror.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object _deps/dawn-build/third_party/abseil/absl/base/CMakeFiles/absl_strerror.dir/internal/strerror.cc.o"
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build/_deps/dawn-build/third_party/abseil/absl/base && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT _deps/dawn-build/third_party/abseil/absl/base/CMakeFiles/absl_strerror.dir/internal/strerror.cc.o -MF CMakeFiles/absl_strerror.dir/internal/strerror.cc.o.d -o CMakeFiles/absl_strerror.dir/internal/strerror.cc.o -c /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build/_deps/dawn-src/third_party/abseil-cpp/absl/base/internal/strerror.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object _deps/dawn-build/third_party/abseil/absl/base/CMakeFiles/absl_strerror.dir/internal/strerror.cc.o"
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build/_deps/dawn-build/third_party/abseil/absl/base && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT _deps/dawn-build/third_party/abseil/absl/base/CMakeFiles/absl_strerror.dir/internal/strerror.cc.o -MF CMakeFiles/absl_strerror.dir/internal/strerror.cc.o.d -o CMakeFiles/absl_strerror.dir/internal/strerror.cc.o -c /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build/_deps/dawn-src/third_party/abseil-cpp/absl/base/internal/strerror.cc
 
 _deps/dawn-build/third_party/abseil/absl/base/CMakeFiles/absl_strerror.dir/internal/strerror.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/absl_strerror.dir/internal/strerror.cc.i"
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build/_deps/dawn-build/third_party/abseil/absl/base && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build/_deps/dawn-src/third_party/abseil-cpp/absl/base/internal/strerror.cc > CMakeFiles/absl_strerror.dir/internal/strerror.cc.i
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build/_deps/dawn-build/third_party/abseil/absl/base && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build/_deps/dawn-src/third_party/abseil-cpp/absl/base/internal/strerror.cc > CMakeFiles/absl_strerror.dir/internal/strerror.cc.i
 
 _deps/dawn-build/third_party/abseil/absl/base/CMakeFiles/absl_strerror.dir/internal/strerror.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/absl_strerror.dir/internal/strerror.cc.s"
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build/_deps/dawn-build/third_party/abseil/absl/base && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build/_deps/dawn-src/third_party/abseil-cpp/absl/base/internal/strerror.cc -o CMakeFiles/absl_strerror.dir/internal/strerror.cc.s
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build/_deps/dawn-build/third_party/abseil/absl/base && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build/_deps/dawn-src/third_party/abseil-cpp/absl/base/internal/strerror.cc -o CMakeFiles/absl_strerror.dir/internal/strerror.cc.s
 
 # Object files for target absl_strerror
 absl_strerror_OBJECTS = \
@@ -93,19 +93,19 @@ absl_strerror_EXTERNAL_OBJECTS =
 _deps/dawn-build/third_party/abseil/absl/base/libabsl_strerror.a: _deps/dawn-build/third_party/abseil/absl/base/CMakeFiles/absl_strerror.dir/internal/strerror.cc.o
 _deps/dawn-build/third_party/abseil/absl/base/libabsl_strerror.a: _deps/dawn-build/third_party/abseil/absl/base/CMakeFiles/absl_strerror.dir/build.make
 _deps/dawn-build/third_party/abseil/absl/base/libabsl_strerror.a: _deps/dawn-build/third_party/abseil/absl/base/CMakeFiles/absl_strerror.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libabsl_strerror.a"
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build/_deps/dawn-build/third_party/abseil/absl/base && $(CMAKE_COMMAND) -P CMakeFiles/absl_strerror.dir/cmake_clean_target.cmake
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build/_deps/dawn-build/third_party/abseil/absl/base && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/absl_strerror.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libabsl_strerror.a"
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build/_deps/dawn-build/third_party/abseil/absl/base && $(CMAKE_COMMAND) -P CMakeFiles/absl_strerror.dir/cmake_clean_target.cmake
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build/_deps/dawn-build/third_party/abseil/absl/base && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/absl_strerror.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 _deps/dawn-build/third_party/abseil/absl/base/CMakeFiles/absl_strerror.dir/build: _deps/dawn-build/third_party/abseil/absl/base/libabsl_strerror.a
 .PHONY : _deps/dawn-build/third_party/abseil/absl/base/CMakeFiles/absl_strerror.dir/build
 
 _deps/dawn-build/third_party/abseil/absl/base/CMakeFiles/absl_strerror.dir/clean:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build/_deps/dawn-build/third_party/abseil/absl/base && $(CMAKE_COMMAND) -P CMakeFiles/absl_strerror.dir/cmake_clean.cmake
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build/_deps/dawn-build/third_party/abseil/absl/base && $(CMAKE_COMMAND) -P CMakeFiles/absl_strerror.dir/cmake_clean.cmake
 .PHONY : _deps/dawn-build/third_party/abseil/absl/base/CMakeFiles/absl_strerror.dir/clean
 
 _deps/dawn-build/third_party/abseil/absl/base/CMakeFiles/absl_strerror.dir/depend:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build/_deps/dawn-src/third_party/abseil-cpp/absl/base /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build/_deps/dawn-build/third_party/abseil/absl/base /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build/_deps/dawn-build/third_party/abseil/absl/base/CMakeFiles/absl_strerror.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build/_deps/dawn-src/third_party/abseil-cpp/absl/base /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build/_deps/dawn-build/third_party/abseil/absl/base /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build/_deps/dawn-build/third_party/abseil/absl/base/CMakeFiles/absl_strerror.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : _deps/dawn-build/third_party/abseil/absl/base/CMakeFiles/absl_strerror.dir/depend
 

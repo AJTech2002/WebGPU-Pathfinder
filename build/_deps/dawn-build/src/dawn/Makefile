@@ -57,10 +57,10 @@ RM = /opt/homebrew/Cellar/cmake/3.29.2/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder
+CMAKE_SOURCE_DIR = /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build
+CMAKE_BINARY_DIR = /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build/CMakeFiles /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build/_deps/dawn-build/src/dawn//CMakeFiles/progress.marks
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/dawn-build/src/dawn/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build/CMakeFiles 0
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build/CMakeFiles /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build/_deps/dawn-build/src/dawn//CMakeFiles/progress.marks
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/dawn-build/src/dawn/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/dawn-build/src/dawn/clean
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/dawn-build/src/dawn/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,22 +103,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/dawn-build/src/dawn/preinstall
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/dawn-build/src/dawn/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/dawn-build/src/dawn/preinstall
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/dawn-build/src/dawn/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 _deps/dawn-build/src/dawn/CMakeFiles/dawn_headers.dir/rule:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/dawn-build/src/dawn/CMakeFiles/dawn_headers.dir/rule
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/dawn-build/src/dawn/CMakeFiles/dawn_headers.dir/rule
 .PHONY : _deps/dawn-build/src/dawn/CMakeFiles/dawn_headers.dir/rule
 
 # Convenience name for target.
@@ -127,12 +127,12 @@ dawn_headers: _deps/dawn-build/src/dawn/CMakeFiles/dawn_headers.dir/rule
 
 # fast build rule for target.
 dawn_headers/fast:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/CMakeFiles/dawn_headers.dir/build.make _deps/dawn-build/src/dawn/CMakeFiles/dawn_headers.dir/build
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/CMakeFiles/dawn_headers.dir/build.make _deps/dawn-build/src/dawn/CMakeFiles/dawn_headers.dir/build
 .PHONY : dawn_headers/fast
 
 # Convenience name for target.
 _deps/dawn-build/src/dawn/CMakeFiles/dawncpp_headers.dir/rule:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/dawn-build/src/dawn/CMakeFiles/dawncpp_headers.dir/rule
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/dawn-build/src/dawn/CMakeFiles/dawncpp_headers.dir/rule
 .PHONY : _deps/dawn-build/src/dawn/CMakeFiles/dawncpp_headers.dir/rule
 
 # Convenience name for target.
@@ -141,12 +141,12 @@ dawncpp_headers: _deps/dawn-build/src/dawn/CMakeFiles/dawncpp_headers.dir/rule
 
 # fast build rule for target.
 dawncpp_headers/fast:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/CMakeFiles/dawncpp_headers.dir/build.make _deps/dawn-build/src/dawn/CMakeFiles/dawncpp_headers.dir/build
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/CMakeFiles/dawncpp_headers.dir/build.make _deps/dawn-build/src/dawn/CMakeFiles/dawncpp_headers.dir/build
 .PHONY : dawncpp_headers/fast
 
 # Convenience name for target.
 _deps/dawn-build/src/dawn/CMakeFiles/dawncpp.dir/rule:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/dawn-build/src/dawn/CMakeFiles/dawncpp.dir/rule
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/dawn-build/src/dawn/CMakeFiles/dawncpp.dir/rule
 .PHONY : _deps/dawn-build/src/dawn/CMakeFiles/dawncpp.dir/rule
 
 # Convenience name for target.
@@ -155,12 +155,12 @@ dawncpp: _deps/dawn-build/src/dawn/CMakeFiles/dawncpp.dir/rule
 
 # fast build rule for target.
 dawncpp/fast:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/CMakeFiles/dawncpp.dir/build.make _deps/dawn-build/src/dawn/CMakeFiles/dawncpp.dir/build
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/CMakeFiles/dawncpp.dir/build.make _deps/dawn-build/src/dawn/CMakeFiles/dawncpp.dir/build
 .PHONY : dawncpp/fast
 
 # Convenience name for target.
 _deps/dawn-build/src/dawn/CMakeFiles/dawn_proc.dir/rule:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/dawn-build/src/dawn/CMakeFiles/dawn_proc.dir/rule
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/dawn-build/src/dawn/CMakeFiles/dawn_proc.dir/rule
 .PHONY : _deps/dawn-build/src/dawn/CMakeFiles/dawn_proc.dir/rule
 
 # Convenience name for target.
@@ -169,12 +169,12 @@ dawn_proc: _deps/dawn-build/src/dawn/CMakeFiles/dawn_proc.dir/rule
 
 # fast build rule for target.
 dawn_proc/fast:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/CMakeFiles/dawn_proc.dir/build.make _deps/dawn-build/src/dawn/CMakeFiles/dawn_proc.dir/build
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/CMakeFiles/dawn_proc.dir/build.make _deps/dawn-build/src/dawn/CMakeFiles/dawn_proc.dir/build
 .PHONY : dawn_proc/fast
 
 # Convenience name for target.
 _deps/dawn-build/src/dawn/CMakeFiles/webgpu_headers_gen.dir/rule:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/dawn-build/src/dawn/CMakeFiles/webgpu_headers_gen.dir/rule
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/dawn-build/src/dawn/CMakeFiles/webgpu_headers_gen.dir/rule
 .PHONY : _deps/dawn-build/src/dawn/CMakeFiles/webgpu_headers_gen.dir/rule
 
 # Convenience name for target.
@@ -183,12 +183,12 @@ webgpu_headers_gen: _deps/dawn-build/src/dawn/CMakeFiles/webgpu_headers_gen.dir/
 
 # fast build rule for target.
 webgpu_headers_gen/fast:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/CMakeFiles/webgpu_headers_gen.dir/build.make _deps/dawn-build/src/dawn/CMakeFiles/webgpu_headers_gen.dir/build
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/CMakeFiles/webgpu_headers_gen.dir/build.make _deps/dawn-build/src/dawn/CMakeFiles/webgpu_headers_gen.dir/build
 .PHONY : webgpu_headers_gen/fast
 
 # Convenience name for target.
 _deps/dawn-build/src/dawn/CMakeFiles/emscripten_bits_gen.dir/rule:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/dawn-build/src/dawn/CMakeFiles/emscripten_bits_gen.dir/rule
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/dawn-build/src/dawn/CMakeFiles/emscripten_bits_gen.dir/rule
 .PHONY : _deps/dawn-build/src/dawn/CMakeFiles/emscripten_bits_gen.dir/rule
 
 # Convenience name for target.
@@ -197,7 +197,7 @@ emscripten_bits_gen: _deps/dawn-build/src/dawn/CMakeFiles/emscripten_bits_gen.di
 
 # fast build rule for target.
 emscripten_bits_gen/fast:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/CMakeFiles/emscripten_bits_gen.dir/build.make _deps/dawn-build/src/dawn/CMakeFiles/emscripten_bits_gen.dir/build
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/CMakeFiles/emscripten_bits_gen.dir/build.make _deps/dawn-build/src/dawn/CMakeFiles/emscripten_bits_gen.dir/build
 .PHONY : emscripten_bits_gen/fast
 
 __/Placeholder.o: __/Placeholder.cpp.o
@@ -205,10 +205,10 @@ __/Placeholder.o: __/Placeholder.cpp.o
 
 # target to build an object file
 __/Placeholder.cpp.o:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/CMakeFiles/dawn_headers.dir/build.make _deps/dawn-build/src/dawn/CMakeFiles/dawn_headers.dir/__/Placeholder.cpp.o
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/CMakeFiles/dawncpp_headers.dir/build.make _deps/dawn-build/src/dawn/CMakeFiles/dawncpp_headers.dir/__/Placeholder.cpp.o
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/CMakeFiles/dawncpp.dir/build.make _deps/dawn-build/src/dawn/CMakeFiles/dawncpp.dir/__/Placeholder.cpp.o
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/CMakeFiles/dawn_proc.dir/build.make _deps/dawn-build/src/dawn/CMakeFiles/dawn_proc.dir/__/Placeholder.cpp.o
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/CMakeFiles/dawn_headers.dir/build.make _deps/dawn-build/src/dawn/CMakeFiles/dawn_headers.dir/__/Placeholder.cpp.o
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/CMakeFiles/dawncpp_headers.dir/build.make _deps/dawn-build/src/dawn/CMakeFiles/dawncpp_headers.dir/__/Placeholder.cpp.o
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/CMakeFiles/dawncpp.dir/build.make _deps/dawn-build/src/dawn/CMakeFiles/dawncpp.dir/__/Placeholder.cpp.o
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/CMakeFiles/dawn_proc.dir/build.make _deps/dawn-build/src/dawn/CMakeFiles/dawn_proc.dir/__/Placeholder.cpp.o
 .PHONY : __/Placeholder.cpp.o
 
 __/Placeholder.i: __/Placeholder.cpp.i
@@ -216,10 +216,10 @@ __/Placeholder.i: __/Placeholder.cpp.i
 
 # target to preprocess a source file
 __/Placeholder.cpp.i:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/CMakeFiles/dawn_headers.dir/build.make _deps/dawn-build/src/dawn/CMakeFiles/dawn_headers.dir/__/Placeholder.cpp.i
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/CMakeFiles/dawncpp_headers.dir/build.make _deps/dawn-build/src/dawn/CMakeFiles/dawncpp_headers.dir/__/Placeholder.cpp.i
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/CMakeFiles/dawncpp.dir/build.make _deps/dawn-build/src/dawn/CMakeFiles/dawncpp.dir/__/Placeholder.cpp.i
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/CMakeFiles/dawn_proc.dir/build.make _deps/dawn-build/src/dawn/CMakeFiles/dawn_proc.dir/__/Placeholder.cpp.i
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/CMakeFiles/dawn_headers.dir/build.make _deps/dawn-build/src/dawn/CMakeFiles/dawn_headers.dir/__/Placeholder.cpp.i
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/CMakeFiles/dawncpp_headers.dir/build.make _deps/dawn-build/src/dawn/CMakeFiles/dawncpp_headers.dir/__/Placeholder.cpp.i
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/CMakeFiles/dawncpp.dir/build.make _deps/dawn-build/src/dawn/CMakeFiles/dawncpp.dir/__/Placeholder.cpp.i
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/CMakeFiles/dawn_proc.dir/build.make _deps/dawn-build/src/dawn/CMakeFiles/dawn_proc.dir/__/Placeholder.cpp.i
 .PHONY : __/Placeholder.cpp.i
 
 __/Placeholder.s: __/Placeholder.cpp.s
@@ -227,10 +227,10 @@ __/Placeholder.s: __/Placeholder.cpp.s
 
 # target to generate assembly for a file
 __/Placeholder.cpp.s:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/CMakeFiles/dawn_headers.dir/build.make _deps/dawn-build/src/dawn/CMakeFiles/dawn_headers.dir/__/Placeholder.cpp.s
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/CMakeFiles/dawncpp_headers.dir/build.make _deps/dawn-build/src/dawn/CMakeFiles/dawncpp_headers.dir/__/Placeholder.cpp.s
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/CMakeFiles/dawncpp.dir/build.make _deps/dawn-build/src/dawn/CMakeFiles/dawncpp.dir/__/Placeholder.cpp.s
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/CMakeFiles/dawn_proc.dir/build.make _deps/dawn-build/src/dawn/CMakeFiles/dawn_proc.dir/__/Placeholder.cpp.s
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/CMakeFiles/dawn_headers.dir/build.make _deps/dawn-build/src/dawn/CMakeFiles/dawn_headers.dir/__/Placeholder.cpp.s
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/CMakeFiles/dawncpp_headers.dir/build.make _deps/dawn-build/src/dawn/CMakeFiles/dawncpp_headers.dir/__/Placeholder.cpp.s
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/CMakeFiles/dawncpp.dir/build.make _deps/dawn-build/src/dawn/CMakeFiles/dawncpp.dir/__/Placeholder.cpp.s
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/CMakeFiles/dawn_proc.dir/build.make _deps/dawn-build/src/dawn/CMakeFiles/dawn_proc.dir/__/Placeholder.cpp.s
 .PHONY : __/Placeholder.cpp.s
 
 __/__/gen/src/dawn/dawn_proc.o: __/__/gen/src/dawn/dawn_proc.c.o
@@ -238,7 +238,7 @@ __/__/gen/src/dawn/dawn_proc.o: __/__/gen/src/dawn/dawn_proc.c.o
 
 # target to build an object file
 __/__/gen/src/dawn/dawn_proc.c.o:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/CMakeFiles/dawn_proc.dir/build.make _deps/dawn-build/src/dawn/CMakeFiles/dawn_proc.dir/__/__/gen/src/dawn/dawn_proc.c.o
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/CMakeFiles/dawn_proc.dir/build.make _deps/dawn-build/src/dawn/CMakeFiles/dawn_proc.dir/__/__/gen/src/dawn/dawn_proc.c.o
 .PHONY : __/__/gen/src/dawn/dawn_proc.c.o
 
 __/__/gen/src/dawn/dawn_proc.i: __/__/gen/src/dawn/dawn_proc.c.i
@@ -246,7 +246,7 @@ __/__/gen/src/dawn/dawn_proc.i: __/__/gen/src/dawn/dawn_proc.c.i
 
 # target to preprocess a source file
 __/__/gen/src/dawn/dawn_proc.c.i:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/CMakeFiles/dawn_proc.dir/build.make _deps/dawn-build/src/dawn/CMakeFiles/dawn_proc.dir/__/__/gen/src/dawn/dawn_proc.c.i
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/CMakeFiles/dawn_proc.dir/build.make _deps/dawn-build/src/dawn/CMakeFiles/dawn_proc.dir/__/__/gen/src/dawn/dawn_proc.c.i
 .PHONY : __/__/gen/src/dawn/dawn_proc.c.i
 
 __/__/gen/src/dawn/dawn_proc.s: __/__/gen/src/dawn/dawn_proc.c.s
@@ -254,7 +254,7 @@ __/__/gen/src/dawn/dawn_proc.s: __/__/gen/src/dawn/dawn_proc.c.s
 
 # target to generate assembly for a file
 __/__/gen/src/dawn/dawn_proc.c.s:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/CMakeFiles/dawn_proc.dir/build.make _deps/dawn-build/src/dawn/CMakeFiles/dawn_proc.dir/__/__/gen/src/dawn/dawn_proc.c.s
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/CMakeFiles/dawn_proc.dir/build.make _deps/dawn-build/src/dawn/CMakeFiles/dawn_proc.dir/__/__/gen/src/dawn/dawn_proc.c.s
 .PHONY : __/__/gen/src/dawn/dawn_proc.c.s
 
 __/__/gen/src/dawn/dawn_thread_dispatch_proc.o: __/__/gen/src/dawn/dawn_thread_dispatch_proc.cpp.o
@@ -262,7 +262,7 @@ __/__/gen/src/dawn/dawn_thread_dispatch_proc.o: __/__/gen/src/dawn/dawn_thread_d
 
 # target to build an object file
 __/__/gen/src/dawn/dawn_thread_dispatch_proc.cpp.o:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/CMakeFiles/dawn_proc.dir/build.make _deps/dawn-build/src/dawn/CMakeFiles/dawn_proc.dir/__/__/gen/src/dawn/dawn_thread_dispatch_proc.cpp.o
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/CMakeFiles/dawn_proc.dir/build.make _deps/dawn-build/src/dawn/CMakeFiles/dawn_proc.dir/__/__/gen/src/dawn/dawn_thread_dispatch_proc.cpp.o
 .PHONY : __/__/gen/src/dawn/dawn_thread_dispatch_proc.cpp.o
 
 __/__/gen/src/dawn/dawn_thread_dispatch_proc.i: __/__/gen/src/dawn/dawn_thread_dispatch_proc.cpp.i
@@ -270,7 +270,7 @@ __/__/gen/src/dawn/dawn_thread_dispatch_proc.i: __/__/gen/src/dawn/dawn_thread_d
 
 # target to preprocess a source file
 __/__/gen/src/dawn/dawn_thread_dispatch_proc.cpp.i:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/CMakeFiles/dawn_proc.dir/build.make _deps/dawn-build/src/dawn/CMakeFiles/dawn_proc.dir/__/__/gen/src/dawn/dawn_thread_dispatch_proc.cpp.i
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/CMakeFiles/dawn_proc.dir/build.make _deps/dawn-build/src/dawn/CMakeFiles/dawn_proc.dir/__/__/gen/src/dawn/dawn_thread_dispatch_proc.cpp.i
 .PHONY : __/__/gen/src/dawn/dawn_thread_dispatch_proc.cpp.i
 
 __/__/gen/src/dawn/dawn_thread_dispatch_proc.s: __/__/gen/src/dawn/dawn_thread_dispatch_proc.cpp.s
@@ -278,7 +278,7 @@ __/__/gen/src/dawn/dawn_thread_dispatch_proc.s: __/__/gen/src/dawn/dawn_thread_d
 
 # target to generate assembly for a file
 __/__/gen/src/dawn/dawn_thread_dispatch_proc.cpp.s:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/CMakeFiles/dawn_proc.dir/build.make _deps/dawn-build/src/dawn/CMakeFiles/dawn_proc.dir/__/__/gen/src/dawn/dawn_thread_dispatch_proc.cpp.s
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/CMakeFiles/dawn_proc.dir/build.make _deps/dawn-build/src/dawn/CMakeFiles/dawn_proc.dir/__/__/gen/src/dawn/dawn_thread_dispatch_proc.cpp.s
 .PHONY : __/__/gen/src/dawn/dawn_thread_dispatch_proc.cpp.s
 
 __/__/gen/src/dawn/webgpu_cpp.o: __/__/gen/src/dawn/webgpu_cpp.cpp.o
@@ -286,7 +286,7 @@ __/__/gen/src/dawn/webgpu_cpp.o: __/__/gen/src/dawn/webgpu_cpp.cpp.o
 
 # target to build an object file
 __/__/gen/src/dawn/webgpu_cpp.cpp.o:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/CMakeFiles/dawncpp.dir/build.make _deps/dawn-build/src/dawn/CMakeFiles/dawncpp.dir/__/__/gen/src/dawn/webgpu_cpp.cpp.o
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/CMakeFiles/dawncpp.dir/build.make _deps/dawn-build/src/dawn/CMakeFiles/dawncpp.dir/__/__/gen/src/dawn/webgpu_cpp.cpp.o
 .PHONY : __/__/gen/src/dawn/webgpu_cpp.cpp.o
 
 __/__/gen/src/dawn/webgpu_cpp.i: __/__/gen/src/dawn/webgpu_cpp.cpp.i
@@ -294,7 +294,7 @@ __/__/gen/src/dawn/webgpu_cpp.i: __/__/gen/src/dawn/webgpu_cpp.cpp.i
 
 # target to preprocess a source file
 __/__/gen/src/dawn/webgpu_cpp.cpp.i:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/CMakeFiles/dawncpp.dir/build.make _deps/dawn-build/src/dawn/CMakeFiles/dawncpp.dir/__/__/gen/src/dawn/webgpu_cpp.cpp.i
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/CMakeFiles/dawncpp.dir/build.make _deps/dawn-build/src/dawn/CMakeFiles/dawncpp.dir/__/__/gen/src/dawn/webgpu_cpp.cpp.i
 .PHONY : __/__/gen/src/dawn/webgpu_cpp.cpp.i
 
 __/__/gen/src/dawn/webgpu_cpp.s: __/__/gen/src/dawn/webgpu_cpp.cpp.s
@@ -302,7 +302,7 @@ __/__/gen/src/dawn/webgpu_cpp.s: __/__/gen/src/dawn/webgpu_cpp.cpp.s
 
 # target to generate assembly for a file
 __/__/gen/src/dawn/webgpu_cpp.cpp.s:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/CMakeFiles/dawncpp.dir/build.make _deps/dawn-build/src/dawn/CMakeFiles/dawncpp.dir/__/__/gen/src/dawn/webgpu_cpp.cpp.s
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/src/dawn/CMakeFiles/dawncpp.dir/build.make _deps/dawn-build/src/dawn/CMakeFiles/dawncpp.dir/__/__/gen/src/dawn/webgpu_cpp.cpp.s
 .PHONY : __/__/gen/src/dawn/webgpu_cpp.cpp.s
 
 # Help Target
@@ -342,6 +342,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

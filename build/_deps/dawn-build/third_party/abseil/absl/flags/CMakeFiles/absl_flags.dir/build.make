@@ -53,10 +53,10 @@ RM = /opt/homebrew/Cellar/cmake/3.29.2/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder
+CMAKE_SOURCE_DIR = /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build
+CMAKE_BINARY_DIR = /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build
 
 # Include any dependencies generated for this target.
 include _deps/dawn-build/third_party/abseil/absl/flags/CMakeFiles/absl_flags.dir/depend.make
@@ -72,16 +72,16 @@ include _deps/dawn-build/third_party/abseil/absl/flags/CMakeFiles/absl_flags.dir
 _deps/dawn-build/third_party/abseil/absl/flags/CMakeFiles/absl_flags.dir/flag.cc.o: _deps/dawn-build/third_party/abseil/absl/flags/CMakeFiles/absl_flags.dir/flags.make
 _deps/dawn-build/third_party/abseil/absl/flags/CMakeFiles/absl_flags.dir/flag.cc.o: _deps/dawn-src/third_party/abseil-cpp/absl/flags/flag.cc
 _deps/dawn-build/third_party/abseil/absl/flags/CMakeFiles/absl_flags.dir/flag.cc.o: _deps/dawn-build/third_party/abseil/absl/flags/CMakeFiles/absl_flags.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object _deps/dawn-build/third_party/abseil/absl/flags/CMakeFiles/absl_flags.dir/flag.cc.o"
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build/_deps/dawn-build/third_party/abseil/absl/flags && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT _deps/dawn-build/third_party/abseil/absl/flags/CMakeFiles/absl_flags.dir/flag.cc.o -MF CMakeFiles/absl_flags.dir/flag.cc.o.d -o CMakeFiles/absl_flags.dir/flag.cc.o -c /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build/_deps/dawn-src/third_party/abseil-cpp/absl/flags/flag.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object _deps/dawn-build/third_party/abseil/absl/flags/CMakeFiles/absl_flags.dir/flag.cc.o"
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build/_deps/dawn-build/third_party/abseil/absl/flags && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT _deps/dawn-build/third_party/abseil/absl/flags/CMakeFiles/absl_flags.dir/flag.cc.o -MF CMakeFiles/absl_flags.dir/flag.cc.o.d -o CMakeFiles/absl_flags.dir/flag.cc.o -c /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build/_deps/dawn-src/third_party/abseil-cpp/absl/flags/flag.cc
 
 _deps/dawn-build/third_party/abseil/absl/flags/CMakeFiles/absl_flags.dir/flag.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/absl_flags.dir/flag.cc.i"
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build/_deps/dawn-build/third_party/abseil/absl/flags && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build/_deps/dawn-src/third_party/abseil-cpp/absl/flags/flag.cc > CMakeFiles/absl_flags.dir/flag.cc.i
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build/_deps/dawn-build/third_party/abseil/absl/flags && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build/_deps/dawn-src/third_party/abseil-cpp/absl/flags/flag.cc > CMakeFiles/absl_flags.dir/flag.cc.i
 
 _deps/dawn-build/third_party/abseil/absl/flags/CMakeFiles/absl_flags.dir/flag.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/absl_flags.dir/flag.cc.s"
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build/_deps/dawn-build/third_party/abseil/absl/flags && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build/_deps/dawn-src/third_party/abseil-cpp/absl/flags/flag.cc -o CMakeFiles/absl_flags.dir/flag.cc.s
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build/_deps/dawn-build/third_party/abseil/absl/flags && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build/_deps/dawn-src/third_party/abseil-cpp/absl/flags/flag.cc -o CMakeFiles/absl_flags.dir/flag.cc.s
 
 # Object files for target absl_flags
 absl_flags_OBJECTS = \
@@ -93,19 +93,19 @@ absl_flags_EXTERNAL_OBJECTS =
 _deps/dawn-build/third_party/abseil/absl/flags/libabsl_flags.a: _deps/dawn-build/third_party/abseil/absl/flags/CMakeFiles/absl_flags.dir/flag.cc.o
 _deps/dawn-build/third_party/abseil/absl/flags/libabsl_flags.a: _deps/dawn-build/third_party/abseil/absl/flags/CMakeFiles/absl_flags.dir/build.make
 _deps/dawn-build/third_party/abseil/absl/flags/libabsl_flags.a: _deps/dawn-build/third_party/abseil/absl/flags/CMakeFiles/absl_flags.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libabsl_flags.a"
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build/_deps/dawn-build/third_party/abseil/absl/flags && $(CMAKE_COMMAND) -P CMakeFiles/absl_flags.dir/cmake_clean_target.cmake
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build/_deps/dawn-build/third_party/abseil/absl/flags && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/absl_flags.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libabsl_flags.a"
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build/_deps/dawn-build/third_party/abseil/absl/flags && $(CMAKE_COMMAND) -P CMakeFiles/absl_flags.dir/cmake_clean_target.cmake
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build/_deps/dawn-build/third_party/abseil/absl/flags && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/absl_flags.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 _deps/dawn-build/third_party/abseil/absl/flags/CMakeFiles/absl_flags.dir/build: _deps/dawn-build/third_party/abseil/absl/flags/libabsl_flags.a
 .PHONY : _deps/dawn-build/third_party/abseil/absl/flags/CMakeFiles/absl_flags.dir/build
 
 _deps/dawn-build/third_party/abseil/absl/flags/CMakeFiles/absl_flags.dir/clean:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build/_deps/dawn-build/third_party/abseil/absl/flags && $(CMAKE_COMMAND) -P CMakeFiles/absl_flags.dir/cmake_clean.cmake
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build/_deps/dawn-build/third_party/abseil/absl/flags && $(CMAKE_COMMAND) -P CMakeFiles/absl_flags.dir/cmake_clean.cmake
 .PHONY : _deps/dawn-build/third_party/abseil/absl/flags/CMakeFiles/absl_flags.dir/clean
 
 _deps/dawn-build/third_party/abseil/absl/flags/CMakeFiles/absl_flags.dir/depend:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build/_deps/dawn-src/third_party/abseil-cpp/absl/flags /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build/_deps/dawn-build/third_party/abseil/absl/flags /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build/_deps/dawn-build/third_party/abseil/absl/flags/CMakeFiles/absl_flags.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build/_deps/dawn-src/third_party/abseil-cpp/absl/flags /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build/_deps/dawn-build/third_party/abseil/absl/flags /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build/_deps/dawn-build/third_party/abseil/absl/flags/CMakeFiles/absl_flags.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : _deps/dawn-build/third_party/abseil/absl/flags/CMakeFiles/absl_flags.dir/depend
 

@@ -57,10 +57,10 @@ RM = /opt/homebrew/Cellar/cmake/3.29.2/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder
+CMAKE_SOURCE_DIR = /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build
+CMAKE_BINARY_DIR = /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build/CMakeFiles /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build/_deps/dawn-build/third_party/abseil/absl/types//CMakeFiles/progress.marks
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/dawn-build/third_party/abseil/absl/types/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build/CMakeFiles 0
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build/CMakeFiles /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build/_deps/dawn-build/third_party/abseil/absl/types//CMakeFiles/progress.marks
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/dawn-build/third_party/abseil/absl/types/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/dawn-build/third_party/abseil/absl/types/clean
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/dawn-build/third_party/abseil/absl/types/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,22 +103,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/dawn-build/third_party/abseil/absl/types/preinstall
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/dawn-build/third_party/abseil/absl/types/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/dawn-build/third_party/abseil/absl/types/preinstall
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/dawn-build/third_party/abseil/absl/types/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 _deps/dawn-build/third_party/abseil/absl/types/CMakeFiles/absl_bad_any_cast_impl.dir/rule:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/dawn-build/third_party/abseil/absl/types/CMakeFiles/absl_bad_any_cast_impl.dir/rule
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/dawn-build/third_party/abseil/absl/types/CMakeFiles/absl_bad_any_cast_impl.dir/rule
 .PHONY : _deps/dawn-build/third_party/abseil/absl/types/CMakeFiles/absl_bad_any_cast_impl.dir/rule
 
 # Convenience name for target.
@@ -127,12 +127,12 @@ absl_bad_any_cast_impl: _deps/dawn-build/third_party/abseil/absl/types/CMakeFile
 
 # fast build rule for target.
 absl_bad_any_cast_impl/fast:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/third_party/abseil/absl/types/CMakeFiles/absl_bad_any_cast_impl.dir/build.make _deps/dawn-build/third_party/abseil/absl/types/CMakeFiles/absl_bad_any_cast_impl.dir/build
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/third_party/abseil/absl/types/CMakeFiles/absl_bad_any_cast_impl.dir/build.make _deps/dawn-build/third_party/abseil/absl/types/CMakeFiles/absl_bad_any_cast_impl.dir/build
 .PHONY : absl_bad_any_cast_impl/fast
 
 # Convenience name for target.
 _deps/dawn-build/third_party/abseil/absl/types/CMakeFiles/absl_bad_optional_access.dir/rule:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/dawn-build/third_party/abseil/absl/types/CMakeFiles/absl_bad_optional_access.dir/rule
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/dawn-build/third_party/abseil/absl/types/CMakeFiles/absl_bad_optional_access.dir/rule
 .PHONY : _deps/dawn-build/third_party/abseil/absl/types/CMakeFiles/absl_bad_optional_access.dir/rule
 
 # Convenience name for target.
@@ -141,12 +141,12 @@ absl_bad_optional_access: _deps/dawn-build/third_party/abseil/absl/types/CMakeFi
 
 # fast build rule for target.
 absl_bad_optional_access/fast:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/third_party/abseil/absl/types/CMakeFiles/absl_bad_optional_access.dir/build.make _deps/dawn-build/third_party/abseil/absl/types/CMakeFiles/absl_bad_optional_access.dir/build
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/third_party/abseil/absl/types/CMakeFiles/absl_bad_optional_access.dir/build.make _deps/dawn-build/third_party/abseil/absl/types/CMakeFiles/absl_bad_optional_access.dir/build
 .PHONY : absl_bad_optional_access/fast
 
 # Convenience name for target.
 _deps/dawn-build/third_party/abseil/absl/types/CMakeFiles/absl_bad_variant_access.dir/rule:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/dawn-build/third_party/abseil/absl/types/CMakeFiles/absl_bad_variant_access.dir/rule
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/dawn-build/third_party/abseil/absl/types/CMakeFiles/absl_bad_variant_access.dir/rule
 .PHONY : _deps/dawn-build/third_party/abseil/absl/types/CMakeFiles/absl_bad_variant_access.dir/rule
 
 # Convenience name for target.
@@ -155,7 +155,7 @@ absl_bad_variant_access: _deps/dawn-build/third_party/abseil/absl/types/CMakeFil
 
 # fast build rule for target.
 absl_bad_variant_access/fast:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/third_party/abseil/absl/types/CMakeFiles/absl_bad_variant_access.dir/build.make _deps/dawn-build/third_party/abseil/absl/types/CMakeFiles/absl_bad_variant_access.dir/build
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/third_party/abseil/absl/types/CMakeFiles/absl_bad_variant_access.dir/build.make _deps/dawn-build/third_party/abseil/absl/types/CMakeFiles/absl_bad_variant_access.dir/build
 .PHONY : absl_bad_variant_access/fast
 
 bad_any_cast.o: bad_any_cast.cc.o
@@ -163,7 +163,7 @@ bad_any_cast.o: bad_any_cast.cc.o
 
 # target to build an object file
 bad_any_cast.cc.o:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/third_party/abseil/absl/types/CMakeFiles/absl_bad_any_cast_impl.dir/build.make _deps/dawn-build/third_party/abseil/absl/types/CMakeFiles/absl_bad_any_cast_impl.dir/bad_any_cast.cc.o
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/third_party/abseil/absl/types/CMakeFiles/absl_bad_any_cast_impl.dir/build.make _deps/dawn-build/third_party/abseil/absl/types/CMakeFiles/absl_bad_any_cast_impl.dir/bad_any_cast.cc.o
 .PHONY : bad_any_cast.cc.o
 
 bad_any_cast.i: bad_any_cast.cc.i
@@ -171,7 +171,7 @@ bad_any_cast.i: bad_any_cast.cc.i
 
 # target to preprocess a source file
 bad_any_cast.cc.i:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/third_party/abseil/absl/types/CMakeFiles/absl_bad_any_cast_impl.dir/build.make _deps/dawn-build/third_party/abseil/absl/types/CMakeFiles/absl_bad_any_cast_impl.dir/bad_any_cast.cc.i
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/third_party/abseil/absl/types/CMakeFiles/absl_bad_any_cast_impl.dir/build.make _deps/dawn-build/third_party/abseil/absl/types/CMakeFiles/absl_bad_any_cast_impl.dir/bad_any_cast.cc.i
 .PHONY : bad_any_cast.cc.i
 
 bad_any_cast.s: bad_any_cast.cc.s
@@ -179,7 +179,7 @@ bad_any_cast.s: bad_any_cast.cc.s
 
 # target to generate assembly for a file
 bad_any_cast.cc.s:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/third_party/abseil/absl/types/CMakeFiles/absl_bad_any_cast_impl.dir/build.make _deps/dawn-build/third_party/abseil/absl/types/CMakeFiles/absl_bad_any_cast_impl.dir/bad_any_cast.cc.s
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/third_party/abseil/absl/types/CMakeFiles/absl_bad_any_cast_impl.dir/build.make _deps/dawn-build/third_party/abseil/absl/types/CMakeFiles/absl_bad_any_cast_impl.dir/bad_any_cast.cc.s
 .PHONY : bad_any_cast.cc.s
 
 bad_optional_access.o: bad_optional_access.cc.o
@@ -187,7 +187,7 @@ bad_optional_access.o: bad_optional_access.cc.o
 
 # target to build an object file
 bad_optional_access.cc.o:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/third_party/abseil/absl/types/CMakeFiles/absl_bad_optional_access.dir/build.make _deps/dawn-build/third_party/abseil/absl/types/CMakeFiles/absl_bad_optional_access.dir/bad_optional_access.cc.o
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/third_party/abseil/absl/types/CMakeFiles/absl_bad_optional_access.dir/build.make _deps/dawn-build/third_party/abseil/absl/types/CMakeFiles/absl_bad_optional_access.dir/bad_optional_access.cc.o
 .PHONY : bad_optional_access.cc.o
 
 bad_optional_access.i: bad_optional_access.cc.i
@@ -195,7 +195,7 @@ bad_optional_access.i: bad_optional_access.cc.i
 
 # target to preprocess a source file
 bad_optional_access.cc.i:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/third_party/abseil/absl/types/CMakeFiles/absl_bad_optional_access.dir/build.make _deps/dawn-build/third_party/abseil/absl/types/CMakeFiles/absl_bad_optional_access.dir/bad_optional_access.cc.i
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/third_party/abseil/absl/types/CMakeFiles/absl_bad_optional_access.dir/build.make _deps/dawn-build/third_party/abseil/absl/types/CMakeFiles/absl_bad_optional_access.dir/bad_optional_access.cc.i
 .PHONY : bad_optional_access.cc.i
 
 bad_optional_access.s: bad_optional_access.cc.s
@@ -203,7 +203,7 @@ bad_optional_access.s: bad_optional_access.cc.s
 
 # target to generate assembly for a file
 bad_optional_access.cc.s:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/third_party/abseil/absl/types/CMakeFiles/absl_bad_optional_access.dir/build.make _deps/dawn-build/third_party/abseil/absl/types/CMakeFiles/absl_bad_optional_access.dir/bad_optional_access.cc.s
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/third_party/abseil/absl/types/CMakeFiles/absl_bad_optional_access.dir/build.make _deps/dawn-build/third_party/abseil/absl/types/CMakeFiles/absl_bad_optional_access.dir/bad_optional_access.cc.s
 .PHONY : bad_optional_access.cc.s
 
 bad_variant_access.o: bad_variant_access.cc.o
@@ -211,7 +211,7 @@ bad_variant_access.o: bad_variant_access.cc.o
 
 # target to build an object file
 bad_variant_access.cc.o:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/third_party/abseil/absl/types/CMakeFiles/absl_bad_variant_access.dir/build.make _deps/dawn-build/third_party/abseil/absl/types/CMakeFiles/absl_bad_variant_access.dir/bad_variant_access.cc.o
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/third_party/abseil/absl/types/CMakeFiles/absl_bad_variant_access.dir/build.make _deps/dawn-build/third_party/abseil/absl/types/CMakeFiles/absl_bad_variant_access.dir/bad_variant_access.cc.o
 .PHONY : bad_variant_access.cc.o
 
 bad_variant_access.i: bad_variant_access.cc.i
@@ -219,7 +219,7 @@ bad_variant_access.i: bad_variant_access.cc.i
 
 # target to preprocess a source file
 bad_variant_access.cc.i:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/third_party/abseil/absl/types/CMakeFiles/absl_bad_variant_access.dir/build.make _deps/dawn-build/third_party/abseil/absl/types/CMakeFiles/absl_bad_variant_access.dir/bad_variant_access.cc.i
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/third_party/abseil/absl/types/CMakeFiles/absl_bad_variant_access.dir/build.make _deps/dawn-build/third_party/abseil/absl/types/CMakeFiles/absl_bad_variant_access.dir/bad_variant_access.cc.i
 .PHONY : bad_variant_access.cc.i
 
 bad_variant_access.s: bad_variant_access.cc.s
@@ -227,7 +227,7 @@ bad_variant_access.s: bad_variant_access.cc.s
 
 # target to generate assembly for a file
 bad_variant_access.cc.s:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/third_party/abseil/absl/types/CMakeFiles/absl_bad_variant_access.dir/build.make _deps/dawn-build/third_party/abseil/absl/types/CMakeFiles/absl_bad_variant_access.dir/bad_variant_access.cc.s
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(MAKE) $(MAKESILENT) -f _deps/dawn-build/third_party/abseil/absl/types/CMakeFiles/absl_bad_variant_access.dir/build.make _deps/dawn-build/third_party/abseil/absl/types/CMakeFiles/absl_bad_variant_access.dir/bad_variant_access.cc.s
 .PHONY : bad_variant_access.cc.s
 
 # Help Target
@@ -261,6 +261,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

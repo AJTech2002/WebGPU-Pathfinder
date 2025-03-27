@@ -53,10 +53,10 @@ RM = /opt/homebrew/Cellar/cmake/3.29.2/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder
+CMAKE_SOURCE_DIR = /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build
+CMAKE_BINARY_DIR = /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build
 
 # Include any dependencies generated for this target.
 include _deps/dawn-build/src/dawn/CMakeFiles/dawn_proc.dir/depend.make
@@ -73,32 +73,32 @@ _deps/dawn-build/gen/src/dawn/dawn_proc.c: _deps/dawn-src/dawn.json
 _deps/dawn-build/gen/src/dawn/dawn_proc.c: _deps/dawn-src/dawn_wire.json
 _deps/dawn-build/gen/src/dawn/dawn_proc.c: _deps/dawn-src/generator/templates/dawn_proc.c
 _deps/dawn-build/gen/src/dawn/dawn_proc.c: _deps/dawn-src/generator/templates/dawn_thread_dispatch_proc.cpp
-_deps/dawn-build/gen/src/dawn/dawn_proc.c: _deps/dawn-src/third_party/markupsafe/_native.py
+_deps/dawn-build/gen/src/dawn/dawn_proc.c: _deps/dawn-src/third_party/markupsafe/_compat.py
 _deps/dawn-build/gen/src/dawn/dawn_proc.c: _deps/dawn-src/third_party/jinja2/loaders.py
-_deps/dawn-build/gen/src/dawn/dawn_proc.c: _deps/dawn-src/third_party/jinja2/visitor.py
-_deps/dawn-build/gen/src/dawn/dawn_proc.c: _deps/dawn-src/third_party/markupsafe/__init__.py
-_deps/dawn-build/gen/src/dawn/dawn_proc.c: _deps/dawn-src/third_party/jinja2/lexer.py
-_deps/dawn-build/gen/src/dawn/dawn_proc.c: _deps/dawn-src/third_party/jinja2/bccache.py
-_deps/dawn-build/gen/src/dawn/dawn_proc.c: _deps/dawn-src/third_party/jinja2/_compat.py
-_deps/dawn-build/gen/src/dawn/dawn_proc.c: _deps/dawn-src/third_party/jinja2/optimizer.py
-_deps/dawn-build/gen/src/dawn/dawn_proc.c: _deps/dawn-src/third_party/jinja2/runtime.py
-_deps/dawn-build/gen/src/dawn/dawn_proc.c: _deps/dawn-src/third_party/jinja2/_identifier.py
-_deps/dawn-build/gen/src/dawn/dawn_proc.c: _deps/dawn-src/third_party/jinja2/tests.py
-_deps/dawn-build/gen/src/dawn/dawn_proc.c: _deps/dawn-src/generator/dawn_json_generator.py
-_deps/dawn-build/gen/src/dawn/dawn_proc.c: _deps/dawn-src/third_party/jinja2/nodes.py
-_deps/dawn-build/gen/src/dawn/dawn_proc.c: _deps/dawn-src/third_party/jinja2/environment.py
-_deps/dawn-build/gen/src/dawn/dawn_proc.c: _deps/dawn-src/third_party/jinja2/compiler.py
-_deps/dawn-build/gen/src/dawn/dawn_proc.c: _deps/dawn-src/third_party/jinja2/__init__.py
-_deps/dawn-build/gen/src/dawn/dawn_proc.c: _deps/dawn-src/third_party/jinja2/defaults.py
-_deps/dawn-build/gen/src/dawn/dawn_proc.c: _deps/dawn-src/third_party/jinja2/parser.py
-_deps/dawn-build/gen/src/dawn/dawn_proc.c: _deps/dawn-src/generator/generator_lib.py
-_deps/dawn-build/gen/src/dawn/dawn_proc.c: _deps/dawn-src/third_party/jinja2/filters.py
 _deps/dawn-build/gen/src/dawn/dawn_proc.c: _deps/dawn-src/third_party/jinja2/utils.py
 _deps/dawn-build/gen/src/dawn/dawn_proc.c: _deps/dawn-src/third_party/jinja2/idtracking.py
+_deps/dawn-build/gen/src/dawn/dawn_proc.c: _deps/dawn-src/third_party/jinja2/lexer.py
+_deps/dawn-build/gen/src/dawn/dawn_proc.c: _deps/dawn-src/third_party/markupsafe/_native.py
+_deps/dawn-build/gen/src/dawn/dawn_proc.c: _deps/dawn-src/third_party/jinja2/visitor.py
+_deps/dawn-build/gen/src/dawn/dawn_proc.c: _deps/dawn-src/third_party/jinja2/compiler.py
+_deps/dawn-build/gen/src/dawn/dawn_proc.c: _deps/dawn-src/third_party/jinja2/defaults.py
 _deps/dawn-build/gen/src/dawn/dawn_proc.c: _deps/dawn-src/third_party/jinja2/exceptions.py
-_deps/dawn-build/gen/src/dawn/dawn_proc.c: _deps/dawn-src/third_party/markupsafe/_compat.py
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Dawn: Generating files for Dawn C++ wrapper."
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build/_deps/dawn-build/src/dawn && /opt/homebrew/bin/python3 /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build/_deps/dawn-src/generator/dawn_json_generator.py --template-dir /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build/_deps/dawn-src/generator/templates --root-dir /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build/_deps/dawn-src --output-dir /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build/_deps/dawn-build/gen --dawn-json /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build/_deps/dawn-src/dawn.json --wire-json /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build/_deps/dawn-src/dawn_wire.json --targets proc --jinja2-path /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build/_deps/dawn-src/third_party/jinja2 --markupsafe-path /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build/_deps/dawn-src/third_party/markupsafe
+_deps/dawn-build/gen/src/dawn/dawn_proc.c: _deps/dawn-src/third_party/jinja2/optimizer.py
+_deps/dawn-build/gen/src/dawn/dawn_proc.c: _deps/dawn-src/third_party/jinja2/__init__.py
+_deps/dawn-build/gen/src/dawn/dawn_proc.c: _deps/dawn-src/third_party/jinja2/bccache.py
+_deps/dawn-build/gen/src/dawn/dawn_proc.c: _deps/dawn-src/third_party/jinja2/filters.py
+_deps/dawn-build/gen/src/dawn/dawn_proc.c: _deps/dawn-src/third_party/jinja2/_identifier.py
+_deps/dawn-build/gen/src/dawn/dawn_proc.c: _deps/dawn-src/third_party/jinja2/environment.py
+_deps/dawn-build/gen/src/dawn/dawn_proc.c: _deps/dawn-src/generator/generator_lib.py
+_deps/dawn-build/gen/src/dawn/dawn_proc.c: _deps/dawn-src/third_party/jinja2/parser.py
+_deps/dawn-build/gen/src/dawn/dawn_proc.c: _deps/dawn-src/third_party/jinja2/_compat.py
+_deps/dawn-build/gen/src/dawn/dawn_proc.c: _deps/dawn-src/third_party/jinja2/nodes.py
+_deps/dawn-build/gen/src/dawn/dawn_proc.c: _deps/dawn-src/third_party/jinja2/tests.py
+_deps/dawn-build/gen/src/dawn/dawn_proc.c: _deps/dawn-src/third_party/markupsafe/__init__.py
+_deps/dawn-build/gen/src/dawn/dawn_proc.c: _deps/dawn-src/third_party/jinja2/runtime.py
+_deps/dawn-build/gen/src/dawn/dawn_proc.c: _deps/dawn-src/generator/dawn_json_generator.py
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Dawn: Generating files for Dawn C++ wrapper."
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build/_deps/dawn-build/src/dawn && /opt/homebrew/bin/python3 /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build/_deps/dawn-src/generator/dawn_json_generator.py --template-dir /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build/_deps/dawn-src/generator/templates --root-dir /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build/_deps/dawn-src --output-dir /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build/_deps/dawn-build/gen --dawn-json /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build/_deps/dawn-src/dawn.json --wire-json /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build/_deps/dawn-src/dawn_wire.json --targets proc --jinja2-path /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build/_deps/dawn-src/third_party/jinja2 --markupsafe-path /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build/_deps/dawn-src/third_party/markupsafe
 
 _deps/dawn-build/gen/src/dawn/dawn_thread_dispatch_proc.cpp: _deps/dawn-build/gen/src/dawn/dawn_proc.c
 	@$(CMAKE_COMMAND) -E touch_nocreate _deps/dawn-build/gen/src/dawn/dawn_thread_dispatch_proc.cpp
@@ -106,44 +106,44 @@ _deps/dawn-build/gen/src/dawn/dawn_thread_dispatch_proc.cpp: _deps/dawn-build/ge
 _deps/dawn-build/src/dawn/CMakeFiles/dawn_proc.dir/__/Placeholder.cpp.o: _deps/dawn-build/src/dawn/CMakeFiles/dawn_proc.dir/flags.make
 _deps/dawn-build/src/dawn/CMakeFiles/dawn_proc.dir/__/Placeholder.cpp.o: _deps/dawn-src/src/Placeholder.cpp
 _deps/dawn-build/src/dawn/CMakeFiles/dawn_proc.dir/__/Placeholder.cpp.o: _deps/dawn-build/src/dawn/CMakeFiles/dawn_proc.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object _deps/dawn-build/src/dawn/CMakeFiles/dawn_proc.dir/__/Placeholder.cpp.o"
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build/_deps/dawn-build/src/dawn && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT _deps/dawn-build/src/dawn/CMakeFiles/dawn_proc.dir/__/Placeholder.cpp.o -MF CMakeFiles/dawn_proc.dir/__/Placeholder.cpp.o.d -o CMakeFiles/dawn_proc.dir/__/Placeholder.cpp.o -c /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build/_deps/dawn-src/src/Placeholder.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object _deps/dawn-build/src/dawn/CMakeFiles/dawn_proc.dir/__/Placeholder.cpp.o"
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build/_deps/dawn-build/src/dawn && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT _deps/dawn-build/src/dawn/CMakeFiles/dawn_proc.dir/__/Placeholder.cpp.o -MF CMakeFiles/dawn_proc.dir/__/Placeholder.cpp.o.d -o CMakeFiles/dawn_proc.dir/__/Placeholder.cpp.o -c /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build/_deps/dawn-src/src/Placeholder.cpp
 
 _deps/dawn-build/src/dawn/CMakeFiles/dawn_proc.dir/__/Placeholder.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/dawn_proc.dir/__/Placeholder.cpp.i"
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build/_deps/dawn-build/src/dawn && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build/_deps/dawn-src/src/Placeholder.cpp > CMakeFiles/dawn_proc.dir/__/Placeholder.cpp.i
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build/_deps/dawn-build/src/dawn && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build/_deps/dawn-src/src/Placeholder.cpp > CMakeFiles/dawn_proc.dir/__/Placeholder.cpp.i
 
 _deps/dawn-build/src/dawn/CMakeFiles/dawn_proc.dir/__/Placeholder.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/dawn_proc.dir/__/Placeholder.cpp.s"
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build/_deps/dawn-build/src/dawn && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build/_deps/dawn-src/src/Placeholder.cpp -o CMakeFiles/dawn_proc.dir/__/Placeholder.cpp.s
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build/_deps/dawn-build/src/dawn && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build/_deps/dawn-src/src/Placeholder.cpp -o CMakeFiles/dawn_proc.dir/__/Placeholder.cpp.s
 
 _deps/dawn-build/src/dawn/CMakeFiles/dawn_proc.dir/__/__/gen/src/dawn/dawn_proc.c.o: _deps/dawn-build/src/dawn/CMakeFiles/dawn_proc.dir/flags.make
 _deps/dawn-build/src/dawn/CMakeFiles/dawn_proc.dir/__/__/gen/src/dawn/dawn_proc.c.o: _deps/dawn-build/gen/src/dawn/dawn_proc.c
 _deps/dawn-build/src/dawn/CMakeFiles/dawn_proc.dir/__/__/gen/src/dawn/dawn_proc.c.o: _deps/dawn-build/src/dawn/CMakeFiles/dawn_proc.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object _deps/dawn-build/src/dawn/CMakeFiles/dawn_proc.dir/__/__/gen/src/dawn/dawn_proc.c.o"
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build/_deps/dawn-build/src/dawn && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT _deps/dawn-build/src/dawn/CMakeFiles/dawn_proc.dir/__/__/gen/src/dawn/dawn_proc.c.o -MF CMakeFiles/dawn_proc.dir/__/__/gen/src/dawn/dawn_proc.c.o.d -o CMakeFiles/dawn_proc.dir/__/__/gen/src/dawn/dawn_proc.c.o -c /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build/_deps/dawn-build/gen/src/dawn/dawn_proc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object _deps/dawn-build/src/dawn/CMakeFiles/dawn_proc.dir/__/__/gen/src/dawn/dawn_proc.c.o"
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build/_deps/dawn-build/src/dawn && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT _deps/dawn-build/src/dawn/CMakeFiles/dawn_proc.dir/__/__/gen/src/dawn/dawn_proc.c.o -MF CMakeFiles/dawn_proc.dir/__/__/gen/src/dawn/dawn_proc.c.o.d -o CMakeFiles/dawn_proc.dir/__/__/gen/src/dawn/dawn_proc.c.o -c /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build/_deps/dawn-build/gen/src/dawn/dawn_proc.c
 
 _deps/dawn-build/src/dawn/CMakeFiles/dawn_proc.dir/__/__/gen/src/dawn/dawn_proc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/dawn_proc.dir/__/__/gen/src/dawn/dawn_proc.c.i"
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build/_deps/dawn-build/src/dawn && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build/_deps/dawn-build/gen/src/dawn/dawn_proc.c > CMakeFiles/dawn_proc.dir/__/__/gen/src/dawn/dawn_proc.c.i
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build/_deps/dawn-build/src/dawn && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build/_deps/dawn-build/gen/src/dawn/dawn_proc.c > CMakeFiles/dawn_proc.dir/__/__/gen/src/dawn/dawn_proc.c.i
 
 _deps/dawn-build/src/dawn/CMakeFiles/dawn_proc.dir/__/__/gen/src/dawn/dawn_proc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/dawn_proc.dir/__/__/gen/src/dawn/dawn_proc.c.s"
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build/_deps/dawn-build/src/dawn && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build/_deps/dawn-build/gen/src/dawn/dawn_proc.c -o CMakeFiles/dawn_proc.dir/__/__/gen/src/dawn/dawn_proc.c.s
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build/_deps/dawn-build/src/dawn && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build/_deps/dawn-build/gen/src/dawn/dawn_proc.c -o CMakeFiles/dawn_proc.dir/__/__/gen/src/dawn/dawn_proc.c.s
 
 _deps/dawn-build/src/dawn/CMakeFiles/dawn_proc.dir/__/__/gen/src/dawn/dawn_thread_dispatch_proc.cpp.o: _deps/dawn-build/src/dawn/CMakeFiles/dawn_proc.dir/flags.make
 _deps/dawn-build/src/dawn/CMakeFiles/dawn_proc.dir/__/__/gen/src/dawn/dawn_thread_dispatch_proc.cpp.o: _deps/dawn-build/gen/src/dawn/dawn_thread_dispatch_proc.cpp
 _deps/dawn-build/src/dawn/CMakeFiles/dawn_proc.dir/__/__/gen/src/dawn/dawn_thread_dispatch_proc.cpp.o: _deps/dawn-build/src/dawn/CMakeFiles/dawn_proc.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object _deps/dawn-build/src/dawn/CMakeFiles/dawn_proc.dir/__/__/gen/src/dawn/dawn_thread_dispatch_proc.cpp.o"
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build/_deps/dawn-build/src/dawn && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT _deps/dawn-build/src/dawn/CMakeFiles/dawn_proc.dir/__/__/gen/src/dawn/dawn_thread_dispatch_proc.cpp.o -MF CMakeFiles/dawn_proc.dir/__/__/gen/src/dawn/dawn_thread_dispatch_proc.cpp.o.d -o CMakeFiles/dawn_proc.dir/__/__/gen/src/dawn/dawn_thread_dispatch_proc.cpp.o -c /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build/_deps/dawn-build/gen/src/dawn/dawn_thread_dispatch_proc.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object _deps/dawn-build/src/dawn/CMakeFiles/dawn_proc.dir/__/__/gen/src/dawn/dawn_thread_dispatch_proc.cpp.o"
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build/_deps/dawn-build/src/dawn && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT _deps/dawn-build/src/dawn/CMakeFiles/dawn_proc.dir/__/__/gen/src/dawn/dawn_thread_dispatch_proc.cpp.o -MF CMakeFiles/dawn_proc.dir/__/__/gen/src/dawn/dawn_thread_dispatch_proc.cpp.o.d -o CMakeFiles/dawn_proc.dir/__/__/gen/src/dawn/dawn_thread_dispatch_proc.cpp.o -c /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build/_deps/dawn-build/gen/src/dawn/dawn_thread_dispatch_proc.cpp
 
 _deps/dawn-build/src/dawn/CMakeFiles/dawn_proc.dir/__/__/gen/src/dawn/dawn_thread_dispatch_proc.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/dawn_proc.dir/__/__/gen/src/dawn/dawn_thread_dispatch_proc.cpp.i"
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build/_deps/dawn-build/src/dawn && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build/_deps/dawn-build/gen/src/dawn/dawn_thread_dispatch_proc.cpp > CMakeFiles/dawn_proc.dir/__/__/gen/src/dawn/dawn_thread_dispatch_proc.cpp.i
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build/_deps/dawn-build/src/dawn && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build/_deps/dawn-build/gen/src/dawn/dawn_thread_dispatch_proc.cpp > CMakeFiles/dawn_proc.dir/__/__/gen/src/dawn/dawn_thread_dispatch_proc.cpp.i
 
 _deps/dawn-build/src/dawn/CMakeFiles/dawn_proc.dir/__/__/gen/src/dawn/dawn_thread_dispatch_proc.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/dawn_proc.dir/__/__/gen/src/dawn/dawn_thread_dispatch_proc.cpp.s"
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build/_deps/dawn-build/src/dawn && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build/_deps/dawn-build/gen/src/dawn/dawn_thread_dispatch_proc.cpp -o CMakeFiles/dawn_proc.dir/__/__/gen/src/dawn/dawn_thread_dispatch_proc.cpp.s
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build/_deps/dawn-build/src/dawn && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build/_deps/dawn-build/gen/src/dawn/dawn_thread_dispatch_proc.cpp -o CMakeFiles/dawn_proc.dir/__/__/gen/src/dawn/dawn_thread_dispatch_proc.cpp.s
 
 # Object files for target dawn_proc
 dawn_proc_OBJECTS = \
@@ -159,20 +159,20 @@ _deps/dawn-build/src/dawn/libdawn_proc.a: _deps/dawn-build/src/dawn/CMakeFiles/d
 _deps/dawn-build/src/dawn/libdawn_proc.a: _deps/dawn-build/src/dawn/CMakeFiles/dawn_proc.dir/__/__/gen/src/dawn/dawn_thread_dispatch_proc.cpp.o
 _deps/dawn-build/src/dawn/libdawn_proc.a: _deps/dawn-build/src/dawn/CMakeFiles/dawn_proc.dir/build.make
 _deps/dawn-build/src/dawn/libdawn_proc.a: _deps/dawn-build/src/dawn/CMakeFiles/dawn_proc.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX static library libdawn_proc.a"
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build/_deps/dawn-build/src/dawn && $(CMAKE_COMMAND) -P CMakeFiles/dawn_proc.dir/cmake_clean_target.cmake
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build/_deps/dawn-build/src/dawn && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/dawn_proc.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX static library libdawn_proc.a"
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build/_deps/dawn-build/src/dawn && $(CMAKE_COMMAND) -P CMakeFiles/dawn_proc.dir/cmake_clean_target.cmake
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build/_deps/dawn-build/src/dawn && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/dawn_proc.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 _deps/dawn-build/src/dawn/CMakeFiles/dawn_proc.dir/build: _deps/dawn-build/src/dawn/libdawn_proc.a
 .PHONY : _deps/dawn-build/src/dawn/CMakeFiles/dawn_proc.dir/build
 
 _deps/dawn-build/src/dawn/CMakeFiles/dawn_proc.dir/clean:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build/_deps/dawn-build/src/dawn && $(CMAKE_COMMAND) -P CMakeFiles/dawn_proc.dir/cmake_clean.cmake
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build/_deps/dawn-build/src/dawn && $(CMAKE_COMMAND) -P CMakeFiles/dawn_proc.dir/cmake_clean.cmake
 .PHONY : _deps/dawn-build/src/dawn/CMakeFiles/dawn_proc.dir/clean
 
 _deps/dawn-build/src/dawn/CMakeFiles/dawn_proc.dir/depend: _deps/dawn-build/gen/src/dawn/dawn_proc.c
 _deps/dawn-build/src/dawn/CMakeFiles/dawn_proc.dir/depend: _deps/dawn-build/gen/src/dawn/dawn_thread_dispatch_proc.cpp
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build/_deps/dawn-src/src/dawn /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build/_deps/dawn-build/src/dawn /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build/_deps/dawn-build/src/dawn/CMakeFiles/dawn_proc.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build/_deps/dawn-src/src/dawn /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build/_deps/dawn-build/src/dawn /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build/_deps/dawn-build/src/dawn/CMakeFiles/dawn_proc.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : _deps/dawn-build/src/dawn/CMakeFiles/dawn_proc.dir/depend
 

@@ -53,10 +53,10 @@ RM = /opt/homebrew/Cellar/cmake/3.29.2/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder
+CMAKE_SOURCE_DIR = /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build
+CMAKE_BINARY_DIR = /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build
 
 # Utility rule file for enum_string_mapping.
 
@@ -73,8 +73,8 @@ _deps/dawn-build/third_party/spirv-tools/extension_enum.inc: _deps/dawn-src/thir
 _deps/dawn-build/third_party/spirv-tools/extension_enum.inc: _deps/dawn-src/third_party/vulkan-deps/spirv-headers/src/include/spirv/unified1/spirv.core.grammar.json
 _deps/dawn-build/third_party/spirv-tools/extension_enum.inc: _deps/dawn-src/third_party/vulkan-deps/spirv-headers/src/include/spirv/unified1/extinst.debuginfo.grammar.json
 _deps/dawn-build/third_party/spirv-tools/extension_enum.inc: _deps/dawn-src/third_party/vulkan-deps/spirv-headers/src/include/spirv/unified1/extinst.opencl.debuginfo.100.grammar.json
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generate enum-string mapping for SPIR-V vunified1."
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build/_deps/dawn-build/third_party/spirv-tools/source && /opt/homebrew/Frameworks/Python.framework/Versions/3.12/bin/python3.12 /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build/_deps/dawn-src/third_party/vulkan-deps/spirv-tools/src/utils/generate_grammar_tables.py --spirv-core-grammar=/Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build/_deps/dawn-src/third_party/vulkan-deps/spirv-headers/src/include/spirv/unified1/spirv.core.grammar.json --extinst-debuginfo-grammar=/Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build/_deps/dawn-src/third_party/vulkan-deps/spirv-headers/src/include/spirv/unified1/extinst.debuginfo.grammar.json --extinst-cldebuginfo100-grammar=/Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build/_deps/dawn-src/third_party/vulkan-deps/spirv-headers/src/include/spirv/unified1/extinst.opencl.debuginfo.100.grammar.json --extension-enum-output=/Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build/_deps/dawn-build/third_party/spirv-tools/extension_enum.inc --enum-string-mapping-output=/Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build/_deps/dawn-build/third_party/spirv-tools/enum_string_mapping.inc --output-language=c++
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generate enum-string mapping for SPIR-V vunified1."
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build/_deps/dawn-build/third_party/spirv-tools/source && /opt/homebrew/Frameworks/Python.framework/Versions/3.13/bin/python3.13 /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build/_deps/dawn-src/third_party/vulkan-deps/spirv-tools/src/utils/generate_grammar_tables.py --spirv-core-grammar=/Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build/_deps/dawn-src/third_party/vulkan-deps/spirv-headers/src/include/spirv/unified1/spirv.core.grammar.json --extinst-debuginfo-grammar=/Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build/_deps/dawn-src/third_party/vulkan-deps/spirv-headers/src/include/spirv/unified1/extinst.debuginfo.grammar.json --extinst-cldebuginfo100-grammar=/Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build/_deps/dawn-src/third_party/vulkan-deps/spirv-headers/src/include/spirv/unified1/extinst.opencl.debuginfo.100.grammar.json --extension-enum-output=/Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build/_deps/dawn-build/third_party/spirv-tools/extension_enum.inc --enum-string-mapping-output=/Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build/_deps/dawn-build/third_party/spirv-tools/enum_string_mapping.inc --output-language=c++
 
 _deps/dawn-build/third_party/spirv-tools/enum_string_mapping.inc: _deps/dawn-build/third_party/spirv-tools/extension_enum.inc
 	@$(CMAKE_COMMAND) -E touch_nocreate _deps/dawn-build/third_party/spirv-tools/enum_string_mapping.inc
@@ -90,10 +90,10 @@ _deps/dawn-build/third_party/spirv-tools/source/CMakeFiles/enum_string_mapping.d
 .PHONY : _deps/dawn-build/third_party/spirv-tools/source/CMakeFiles/enum_string_mapping.dir/build
 
 _deps/dawn-build/third_party/spirv-tools/source/CMakeFiles/enum_string_mapping.dir/clean:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build/_deps/dawn-build/third_party/spirv-tools/source && $(CMAKE_COMMAND) -P CMakeFiles/enum_string_mapping.dir/cmake_clean.cmake
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build/_deps/dawn-build/third_party/spirv-tools/source && $(CMAKE_COMMAND) -P CMakeFiles/enum_string_mapping.dir/cmake_clean.cmake
 .PHONY : _deps/dawn-build/third_party/spirv-tools/source/CMakeFiles/enum_string_mapping.dir/clean
 
 _deps/dawn-build/third_party/spirv-tools/source/CMakeFiles/enum_string_mapping.dir/depend:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build/_deps/dawn-src/third_party/vulkan-deps/spirv-tools/src/source /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build/_deps/dawn-build/third_party/spirv-tools/source /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build/_deps/dawn-build/third_party/spirv-tools/source/CMakeFiles/enum_string_mapping.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build/_deps/dawn-src/third_party/vulkan-deps/spirv-tools/src/source /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build/_deps/dawn-build/third_party/spirv-tools/source /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build/_deps/dawn-build/third_party/spirv-tools/source/CMakeFiles/enum_string_mapping.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : _deps/dawn-build/third_party/spirv-tools/source/CMakeFiles/enum_string_mapping.dir/depend
 

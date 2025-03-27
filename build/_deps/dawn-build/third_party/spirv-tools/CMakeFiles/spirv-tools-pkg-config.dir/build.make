@@ -53,10 +53,10 @@ RM = /opt/homebrew/Cellar/cmake/3.29.2/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder
+CMAKE_SOURCE_DIR = /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build
+CMAKE_BINARY_DIR = /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build
 
 # Utility rule file for spirv-tools-pkg-config.
 
@@ -69,7 +69,7 @@ include _deps/dawn-build/third_party/spirv-tools/CMakeFiles/spirv-tools-pkg-conf
 _deps/dawn-build/third_party/spirv-tools/CMakeFiles/spirv-tools-pkg-config: _deps/dawn-src/third_party/vulkan-deps/spirv-tools/src/CHANGES
 _deps/dawn-build/third_party/spirv-tools/CMakeFiles/spirv-tools-pkg-config: _deps/dawn-src/third_party/vulkan-deps/spirv-tools/src/cmake/SPIRV-Tools.pc.in
 _deps/dawn-build/third_party/spirv-tools/CMakeFiles/spirv-tools-pkg-config: _deps/dawn-src/third_party/vulkan-deps/spirv-tools/src/cmake/write_pkg_config.cmake
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build/_deps/dawn-build/third_party/spirv-tools && /opt/homebrew/Cellar/cmake/3.29.2/bin/cmake -DCHANGES_FILE=/Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build/_deps/dawn-src/third_party/vulkan-deps/spirv-tools/src/CHANGES -DTEMPLATE_FILE=/Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build/_deps/dawn-src/third_party/vulkan-deps/spirv-tools/src/cmake/SPIRV-Tools.pc.in -DOUT_FILE=/Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build/_deps/dawn-build/third_party/spirv-tools/SPIRV-Tools.pc -DCMAKE_INSTALL_PREFIX=/usr/local -DCMAKE_INSTALL_LIBDIR=lib -DCMAKE_INSTALL_INCLUDEDIR=include -DSPIRV_LIBRARIES=-lSPIRV-Tools-opt\ -lSPIRV-Tools\ -lSPIRV-Tools-link -P /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build/_deps/dawn-src/third_party/vulkan-deps/spirv-tools/src/cmake/write_pkg_config.cmake
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build/_deps/dawn-build/third_party/spirv-tools && /opt/homebrew/Cellar/cmake/3.29.2/bin/cmake -DCHANGES_FILE=/Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build/_deps/dawn-src/third_party/vulkan-deps/spirv-tools/src/CHANGES -DTEMPLATE_FILE=/Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build/_deps/dawn-src/third_party/vulkan-deps/spirv-tools/src/cmake/SPIRV-Tools.pc.in -DOUT_FILE=/Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build/_deps/dawn-build/third_party/spirv-tools/SPIRV-Tools.pc -DCMAKE_INSTALL_PREFIX=/usr/local -DCMAKE_INSTALL_LIBDIR=lib -DCMAKE_INSTALL_INCLUDEDIR=include -DSPIRV_LIBRARIES=-lSPIRV-Tools-opt\ -lSPIRV-Tools\ -lSPIRV-Tools-link -P /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build/_deps/dawn-src/third_party/vulkan-deps/spirv-tools/src/cmake/write_pkg_config.cmake
 
 spirv-tools-pkg-config: _deps/dawn-build/third_party/spirv-tools/CMakeFiles/spirv-tools-pkg-config
 spirv-tools-pkg-config: _deps/dawn-build/third_party/spirv-tools/CMakeFiles/spirv-tools-pkg-config.dir/build.make
@@ -80,10 +80,10 @@ _deps/dawn-build/third_party/spirv-tools/CMakeFiles/spirv-tools-pkg-config.dir/b
 .PHONY : _deps/dawn-build/third_party/spirv-tools/CMakeFiles/spirv-tools-pkg-config.dir/build
 
 _deps/dawn-build/third_party/spirv-tools/CMakeFiles/spirv-tools-pkg-config.dir/clean:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build/_deps/dawn-build/third_party/spirv-tools && $(CMAKE_COMMAND) -P CMakeFiles/spirv-tools-pkg-config.dir/cmake_clean.cmake
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build/_deps/dawn-build/third_party/spirv-tools && $(CMAKE_COMMAND) -P CMakeFiles/spirv-tools-pkg-config.dir/cmake_clean.cmake
 .PHONY : _deps/dawn-build/third_party/spirv-tools/CMakeFiles/spirv-tools-pkg-config.dir/clean
 
 _deps/dawn-build/third_party/spirv-tools/CMakeFiles/spirv-tools-pkg-config.dir/depend:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build/_deps/dawn-src/third_party/vulkan-deps/spirv-tools/src /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build/_deps/dawn-build/third_party/spirv-tools /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build/_deps/dawn-build/third_party/spirv-tools/CMakeFiles/spirv-tools-pkg-config.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build/_deps/dawn-src/third_party/vulkan-deps/spirv-tools/src /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build/_deps/dawn-build/third_party/spirv-tools /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build/_deps/dawn-build/third_party/spirv-tools/CMakeFiles/spirv-tools-pkg-config.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : _deps/dawn-build/third_party/spirv-tools/CMakeFiles/spirv-tools-pkg-config.dir/depend
 

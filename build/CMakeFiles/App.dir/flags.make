@@ -4,7 +4,7 @@
 # compile CXX with /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++
 CXX_DEFINES = -DWEBGPU_BACKEND_DAWN
 
-CXX_INCLUDES = -I/Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/glfw/include -I/Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/webgpu/include -I/Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build/_deps/dawn-src/include -I/Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build/_deps/dawn-build/gen/include
+CXX_INCLUDES = -I/Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/glfw/include -I/Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build/_deps/webgpu-backend-dawn-src/include -I/Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build/_deps/dawn-src/include -I/Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build/_deps/dawn-build/gen/include
 
 CXX_FLAGSarm64 = -std=c++17 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -Wall -Wextra -pedantic -Werror
 

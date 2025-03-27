@@ -53,10 +53,10 @@ RM = /opt/homebrew/Cellar/cmake/3.29.2/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder
+CMAKE_SOURCE_DIR = /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build
+CMAKE_BINARY_DIR = /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build
 
 # Utility rule file for update_mappings.
 
@@ -67,8 +67,8 @@ include glfw/src/CMakeFiles/update_mappings.dir/compiler_depend.make
 include glfw/src/CMakeFiles/update_mappings.dir/progress.make
 
 glfw/src/CMakeFiles/update_mappings:
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Updating gamepad mappings from upstream repository"
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/glfw/src && /opt/homebrew/Cellar/cmake/3.29.2/bin/cmake -P /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/glfw/CMake/GenerateMappings.cmake mappings.h.in mappings.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Updating gamepad mappings from upstream repository"
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/glfw/src && /opt/homebrew/Cellar/cmake/3.29.2/bin/cmake -P /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/glfw/CMake/GenerateMappings.cmake mappings.h.in mappings.h
 
 update_mappings: glfw/src/CMakeFiles/update_mappings
 update_mappings: glfw/src/CMakeFiles/update_mappings.dir/build.make
@@ -79,10 +79,10 @@ glfw/src/CMakeFiles/update_mappings.dir/build: update_mappings
 .PHONY : glfw/src/CMakeFiles/update_mappings.dir/build
 
 glfw/src/CMakeFiles/update_mappings.dir/clean:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build/glfw/src && $(CMAKE_COMMAND) -P CMakeFiles/update_mappings.dir/cmake_clean.cmake
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build/glfw/src && $(CMAKE_COMMAND) -P CMakeFiles/update_mappings.dir/cmake_clean.cmake
 .PHONY : glfw/src/CMakeFiles/update_mappings.dir/clean
 
 glfw/src/CMakeFiles/update_mappings.dir/depend:
-	cd /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/glfw/src /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build/glfw/src /Users/ajayvenkat/Desktop/Development/webgpu-flow-field-pathfinder/build/glfw/src/CMakeFiles/update_mappings.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/glfw/src /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build/glfw/src /Users/ajayvenkat/Desktop/Development/WebGPU-Pathfinder/build/glfw/src/CMakeFiles/update_mappings.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : glfw/src/CMakeFiles/update_mappings.dir/depend
 
